@@ -41,6 +41,6 @@ public class ReportConection {
         return getConnection(
                 "jdbc:postgresql://localhost:5432/bh",
                 "postgres",
-                "0000" );
+                "root" );
     }
 }
