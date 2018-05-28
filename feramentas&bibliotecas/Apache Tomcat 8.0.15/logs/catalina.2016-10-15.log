@@ -1,0 +1,230 @@
+15-Oct-2016 02:20:10.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.15
+15-Oct-2016 02:20:10.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2014 19:25:20 UTC
+15-Oct-2016 02:20:10.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.15.0
+15-Oct-2016 02:20:10.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8.1
+15-Oct-2016 02:20:10.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+15-Oct-2016 02:20:10.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Oct-2016 02:20:10.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JAVA_HOME:             C:\Program Files\Java\jdk1.7.0_80\jre
+15-Oct-2016 02:20:10.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_80-b15
+15-Oct-2016 02:20:10.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Oct-2016 02:20:10.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15
+15-Oct-2016 02:20:10.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15
+15-Oct-2016 02:20:10.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.proxyHost=127.0.0.1
+15-Oct-2016 02:20:10.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.proxyPort=8080
+15-Oct-2016 02:20:10.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=<-loopback>
+15-Oct-2016 02:20:10.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttps.proxyHost=127.0.0.1
+15-Oct-2016 02:20:10.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttps.proxyPort=8080
+15-Oct-2016 02:20:10.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\logging.properties
+15-Oct-2016 02:20:10.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Oct-2016 02:20:10.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\endorsed
+15-Oct-2016 02:20:10.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15
+15-Oct-2016 02:20:10.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15
+15-Oct-2016 02:20:10.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\temp
+15-Oct-2016 02:20:10.694 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_80\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;.
+15-Oct-2016 02:20:11.007 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-1021"]
+15-Oct-2016 02:20:11.069 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Oct-2016 02:20:11.069 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8007"]
+15-Oct-2016 02:20:11.085 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Oct-2016 02:20:11.085 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1342 ms
+15-Oct-2016 02:20:11.194 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+15-Oct-2016 02:20:11.194 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+15-Oct-2016 02:20:11.210 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\migueljunior.xml
+15-Oct-2016 02:20:17.304 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Oct-2016 02:20:20.039 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\migueljunior.xml has finished in 8,829 ms
+15-Oct-2016 02:20:20.039 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\mjunior1.xml
+15-Oct-2016 02:20:20.101 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mjunior1]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@3ddbed7c]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4875)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5004)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\Migueljr\Documents\NetBeansProjects\mjunior1\build\web] is not valid
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:670)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 more
+
+15-Oct-2016 02:20:20.101 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\mjunior1.xml
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mjunior1]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:728)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+15-Oct-2016 02:20:20.101 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\mjunior1.xml has finished in 62 ms
+15-Oct-2016 02:20:20.101 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\mjuniorr.xml
+15-Oct-2016 02:20:26.884 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Oct-2016 02:20:26.900 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\mjuniorr.xml has finished in 6,799 ms
+15-Oct-2016 02:20:26.900 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM.xml
+15-Oct-2016 02:20:28.384 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Oct-2016 02:20:28.384 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Error listenerStart
+15-Oct-2016 02:20:28.384 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/SGEM] startup failed due to previous errors
+15-Oct-2016 02:20:28.431 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM.xml has finished in 1,531 ms
+15-Oct-2016 02:20:28.431 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM1.xml
+15-Oct-2016 02:20:33.245 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Oct-2016 02:20:33.245 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM1.xml has finished in 4,814 ms
+15-Oct-2016 02:20:33.245 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml
+15-Oct-2016 02:20:37.652 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Oct-2016 02:20:41.199 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml has finished in 7,954 ms
+15-Oct-2016 02:20:41.199 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\WebApplication3.xml
+15-Oct-2016 02:20:41.480 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\WebApplication3.xml has finished in 281 ms
+15-Oct-2016 02:20:41.480 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\docs
+15-Oct-2016 02:20:42.029 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\docs has finished in 549 ms
+15-Oct-2016 02:20:42.029 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\examples
+15-Oct-2016 02:20:48.737 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\examples has finished in 6,708 ms
+15-Oct-2016 02:20:48.737 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\host-manager
+15-Oct-2016 02:20:48.925 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\host-manager has finished in 188 ms
+15-Oct-2016 02:20:48.925 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\manager
+15-Oct-2016 02:20:49.081 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\manager has finished in 156 ms
+15-Oct-2016 02:20:49.081 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\ROOT
+15-Oct-2016 02:20:49.143 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\ROOT has finished in 62 ms
+15-Oct-2016 02:20:49.159 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-1021"]
+15-Oct-2016 02:20:49.190 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8007"]
+15-Oct-2016 02:20:49.190 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 38112 ms
+15-Oct-2016 02:21:42.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.15
+15-Oct-2016 02:21:42.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2014 19:25:20 UTC
+15-Oct-2016 02:21:42.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.15.0
+15-Oct-2016 02:21:42.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8.1
+15-Oct-2016 02:21:42.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+15-Oct-2016 02:21:42.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Oct-2016 02:21:42.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JAVA_HOME:             C:\Program Files\Java\jdk1.7.0_80\jre
+15-Oct-2016 02:21:42.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_80-b15
+15-Oct-2016 02:21:42.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+15-Oct-2016 02:21:42.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15
+15-Oct-2016 02:21:42.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15
+15-Oct-2016 02:21:42.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.proxyHost=127.0.0.1
+15-Oct-2016 02:21:42.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.proxyPort=8080
+15-Oct-2016 02:21:42.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=<-loopback>
+15-Oct-2016 02:21:42.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttps.proxyHost=127.0.0.1
+15-Oct-2016 02:21:42.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttps.proxyPort=8080
+15-Oct-2016 02:21:42.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\logging.properties
+15-Oct-2016 02:21:42.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Oct-2016 02:21:42.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\endorsed
+15-Oct-2016 02:21:42.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15
+15-Oct-2016 02:21:42.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15
+15-Oct-2016 02:21:42.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\temp
+15-Oct-2016 02:21:42.977 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_80\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;.
+15-Oct-2016 02:21:43.180 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-1022"]
+15-Oct-2016 02:21:43.227 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Oct-2016 02:21:43.242 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8008"]
+15-Oct-2016 02:21:43.242 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Oct-2016 02:21:43.242 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1097 ms
+15-Oct-2016 02:21:43.320 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+15-Oct-2016 02:21:43.320 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+15-Oct-2016 02:21:43.336 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\migueljunior.xml
+15-Oct-2016 02:21:48.253 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Oct-2016 02:21:50.749 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\migueljunior.xml has finished in 7,413 ms
+15-Oct-2016 02:21:50.749 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\mjunior1.xml
+15-Oct-2016 02:21:50.764 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mjunior1]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@6674c855]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4875)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5004)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\Migueljr\Documents\NetBeansProjects\mjunior1\build\web] is not valid
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:670)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 more
+
+15-Oct-2016 02:21:50.764 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\mjunior1.xml
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mjunior1]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:728)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+15-Oct-2016 02:21:50.764 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\mjunior1.xml has finished in 15 ms
+15-Oct-2016 02:21:50.764 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\mjuniorr.xml
+15-Oct-2016 02:21:55.235 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Oct-2016 02:21:55.235 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\mjuniorr.xml has finished in 4,471 ms
+15-Oct-2016 02:21:55.235 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM.xml
+15-Oct-2016 02:21:55.439 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Oct-2016 02:21:55.439 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Error listenerStart
+15-Oct-2016 02:21:55.439 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/SGEM] startup failed due to previous errors
+15-Oct-2016 02:21:55.454 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM.xml has finished in 219 ms
+15-Oct-2016 02:21:55.454 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM1.xml
+15-Oct-2016 02:21:59.113 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Oct-2016 02:21:59.113 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM1.xml has finished in 3,659 ms
+15-Oct-2016 02:21:59.113 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml
+15-Oct-2016 02:22:02.801 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Oct-2016 02:22:05.087 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml has finished in 5,974 ms
+15-Oct-2016 02:22:05.087 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\WebApplication3.xml
+15-Oct-2016 02:22:05.149 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\WebApplication3.xml has finished in 62 ms
+15-Oct-2016 02:22:05.149 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\docs
+15-Oct-2016 02:22:05.181 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\docs has finished in 32 ms
+15-Oct-2016 02:22:05.181 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\examples
+15-Oct-2016 02:22:05.962 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\examples has finished in 781 ms
+15-Oct-2016 02:22:05.962 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\host-manager
+15-Oct-2016 02:22:06.009 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\host-manager has finished in 47 ms
+15-Oct-2016 02:22:06.009 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\manager
+15-Oct-2016 02:22:06.056 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\manager has finished in 47 ms
+15-Oct-2016 02:22:06.056 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\ROOT
+15-Oct-2016 02:22:06.118 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\ROOT has finished in 62 ms
+15-Oct-2016 02:22:06.118 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-1022"]
+15-Oct-2016 02:22:06.134 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8008"]
+15-Oct-2016 02:22:06.150 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 22897 ms
+15-Oct-2016 02:22:08.009 INFO [http-nio-1022-exec-10] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SGEM_with_data_base]
+15-Oct-2016 02:22:08.322 INFO [http-nio-1022-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml
+15-Oct-2016 02:22:09.275 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SGEM_with_data_base]
+15-Oct-2016 02:22:09.306 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml
+15-Oct-2016 02:22:12.603 INFO [http-nio-1022-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Oct-2016 02:22:13.962 INFO [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Oct-2016 02:22:15.748 INFO [http-nio-1022-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml has finished in 7,426 ms
+15-Oct-2016 02:22:16.284 INFO [http-nio-1022-exec-4] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SGEM_with_data_base]
+15-Oct-2016 02:22:16.550 SEVERE [localhost-startStop-2] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base is unusable.
+15-Oct-2016 02:22:16.550 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml has finished in 7,244 ms
+15-Oct-2016 02:22:16.784 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SGEM_with_data_base]
+15-Oct-2016 02:22:16.784 INFO [http-nio-1022-exec-12] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml
+15-Oct-2016 02:22:20.038 INFO [http-nio-1022-exec-12] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Oct-2016 02:22:22.256 INFO [http-nio-1022-exec-12] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml has finished in 5,471 ms
+15-Oct-2016 02:22:22.264 INFO [http-nio-1022-exec-2] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SGEM_with_data_base]] after start() had already been called. The second call will be ignored.
+15-Oct-2016 02:22:26.570 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SGEM_with_data_base]
+15-Oct-2016 02:22:26.617 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml
+15-Oct-2016 02:22:29.617 INFO [localhost-startStop-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Oct-2016 02:22:31.823 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml has finished in 5,206 ms
+15-Oct-2016 03:44:33.692 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+15-Oct-2016 03:44:33.692 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-1022"]
+15-Oct-2016 03:44:33.754 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8008"]
+15-Oct-2016 03:44:33.817 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+15-Oct-2016 03:44:34.067 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SGEM_with_data_base] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Oct-2016 03:44:34.098 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-1022"]
+15-Oct-2016 03:44:34.207 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8008"]
+15-Oct-2016 03:44:34.223 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-1022"]
+15-Oct-2016 03:44:34.223 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8008"]

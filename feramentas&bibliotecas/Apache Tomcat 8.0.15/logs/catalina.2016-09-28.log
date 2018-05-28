@@ -1,0 +1,292 @@
+28-Sep-2016 00:33:00.965 INFO [http-nio-8085-exec-65] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+28-Sep-2016 00:33:00.975 WARNING [http-nio-8085-exec-65] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SGEM_with_data_base] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Sep-2016 00:33:09.114 INFO [http-nio-8085-exec-65] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+28-Sep-2016 00:33:09.164 INFO [http-nio-8085-exec-66] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+28-Sep-2016 00:33:15.976 INFO [http-nio-8085-exec-66] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+28-Sep-2016 00:36:37.206 INFO [http-nio-8085-exec-73] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+28-Sep-2016 00:36:43.501 INFO [http-nio-8085-exec-73] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+28-Sep-2016 00:39:26.451 INFO [http-nio-8085-exec-71] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+28-Sep-2016 00:39:33.210 INFO [http-nio-8085-exec-71] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+28-Sep-2016 01:02:42.077 INFO [http-nio-8085-exec-85] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+28-Sep-2016 01:02:48.074 INFO [http-nio-8085-exec-85] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+28-Sep-2016 01:02:57.046 INFO [http-nio-8085-exec-92] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+28-Sep-2016 01:03:03.374 INFO [http-nio-8085-exec-92] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+28-Sep-2016 01:03:25.907 INFO [http-nio-8085-exec-94] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+28-Sep-2016 01:03:32.107 INFO [http-nio-8085-exec-94] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+28-Sep-2016 01:03:55.023 INFO [http-nio-8085-exec-96] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+28-Sep-2016 01:04:01.989 INFO [http-nio-8085-exec-96] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+28-Sep-2016 01:04:02.039 INFO [http-nio-8085-exec-83] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+28-Sep-2016 01:04:07.704 INFO [http-nio-8085-exec-83] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+28-Sep-2016 01:12:45.674 INFO [http-nio-8085-exec-106] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+28-Sep-2016 01:12:51.937 INFO [http-nio-8085-exec-106] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+28-Sep-2016 01:13:21.404 INFO [http-nio-8085-exec-109] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+28-Sep-2016 01:13:28.037 INFO [http-nio-8085-exec-109] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+28-Sep-2016 01:24:20.173 INFO [http-nio-8085-exec-115] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+28-Sep-2016 01:24:26.596 INFO [http-nio-8085-exec-115] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+28-Sep-2016 01:24:42.179 INFO [http-nio-8085-exec-121] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+28-Sep-2016 01:24:48.361 INFO [http-nio-8085-exec-121] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+28-Sep-2016 01:53:39.315 INFO [http-nio-8085-exec-125] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+28-Sep-2016 01:53:39.385 WARNING [http-nio-8085-exec-125] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SGEM_with_data_base] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Sep-2016 01:53:45.738 INFO [http-nio-8085-exec-125] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+28-Sep-2016 01:55:53.320 INFO [http-nio-8085-exec-127] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+28-Sep-2016 01:56:00.241 INFO [http-nio-8085-exec-127] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+28-Sep-2016 02:18:14.616 INFO [http-nio-8085-exec-147] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+28-Sep-2016 02:18:14.652 WARNING [http-nio-8085-exec-147] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SGEM_with_data_base] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Sep-2016 02:18:21.063 INFO [http-nio-8085-exec-147] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+28-Sep-2016 02:33:52.809 INFO [http-nio-8085-exec-156] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+28-Sep-2016 02:34:00.249 INFO [http-nio-8085-exec-156] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+28-Sep-2016 02:34:00.294 INFO [http-nio-8085-exec-155] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+28-Sep-2016 02:34:06.797 INFO [http-nio-8085-exec-155] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+28-Sep-2016 03:27:41.463 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+28-Sep-2016 03:27:41.464 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8085"]
+28-Sep-2016 03:27:41.519 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+28-Sep-2016 03:27:41.581 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+28-Sep-2016 03:27:41.628 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SGEM_with_data_base] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Sep-2016 03:27:41.644 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8085"]
+28-Sep-2016 03:27:41.644 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+28-Sep-2016 03:27:41.644 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8085"]
+28-Sep-2016 03:27:41.644 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+28-Sep-2016 03:40:29.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.15
+28-Sep-2016 03:40:29.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2014 19:25:20 UTC
+28-Sep-2016 03:40:29.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.15.0
+28-Sep-2016 03:40:29.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8.1
+28-Sep-2016 03:40:29.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+28-Sep-2016 03:40:29.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Sep-2016 03:40:29.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JAVA_HOME:             C:\Program Files\Java\jdk1.7.0_80\jre
+28-Sep-2016 03:40:29.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_80-b15
+28-Sep-2016 03:40:29.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Sep-2016 03:40:29.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15
+28-Sep-2016 03:40:29.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15
+28-Sep-2016 03:40:29.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.proxyHost=127.0.0.1
+28-Sep-2016 03:40:29.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.proxyPort=8080
+28-Sep-2016 03:40:29.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=<-loopback>
+28-Sep-2016 03:40:29.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttps.proxyHost=127.0.0.1
+28-Sep-2016 03:40:29.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttps.proxyPort=8080
+28-Sep-2016 03:40:29.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\logging.properties
+28-Sep-2016 03:40:29.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Sep-2016 03:40:29.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\endorsed
+28-Sep-2016 03:40:29.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15
+28-Sep-2016 03:40:29.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15
+28-Sep-2016 03:40:29.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\temp
+28-Sep-2016 03:40:29.760 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_80\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;.
+28-Sep-2016 03:40:30.135 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8085"]
+28-Sep-2016 03:40:30.245 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Sep-2016 03:40:30.245 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Sep-2016 03:40:30.260 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Sep-2016 03:40:30.260 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1516 ms
+28-Sep-2016 03:40:30.370 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+28-Sep-2016 03:40:30.370 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+28-Sep-2016 03:40:30.385 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM.xml
+28-Sep-2016 03:40:31.392 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Error listenerStart
+28-Sep-2016 03:40:31.538 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [146] milliseconds.
+28-Sep-2016 03:40:31.539 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/SGEM] startup failed due to previous errors
+28-Sep-2016 03:40:31.577 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM.xml has finished in 1,192 ms
+28-Sep-2016 03:40:31.577 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml
+28-Sep-2016 03:40:40.253 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml has finished in 8,676 ms
+28-Sep-2016 03:40:40.253 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\WebApplication3.xml
+28-Sep-2016 03:40:40.315 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\WebApplication3.xml has finished in 62 ms
+28-Sep-2016 03:40:40.315 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\docs
+28-Sep-2016 03:40:40.378 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\docs has finished in 63 ms
+28-Sep-2016 03:40:40.378 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\examples
+28-Sep-2016 03:40:43.363 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\examples has finished in 2,985 ms
+28-Sep-2016 03:40:43.363 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\host-manager
+28-Sep-2016 03:40:43.488 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\host-manager has finished in 125 ms
+28-Sep-2016 03:40:43.488 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\manager
+28-Sep-2016 03:40:43.597 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\manager has finished in 109 ms
+28-Sep-2016 03:40:43.597 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\ROOT
+28-Sep-2016 03:40:43.659 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\ROOT has finished in 62 ms
+28-Sep-2016 03:40:43.659 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8085"]
+28-Sep-2016 03:40:43.675 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-Sep-2016 03:40:43.675 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 13419 ms
+28-Sep-2016 03:40:44.894 INFO [http-nio-8085-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+28-Sep-2016 03:40:51.169 INFO [http-nio-8085-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+28-Sep-2016 03:54:00.090 INFO [http-nio-8085-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+28-Sep-2016 03:54:00.122 WARNING [http-nio-8085-exec-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SGEM_with_data_base] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Sep-2016 03:54:05.797 INFO [http-nio-8085-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+28-Sep-2016 03:54:15.779 INFO [http-nio-8085-exec-19] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+28-Sep-2016 03:54:20.967 INFO [http-nio-8085-exec-19] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+28-Sep-2016 03:54:36.454 INFO [http-nio-8085-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+28-Sep-2016 03:54:36.454 WARNING [http-nio-8085-exec-26] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SGEM_with_data_base] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Sep-2016 03:54:41.112 INFO [http-nio-8085-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+28-Sep-2016 03:57:30.996 INFO [http-nio-8085-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+28-Sep-2016 03:57:31.011 WARNING [http-nio-8085-exec-25] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SGEM_with_data_base] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Sep-2016 03:57:36.460 INFO [http-nio-8085-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+28-Sep-2016 03:58:00.572 INFO [http-nio-8085-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+28-Sep-2016 03:58:00.587 WARNING [http-nio-8085-exec-35] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SGEM_with_data_base] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Sep-2016 03:58:07.870 SEVERE [http-nio-8085-exec-35] org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun 
+ java.lang.OutOfMemoryError: PermGen space
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2452)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:854)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1264)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at org.eclipse.persistence.exceptions.EntityManagerSetupException.predeployFailed(EntityManagerSetupException.java:230)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.createPredeployFailedPersistenceException(EntityManagerSetupImpl.java:1954)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.predeploy(EntityManagerSetupImpl.java:1945)
+	at org.eclipse.persistence.internal.jpa.deployment.JPAInitializer.callPredeploy(JPAInitializer.java:98)
+	at org.eclipse.persistence.jpa.PersistenceProvider.createEntityManagerFactoryImpl(PersistenceProvider.java:96)
+	at org.eclipse.persistence.jpa.PersistenceProvider.createEntityManagerFactory(PersistenceProvider.java:177)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:79)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:54)
+	at EntityManagerContext.contextInitialized(EntityManagerContext.java:23)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4772)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3796)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:984)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+
+28-Sep-2016 04:39:08.884 SEVERE [http-nio-8085-ClientPoller-0] org.apache.tomcat.util.net.NioEndpoint$Poller.run 
+ java.lang.OutOfMemoryError: PermGen space
+
+28-Sep-2016 12:26:12.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.15
+28-Sep-2016 12:26:12.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2014 19:25:20 UTC
+28-Sep-2016 12:26:12.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.15.0
+28-Sep-2016 12:26:12.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8.1
+28-Sep-2016 12:26:12.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+28-Sep-2016 12:26:12.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Sep-2016 12:26:12.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JAVA_HOME:             C:\Program Files\Java\jdk1.7.0_80\jre
+28-Sep-2016 12:26:12.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_80-b15
+28-Sep-2016 12:26:12.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Sep-2016 12:26:12.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15
+28-Sep-2016 12:26:12.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15
+28-Sep-2016 12:26:12.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.proxyHost=127.0.0.1
+28-Sep-2016 12:26:12.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.proxyPort=8080
+28-Sep-2016 12:26:12.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=<-loopback>
+28-Sep-2016 12:26:12.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttps.proxyHost=127.0.0.1
+28-Sep-2016 12:26:12.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttps.proxyPort=8080
+28-Sep-2016 12:26:12.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\logging.properties
+28-Sep-2016 12:26:12.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Sep-2016 12:26:12.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\endorsed
+28-Sep-2016 12:26:12.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15
+28-Sep-2016 12:26:12.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15
+28-Sep-2016 12:26:12.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\temp
+28-Sep-2016 12:26:12.411 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_80\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;.
+28-Sep-2016 12:26:13.067 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+28-Sep-2016 12:26:13.145 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Sep-2016 12:26:13.161 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Sep-2016 12:26:13.177 SEVERE [main] org.apache.coyote.AbstractProtocol.init Failed to initialize end point associated with ProtocolHandler ["ajp-nio-8009"]
+ java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:463)
+	at sun.nio.ch.Net.bind(Net.java:455)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:343)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:730)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:456)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:960)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:567)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:842)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:576)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:599)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:310)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:484)
+
+28-Sep-2016 12:26:13.192 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:567)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:842)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:576)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:599)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:310)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:484)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:962)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:463)
+	at sun.nio.ch.Net.bind(Net.java:455)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:343)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:730)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:456)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:960)
+	... 13 more
+
+28-Sep-2016 12:26:13.192 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2568 ms
+28-Sep-2016 12:26:13.473 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+28-Sep-2016 12:26:13.489 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+28-Sep-2016 12:26:13.692 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM.xml
+28-Sep-2016 12:26:15.270 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Error listenerStart
+28-Sep-2016 12:26:15.489 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [219] milliseconds.
+28-Sep-2016 12:26:15.489 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/SGEM] startup failed due to previous errors
+28-Sep-2016 12:26:15.567 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM.xml has finished in 1,875 ms
+28-Sep-2016 12:26:15.567 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml
+28-Sep-2016 12:26:27.188 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml has finished in 11,621 ms
+28-Sep-2016 12:26:27.188 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\WebApplication3.xml
+28-Sep-2016 12:26:27.266 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\WebApplication3.xml has finished in 78 ms
+28-Sep-2016 12:26:27.266 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\docs
+28-Sep-2016 12:26:27.391 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\docs has finished in 125 ms
+28-Sep-2016 12:26:27.391 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\examples
+28-Sep-2016 12:26:31.696 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\examples has finished in 4,305 ms
+28-Sep-2016 12:26:31.696 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\host-manager
+28-Sep-2016 12:26:31.883 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\host-manager has finished in 187 ms
+28-Sep-2016 12:26:31.883 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\manager
+28-Sep-2016 12:26:31.977 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\manager has finished in 94 ms
+28-Sep-2016 12:26:31.977 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\ROOT
+28-Sep-2016 12:26:32.140 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\ROOT has finished in 163 ms
+28-Sep-2016 12:26:32.140 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+28-Sep-2016 12:26:32.156 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 18956 ms
+28-Sep-2016 12:45:53.776 INFO [http-nio-9090-exec-6] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SGEM_with_data_base]
+28-Sep-2016 12:45:53.823 INFO [http-nio-9090-exec-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml
+28-Sep-2016 12:46:03.812 INFO [http-nio-9090-exec-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml has finished in 9,989 ms
+28-Sep-2016 12:46:03.828 INFO [http-nio-9090-exec-9] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SGEM_with_data_base]] after start() had already been called. The second call will be ignored.
+28-Sep-2016 12:48:12.535 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SGEM_with_data_base]
+28-Sep-2016 12:48:33.082 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ContainerBase.removeChild ContainerBase.removeChild: destroy: 
+ org.apache.catalina.LifecycleException: An invalid Lifecycle transition was attempted ([before_destroy]) for component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SGEM_with_data_base]] in state [STARTING_PREP]
+	at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:409)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:299)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:841)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1323)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1250)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1471)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1142)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1378)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1382)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1350)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Sep-2016 12:50:03.168 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml
+28-Sep-2016 12:51:42.658 SEVERE [17] org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run Unexpected death of background thread ContainerBackgroundProcessor[StandardEngine[Catalina]]
+ java.lang.OutOfMemoryError: PermGen space
+
+28-Sep-2016 13:09:50.829 INFO [http-nio-9090-exec-16] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+28-Sep-2016 13:09:51.047 WARNING [http-nio-9090-exec-16] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SGEM_with_data_base] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+28-Sep-2016 13:10:01.984 INFO [http-nio-9090-exec-16] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+28-Sep-2016 13:10:02.109 INFO [http-nio-9090-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+28-Sep-2016 13:10:11.763 INFO [http-nio-9090-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+28-Sep-2016 13:13:01.700 INFO [http-nio-9090-exec-21] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+28-Sep-2016 13:13:11.174 INFO [http-nio-9090-exec-21] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed

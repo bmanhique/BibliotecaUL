@@ -1,0 +1,1531 @@
+25-May-2018 08:32:59.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.15
+25-May-2018 08:32:59.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2014 19:25:20 UTC
+25-May-2018 08:32:59.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.15.0
+25-May-2018 08:32:59.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+25-May-2018 08:32:59.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+25-May-2018 08:32:59.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-May-2018 08:32:59.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JAVA_HOME:             C:\Program Files\Java\jdk1.8.0_11\jre
+25-May-2018 08:32:59.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_11-b12
+25-May-2018 08:32:59.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-May-2018 08:32:59.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15
+25-May-2018 08:32:59.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15
+25-May-2018 08:32:59.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|I
+25-May-2018 08:32:59.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\conf\logging.properties
+25-May-2018 08:32:59.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-May-2018 08:32:59.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\endorsed
+25-May-2018 08:32:59.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15
+25-May-2018 08:32:59.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15
+25-May-2018 08:32:59.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\temp
+25-May-2018 08:32:59.245 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_11\bin\;C:\Program Files\Git\cmd;.
+25-May-2018 08:33:00.770 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8089"]
+25-May-2018 08:33:01.049 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-May-2018 08:33:01.092 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8001"]
+25-May-2018 08:33:01.122 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-May-2018 08:33:01.169 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 6497 ms
+25-May-2018 08:33:01.903 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+25-May-2018 08:33:01.904 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+25-May-2018 08:33:02.149 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\conf\Catalina\localhost\migueljunior.xml
+25-May-2018 08:33:02.732 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/migueljunior]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@5773e1c2]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4875)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5004)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\Migueljr\Documents\NetBeansProjects\migueljunior\build\web] is not valid
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:670)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 more
+
+25-May-2018 08:33:02.735 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\conf\Catalina\localhost\migueljunior.xml
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/migueljunior]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:728)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+25-May-2018 08:33:02.742 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\conf\Catalina\localhost\migueljunior.xml has finished in 591 ms
+25-May-2018 08:33:02.742 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\conf\Catalina\localhost\mjunior1.xml
+25-May-2018 08:33:02.766 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mjunior1]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@6b0bc35b]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4875)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5004)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\Migueljr\Documents\NetBeansProjects\mjunior1\build\web] is not valid
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:670)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 more
+
+25-May-2018 08:33:02.817 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\conf\Catalina\localhost\mjunior1.xml
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mjunior1]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:728)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+25-May-2018 08:33:02.821 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\conf\Catalina\localhost\mjunior1.xml has finished in 79 ms
+25-May-2018 08:33:02.822 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\conf\Catalina\localhost\mjuniorr.xml
+25-May-2018 08:33:02.844 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mjuniorr]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@797b5b86]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4875)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5004)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\Migueljr\Documents\NetBeansProjects\mjuniorr\build\web] is not valid
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:670)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 more
+
+25-May-2018 08:33:02.845 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\conf\Catalina\localhost\mjuniorr.xml
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mjuniorr]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:728)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+25-May-2018 08:33:03.525 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\conf\Catalina\localhost\mjuniorr.xml has finished in 703 ms
+25-May-2018 08:33:03.526 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM.xml
+25-May-2018 08:33:03.558 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SGEM]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@4ec202a6]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4875)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5004)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\Migueljr\Documents\NetBeansProjects\SGEM\build\web] is not valid
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:670)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 more
+
+25-May-2018 08:33:03.561 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM.xml
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SGEM]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:728)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+25-May-2018 08:33:03.562 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM.xml has finished in 36 ms
+25-May-2018 08:33:03.562 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM1.xml
+25-May-2018 08:33:03.956 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SGEM1]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@230437bb]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4875)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5004)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\Migueljr\Documents\NetBeansProjects\SGEM1\build\web] is not valid
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:670)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 more
+
+25-May-2018 08:33:03.957 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM1.xml
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SGEM1]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:728)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+25-May-2018 08:33:03.958 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM1.xml has finished in 396 ms
+25-May-2018 08:33:03.959 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_base_de_dados_final.xml
+25-May-2018 08:33:03.992 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SGEM_with_base_de_dados_final]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@82ecd9f]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4875)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5004)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\Migueljr\Documents\NetBeansProjects\SGEM_with_base_de_dados_final\build\web] is not valid
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:670)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 more
+
+25-May-2018 08:33:04.005 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_base_de_dados_final.xml
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SGEM_with_base_de_dados_final]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:728)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+25-May-2018 08:33:04.012 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_base_de_dados_final.xml has finished in 53 ms
+25-May-2018 08:33:04.012 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml
+25-May-2018 08:33:04.043 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SGEM_with_data_base]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@593f3a29]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4875)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5004)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\Migueljr\Documents\NetBeansProjects\SGEM_with_data_base\build\web] is not valid
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:670)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 more
+
+25-May-2018 08:33:04.044 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SGEM_with_data_base]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:728)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+25-May-2018 08:33:04.408 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml has finished in 396 ms
+25-May-2018 08:33:04.409 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\conf\Catalina\localhost\WebApplication3.xml
+25-May-2018 08:33:04.426 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication3]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@6304213e]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4875)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5004)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\Migueljr\Documents\NetBeansProjects\WebApplication3\build\web] is not valid
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:670)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 more
+
+25-May-2018 08:33:04.427 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\conf\Catalina\localhost\WebApplication3.xml
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication3]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:728)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+25-May-2018 08:33:04.428 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\conf\Catalina\localhost\WebApplication3.xml has finished in 20 ms
+25-May-2018 08:33:04.428 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\conf\Catalina\localhost\WebApplication4.xml
+25-May-2018 08:33:04.600 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication4]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@1b2c7bb0]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4875)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5004)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\Migueljr\Documents\NetBeansProjects\WebApplication4\build\web] is not valid
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:670)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 more
+
+25-May-2018 08:33:04.602 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\conf\Catalina\localhost\WebApplication4.xml
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication4]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:728)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+25-May-2018 08:33:04.604 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\conf\Catalina\localhost\WebApplication4.xml has finished in 175 ms
+25-May-2018 08:33:04.861 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\webapps\docs
+25-May-2018 08:33:12.132 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2018 08:33:13.305 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [434] milliseconds.
+25-May-2018 08:33:13.774 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\webapps\docs has finished in 8,913 ms
+25-May-2018 08:33:13.775 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\webapps\examples
+25-May-2018 08:33:16.984 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\webapps\examples has finished in 3,208 ms
+25-May-2018 08:33:16.984 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\webapps\host-manager
+25-May-2018 08:33:17.738 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2018 08:33:17.753 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\webapps\host-manager has finished in 769 ms
+25-May-2018 08:33:17.754 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\webapps\manager
+25-May-2018 08:33:18.463 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2018 08:33:18.473 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\webapps\manager has finished in 718 ms
+25-May-2018 08:33:18.474 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\webapps\ROOT
+25-May-2018 08:33:19.094 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2018 08:33:19.101 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\webapps\ROOT has finished in 627 ms
+25-May-2018 08:33:19.262 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8089"]
+25-May-2018 08:33:19.360 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8001"]
+25-May-2018 08:33:19.365 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 18195 ms
+25-May-2018 08:37:39.752 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+25-May-2018 08:37:39.758 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+25-May-2018 08:37:39.764 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+25-May-2018 08:37:39.768 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+25-May-2018 08:37:39.773 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+25-May-2018 08:37:39.780 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+25-May-2018 08:37:39.788 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+25-May-2018 08:37:39.795 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+25-May-2018 08:37:39.800 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+25-May-2018 08:37:39.805 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+25-May-2018 08:37:43.927 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+25-May-2018 08:37:43.933 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+25-May-2018 08:37:43.944 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+25-May-2018 08:37:43.949 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+25-May-2018 08:37:43.950 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+25-May-2018 08:37:43.956 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+25-May-2018 08:37:43.959 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+25-May-2018 08:37:43.973 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+25-May-2018 08:37:43.977 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+25-May-2018 08:37:43.979 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command 'GET / HTTP/1.1' received
+25-May-2018 09:43:16.033 INFO [http-nio-8089-exec-15] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+25-May-2018 09:43:16.117 INFO [http-nio-8089-exec-16] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\conf\Catalina\localhost\ROOT.xml
+25-May-2018 09:43:35.510 INFO [http-nio-8089-exec-16] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2018 09:43:35.880 INFO [http-nio-8089-exec-16] org.zkoss.zk.ui.http.WebManager.<init> Starting ZK 7.0.0 CE (build: 2013112611)
+25-May-2018 09:43:36.083 INFO [http-nio-8089-exec-16] org.zkoss.zk.ui.sys.ConfigParser.parseConfigXml Loading system default
+25-May-2018 09:43:36.583 INFO [http-nio-8089-exec-16] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing jar:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/lib/zul.jar!/metainfo/zk/zk.xml
+25-May-2018 09:43:36.644 INFO [http-nio-8089-exec-16] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml
+25-May-2018 09:43:36.750 SEVERE [http-nio-8089-exec-16] org.zkoss.zk.ui.sys.ConfigParser.parseListener Unable to load a listenr, [null:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml:592:12]
+ org.zkoss.zk.ui.UiException: file:/D:/Schoo...i/build/web/WEB-INF/zk.xml:592:12: org.zkoss.zksandbox.DemoWebAppInit not found
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:795)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseListener(ConfigParser.java:257)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:306)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:272)
+	at org.zkoss.zk.ui.http.WebManager.<init>(WebManager.java:163)
+	at org.zkoss.zk.ui.http.HttpSessionListener23.contextInitialized(HttpSessionListener23.java:140)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4772)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:455)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1493)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1432)
+	at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:884)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.zkoss.zksandbox.DemoWebAppInit
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:259)
+	at org.zkoss.lang.Classes.forNameByThread(Classes.java:273)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:780)
+	... 51 more
+
+25-May-2018 09:43:39.407 INFO [40] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor D:\School\LES\FromOurproject\Hospedagem BH\Apache Tomcat 8.0.15\conf\Catalina\localhost\ROOT.xml has finished in 23,290 ms
+25-May-2018 09:43:39.458 INFO [http-nio-8089-exec-14] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+25-May-2018 09:44:35.113 INFO [http-nio-8089-exec-19] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+25-May-2018 09:44:35.309 WARNING [http-nio-8089-exec-19] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-May-2018 09:44:52.458 INFO [http-nio-8089-exec-19] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2018 09:44:52.562 INFO [http-nio-8089-exec-19] org.zkoss.zk.ui.http.WebManager.<init> Starting ZK 7.0.0 CE (build: 2013112611)
+25-May-2018 09:44:52.650 INFO [http-nio-8089-exec-19] org.zkoss.zk.ui.sys.ConfigParser.parseConfigXml Loading system default
+25-May-2018 09:44:52.959 INFO [http-nio-8089-exec-19] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing jar:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/lib/zul.jar!/metainfo/zk/zk.xml
+25-May-2018 09:44:53.061 INFO [http-nio-8089-exec-19] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml
+25-May-2018 09:44:53.125 SEVERE [http-nio-8089-exec-19] org.zkoss.zk.ui.sys.ConfigParser.parseListener Unable to load a listenr, [null:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml:592:12]
+ org.zkoss.zk.ui.UiException: file:/D:/Schoo...i/build/web/WEB-INF/zk.xml:592:12: org.zkoss.zksandbox.DemoWebAppInit not found
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:795)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseListener(ConfigParser.java:257)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:306)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:272)
+	at org.zkoss.zk.ui.http.WebManager.<init>(WebManager.java:163)
+	at org.zkoss.zk.ui.http.HttpSessionListener23.contextInitialized(HttpSessionListener23.java:140)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4772)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3796)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:984)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.zkoss.zksandbox.DemoWebAppInit
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:259)
+	at org.zkoss.lang.Classes.forNameByThread(Classes.java:273)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:780)
+	... 38 more
+
+25-May-2018 09:44:55.503 INFO [http-nio-8089-exec-19] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+25-May-2018 09:45:26.292 INFO [http-nio-8089-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+25-May-2018 09:45:26.352 WARNING [http-nio-8089-exec-27] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-May-2018 09:45:38.322 INFO [http-nio-8089-exec-27] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2018 09:45:38.422 INFO [http-nio-8089-exec-27] org.zkoss.zk.ui.http.WebManager.<init> Starting ZK 7.0.0 CE (build: 2013112611)
+25-May-2018 09:45:38.493 INFO [http-nio-8089-exec-27] org.zkoss.zk.ui.sys.ConfigParser.parseConfigXml Loading system default
+25-May-2018 09:45:38.824 INFO [http-nio-8089-exec-27] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing jar:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/lib/zul.jar!/metainfo/zk/zk.xml
+25-May-2018 09:45:38.863 INFO [http-nio-8089-exec-27] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml
+25-May-2018 09:45:38.931 SEVERE [http-nio-8089-exec-27] org.zkoss.zk.ui.sys.ConfigParser.parseListener Unable to load a listenr, [null:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml:592:12]
+ org.zkoss.zk.ui.UiException: file:/D:/Schoo...i/build/web/WEB-INF/zk.xml:592:12: org.zkoss.zksandbox.DemoWebAppInit not found
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:795)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseListener(ConfigParser.java:257)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:306)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:272)
+	at org.zkoss.zk.ui.http.WebManager.<init>(WebManager.java:163)
+	at org.zkoss.zk.ui.http.HttpSessionListener23.contextInitialized(HttpSessionListener23.java:140)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4772)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3796)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:984)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.zkoss.zksandbox.DemoWebAppInit
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:259)
+	at org.zkoss.lang.Classes.forNameByThread(Classes.java:273)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:780)
+	... 38 more
+
+25-May-2018 09:45:40.924 INFO [http-nio-8089-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+25-May-2018 09:51:23.420 INFO [http-nio-8089-exec-41] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+25-May-2018 09:51:23.484 WARNING [http-nio-8089-exec-41] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-May-2018 09:51:36.977 INFO [http-nio-8089-exec-41] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2018 09:51:37.082 INFO [http-nio-8089-exec-41] org.zkoss.zk.ui.http.WebManager.<init> Starting ZK 7.0.0 CE (build: 2013112611)
+25-May-2018 09:51:37.145 INFO [http-nio-8089-exec-41] org.zkoss.zk.ui.sys.ConfigParser.parseConfigXml Loading system default
+25-May-2018 09:51:37.424 INFO [http-nio-8089-exec-41] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing jar:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/lib/zul.jar!/metainfo/zk/zk.xml
+25-May-2018 09:51:37.457 INFO [http-nio-8089-exec-41] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml
+25-May-2018 09:51:37.495 SEVERE [http-nio-8089-exec-41] org.zkoss.zk.ui.sys.ConfigParser.parseListener Unable to load a listenr, [null:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml:592:12]
+ org.zkoss.zk.ui.UiException: file:/D:/Schoo...i/build/web/WEB-INF/zk.xml:592:12: org.zkoss.zksandbox.DemoWebAppInit not found
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:795)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseListener(ConfigParser.java:257)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:306)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:272)
+	at org.zkoss.zk.ui.http.WebManager.<init>(WebManager.java:163)
+	at org.zkoss.zk.ui.http.HttpSessionListener23.contextInitialized(HttpSessionListener23.java:140)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4772)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3796)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:984)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.zkoss.zksandbox.DemoWebAppInit
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:259)
+	at org.zkoss.lang.Classes.forNameByThread(Classes.java:273)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:780)
+	... 38 more
+
+25-May-2018 09:51:39.226 INFO [http-nio-8089-exec-41] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+25-May-2018 09:51:39.295 INFO [http-nio-8089-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+25-May-2018 09:51:50.575 INFO [http-nio-8089-exec-35] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2018 09:51:50.674 INFO [http-nio-8089-exec-35] org.zkoss.zk.ui.http.WebManager.<init> Starting ZK 7.0.0 CE (build: 2013112611)
+25-May-2018 09:51:50.738 INFO [http-nio-8089-exec-35] org.zkoss.zk.ui.sys.ConfigParser.parseConfigXml Loading system default
+25-May-2018 09:51:51.021 INFO [http-nio-8089-exec-35] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing jar:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/lib/zul.jar!/metainfo/zk/zk.xml
+25-May-2018 09:51:51.059 INFO [http-nio-8089-exec-35] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml
+25-May-2018 09:51:51.097 SEVERE [http-nio-8089-exec-35] org.zkoss.zk.ui.sys.ConfigParser.parseListener Unable to load a listenr, [null:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml:592:12]
+ org.zkoss.zk.ui.UiException: file:/D:/Schoo...i/build/web/WEB-INF/zk.xml:592:12: org.zkoss.zksandbox.DemoWebAppInit not found
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:795)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseListener(ConfigParser.java:257)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:306)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:272)
+	at org.zkoss.zk.ui.http.WebManager.<init>(WebManager.java:163)
+	at org.zkoss.zk.ui.http.HttpSessionListener23.contextInitialized(HttpSessionListener23.java:140)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4772)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3796)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:984)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.zkoss.zksandbox.DemoWebAppInit
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:259)
+	at org.zkoss.lang.Classes.forNameByThread(Classes.java:273)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:780)
+	... 38 more
+
+25-May-2018 09:51:53.427 INFO [59] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+25-May-2018 09:52:36.562 INFO [http-nio-8089-exec-38] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2018 09:52:36.657 INFO [http-nio-8089-exec-38] org.zkoss.zk.ui.http.WebManager.<init> Starting ZK 7.0.0 CE (build: 2013112611)
+25-May-2018 09:52:36.714 INFO [http-nio-8089-exec-38] org.zkoss.zk.ui.sys.ConfigParser.parseConfigXml Loading system default
+25-May-2018 09:52:37.022 INFO [http-nio-8089-exec-38] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing jar:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/lib/zul.jar!/metainfo/zk/zk.xml
+25-May-2018 09:52:37.063 INFO [http-nio-8089-exec-38] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml
+25-May-2018 09:52:37.106 SEVERE [http-nio-8089-exec-38] org.zkoss.zk.ui.sys.ConfigParser.parseListener Unable to load a listenr, [null:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml:592:12]
+ org.zkoss.zk.ui.UiException: file:/D:/Schoo...i/build/web/WEB-INF/zk.xml:592:12: org.zkoss.zksandbox.DemoWebAppInit not found
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:795)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseListener(ConfigParser.java:257)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:306)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:272)
+	at org.zkoss.zk.ui.http.WebManager.<init>(WebManager.java:163)
+	at org.zkoss.zk.ui.http.HttpSessionListener23.contextInitialized(HttpSessionListener23.java:140)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4772)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.manager.ManagerServlet.start(ManagerServlet.java:1265)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:357)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.zkoss.zksandbox.DemoWebAppInit
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:259)
+	at org.zkoss.lang.Classes.forNameByThread(Classes.java:273)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:780)
+	... 37 more
+
+25-May-2018 10:02:46.430 INFO [http-nio-8089-exec-55] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+25-May-2018 10:02:46.621 WARNING [http-nio-8089-exec-55] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-May-2018 10:02:58.947 INFO [http-nio-8089-exec-55] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2018 10:02:59.054 INFO [http-nio-8089-exec-55] org.zkoss.zk.ui.http.WebManager.<init> Starting ZK 7.0.0 CE (build: 2013112611)
+25-May-2018 10:02:59.115 INFO [http-nio-8089-exec-55] org.zkoss.zk.ui.sys.ConfigParser.parseConfigXml Loading system default
+25-May-2018 10:02:59.411 INFO [http-nio-8089-exec-55] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing jar:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/lib/zul.jar!/metainfo/zk/zk.xml
+25-May-2018 10:02:59.446 INFO [http-nio-8089-exec-55] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml
+25-May-2018 10:02:59.485 SEVERE [http-nio-8089-exec-55] org.zkoss.zk.ui.sys.ConfigParser.parseListener Unable to load a listenr, [null:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml:592:12]
+ org.zkoss.zk.ui.UiException: file:/D:/Schoo...i/build/web/WEB-INF/zk.xml:592:12: org.zkoss.zksandbox.DemoWebAppInit not found
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:795)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseListener(ConfigParser.java:257)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:306)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:272)
+	at org.zkoss.zk.ui.http.WebManager.<init>(WebManager.java:163)
+	at org.zkoss.zk.ui.http.HttpSessionListener23.contextInitialized(HttpSessionListener23.java:140)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4772)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3796)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:984)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.zkoss.zksandbox.DemoWebAppInit
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:259)
+	at org.zkoss.lang.Classes.forNameByThread(Classes.java:273)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:780)
+	... 38 more
+
+25-May-2018 10:03:01.654 INFO [79] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+25-May-2018 10:03:45.812 INFO [http-nio-8089-exec-50] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2018 10:03:45.909 INFO [http-nio-8089-exec-50] org.zkoss.zk.ui.http.WebManager.<init> Starting ZK 7.0.0 CE (build: 2013112611)
+25-May-2018 10:03:45.976 INFO [http-nio-8089-exec-50] org.zkoss.zk.ui.sys.ConfigParser.parseConfigXml Loading system default
+25-May-2018 10:03:46.277 INFO [http-nio-8089-exec-50] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing jar:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/lib/zul.jar!/metainfo/zk/zk.xml
+25-May-2018 10:03:46.323 INFO [http-nio-8089-exec-50] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml
+25-May-2018 10:03:46.390 SEVERE [http-nio-8089-exec-50] org.zkoss.zk.ui.sys.ConfigParser.parseListener Unable to load a listenr, [null:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml:592:12]
+ org.zkoss.zk.ui.UiException: file:/D:/Schoo...i/build/web/WEB-INF/zk.xml:592:12: org.zkoss.zksandbox.DemoWebAppInit not found
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:795)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseListener(ConfigParser.java:257)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:306)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:272)
+	at org.zkoss.zk.ui.http.WebManager.<init>(WebManager.java:163)
+	at org.zkoss.zk.ui.http.HttpSessionListener23.contextInitialized(HttpSessionListener23.java:140)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4772)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.manager.ManagerServlet.start(ManagerServlet.java:1265)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:357)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.zkoss.zksandbox.DemoWebAppInit
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:259)
+	at org.zkoss.lang.Classes.forNameByThread(Classes.java:273)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:780)
+	... 37 more
+
+25-May-2018 10:04:04.731 INFO [http-nio-8089-exec-59] org.zkoss.util.resource.impl.LabelLoader.loadLabels Loading labels for pt_PT
+25-May-2018 10:04:04.815 INFO [http-nio-8089-exec-59] org.zkoss.util.resource.impl.LabelLoader.loadLabels Loading labels for pt
+25-May-2018 10:14:32.392 INFO [http-nio-8089-exec-65] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+25-May-2018 10:14:32.614 WARNING [http-nio-8089-exec-65] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-May-2018 10:14:36.332 INFO [Finalizer] org.apache.catalina.loader.WebappClassLoaderBase.findResourceInternal Illegal access: this web application instance has been stopped already.  Could not load org/eclipse/persistence/internal/localization/i18n/LoggingLocalizationResource.properties.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+25-May-2018 10:14:36.334 INFO [Finalizer] org.apache.catalina.loader.WebappClassLoaderBase.findResourceInternal Illegal access: this web application instance has been stopped already.  Could not load org/eclipse/persistence/internal/localization/i18n/LoggingLocalizationResource_en.properties.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+25-May-2018 10:14:36.334 INFO [Finalizer] org.apache.catalina.loader.WebappClassLoaderBase.findResourceInternal Illegal access: this web application instance has been stopped already.  Could not load org/eclipse/persistence/internal/localization/i18n/LoggingLocalizationResource_en_US.properties.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+25-May-2018 10:14:49.882 INFO [http-nio-8089-exec-65] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2018 10:14:49.993 INFO [http-nio-8089-exec-65] org.zkoss.zk.ui.http.WebManager.<init> Starting ZK 7.0.0 CE (build: 2013112611)
+25-May-2018 10:14:50.059 INFO [http-nio-8089-exec-65] org.zkoss.zk.ui.sys.ConfigParser.parseConfigXml Loading system default
+25-May-2018 10:14:50.342 INFO [http-nio-8089-exec-65] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing jar:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/lib/zul.jar!/metainfo/zk/zk.xml
+25-May-2018 10:14:50.376 INFO [http-nio-8089-exec-65] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml
+25-May-2018 10:14:50.410 SEVERE [http-nio-8089-exec-65] org.zkoss.zk.ui.sys.ConfigParser.parseListener Unable to load a listenr, [null:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml:592:12]
+ org.zkoss.zk.ui.UiException: file:/D:/Schoo...i/build/web/WEB-INF/zk.xml:592:12: org.zkoss.zksandbox.DemoWebAppInit not found
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:795)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseListener(ConfigParser.java:257)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:306)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:272)
+	at org.zkoss.zk.ui.http.WebManager.<init>(WebManager.java:163)
+	at org.zkoss.zk.ui.http.HttpSessionListener23.contextInitialized(HttpSessionListener23.java:140)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4772)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3796)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:984)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.zkoss.zksandbox.DemoWebAppInit
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:259)
+	at org.zkoss.lang.Classes.forNameByThread(Classes.java:273)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:780)
+	... 38 more
+
+25-May-2018 10:14:53.030 INFO [http-nio-8089-exec-65] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+25-May-2018 10:16:58.987 INFO [http-nio-8089-exec-63] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+25-May-2018 10:17:13.564 INFO [http-nio-8089-exec-63] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2018 10:17:13.688 INFO [http-nio-8089-exec-63] org.zkoss.zk.ui.http.WebManager.<init> Starting ZK 7.0.0 CE (build: 2013112611)
+25-May-2018 10:17:13.755 INFO [http-nio-8089-exec-63] org.zkoss.zk.ui.sys.ConfigParser.parseConfigXml Loading system default
+25-May-2018 10:17:14.023 INFO [http-nio-8089-exec-63] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing jar:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/lib/zul.jar!/metainfo/zk/zk.xml
+25-May-2018 10:17:14.073 INFO [http-nio-8089-exec-63] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml
+25-May-2018 10:17:14.135 SEVERE [http-nio-8089-exec-63] org.zkoss.zk.ui.sys.ConfigParser.parseListener Unable to load a listenr, [null:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml:592:12]
+ org.zkoss.zk.ui.UiException: file:/D:/Schoo...i/build/web/WEB-INF/zk.xml:592:12: org.zkoss.zksandbox.DemoWebAppInit not found
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:795)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseListener(ConfigParser.java:257)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:306)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:272)
+	at org.zkoss.zk.ui.http.WebManager.<init>(WebManager.java:163)
+	at org.zkoss.zk.ui.http.HttpSessionListener23.contextInitialized(HttpSessionListener23.java:140)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4772)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3796)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:984)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.zkoss.zksandbox.DemoWebAppInit
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:259)
+	at org.zkoss.lang.Classes.forNameByThread(Classes.java:273)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:780)
+	... 38 more
+
+25-May-2018 10:17:16.133 INFO [http-nio-8089-exec-63] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+25-May-2018 10:17:16.208 INFO [http-nio-8089-exec-76] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+25-May-2018 10:17:28.663 INFO [http-nio-8089-exec-76] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2018 10:17:28.763 INFO [http-nio-8089-exec-76] org.zkoss.zk.ui.http.WebManager.<init> Starting ZK 7.0.0 CE (build: 2013112611)
+25-May-2018 10:17:28.833 INFO [http-nio-8089-exec-76] org.zkoss.zk.ui.sys.ConfigParser.parseConfigXml Loading system default
+25-May-2018 10:17:29.109 INFO [http-nio-8089-exec-76] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing jar:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/lib/zul.jar!/metainfo/zk/zk.xml
+25-May-2018 10:17:29.172 INFO [http-nio-8089-exec-76] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml
+25-May-2018 10:17:29.241 SEVERE [http-nio-8089-exec-76] org.zkoss.zk.ui.sys.ConfigParser.parseListener Unable to load a listenr, [null:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml:592:12]
+ org.zkoss.zk.ui.UiException: file:/D:/Schoo...i/build/web/WEB-INF/zk.xml:592:12: org.zkoss.zksandbox.DemoWebAppInit not found
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:795)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseListener(ConfigParser.java:257)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:306)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:272)
+	at org.zkoss.zk.ui.http.WebManager.<init>(WebManager.java:163)
+	at org.zkoss.zk.ui.http.HttpSessionListener23.contextInitialized(HttpSessionListener23.java:140)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4772)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3796)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:984)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.zkoss.zksandbox.DemoWebAppInit
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:259)
+	at org.zkoss.lang.Classes.forNameByThread(Classes.java:273)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:780)
+	... 38 more
+
+25-May-2018 10:17:31.364 INFO [http-nio-8089-exec-76] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+25-May-2018 10:19:54.367 INFO [http-nio-8089-exec-72] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+25-May-2018 10:19:59.595 INFO [Finalizer] org.apache.catalina.loader.WebappClassLoaderBase.findResourceInternal Illegal access: this web application instance has been stopped already.  Could not load org/eclipse/persistence/internal/localization/i18n/LoggingLocalizationResource.properties.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+25-May-2018 10:19:59.596 INFO [Finalizer] org.apache.catalina.loader.WebappClassLoaderBase.findResourceInternal Illegal access: this web application instance has been stopped already.  Could not load org/eclipse/persistence/internal/localization/i18n/LoggingLocalizationResource_en.properties.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+25-May-2018 10:19:59.597 INFO [Finalizer] org.apache.catalina.loader.WebappClassLoaderBase.findResourceInternal Illegal access: this web application instance has been stopped already.  Could not load org/eclipse/persistence/internal/localization/i18n/LoggingLocalizationResource_en_US.properties.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+25-May-2018 10:20:08.067 INFO [http-nio-8089-exec-72] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2018 10:20:08.162 INFO [http-nio-8089-exec-72] org.zkoss.zk.ui.http.WebManager.<init> Starting ZK 7.0.0 CE (build: 2013112611)
+25-May-2018 10:20:08.221 INFO [http-nio-8089-exec-72] org.zkoss.zk.ui.sys.ConfigParser.parseConfigXml Loading system default
+25-May-2018 10:20:08.468 INFO [http-nio-8089-exec-72] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing jar:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/lib/zul.jar!/metainfo/zk/zk.xml
+25-May-2018 10:20:08.506 INFO [http-nio-8089-exec-72] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml
+25-May-2018 10:20:08.538 SEVERE [http-nio-8089-exec-72] org.zkoss.zk.ui.sys.ConfigParser.parseListener Unable to load a listenr, [null:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml:592:12]
+ org.zkoss.zk.ui.UiException: file:/D:/Schoo...i/build/web/WEB-INF/zk.xml:592:12: org.zkoss.zksandbox.DemoWebAppInit not found
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:795)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseListener(ConfigParser.java:257)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:306)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:272)
+	at org.zkoss.zk.ui.http.WebManager.<init>(WebManager.java:163)
+	at org.zkoss.zk.ui.http.HttpSessionListener23.contextInitialized(HttpSessionListener23.java:140)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4772)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3796)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:984)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.zkoss.zksandbox.DemoWebAppInit
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:259)
+	at org.zkoss.lang.Classes.forNameByThread(Classes.java:273)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:780)
+	... 38 more
+
+25-May-2018 10:20:10.093 INFO [96] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+25-May-2018 10:20:17.974 INFO [http-nio-8089-exec-87] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+25-May-2018 10:20:32.010 INFO [http-nio-8089-exec-87] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2018 10:20:32.105 INFO [http-nio-8089-exec-87] org.zkoss.zk.ui.http.WebManager.<init> Starting ZK 7.0.0 CE (build: 2013112611)
+25-May-2018 10:20:32.166 INFO [http-nio-8089-exec-87] org.zkoss.zk.ui.sys.ConfigParser.parseConfigXml Loading system default
+25-May-2018 10:20:32.412 INFO [http-nio-8089-exec-87] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing jar:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/lib/zul.jar!/metainfo/zk/zk.xml
+25-May-2018 10:20:32.452 INFO [http-nio-8089-exec-87] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml
+25-May-2018 10:20:32.486 SEVERE [http-nio-8089-exec-87] org.zkoss.zk.ui.sys.ConfigParser.parseListener Unable to load a listenr, [null:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml:592:12]
+ org.zkoss.zk.ui.UiException: file:/D:/Schoo...i/build/web/WEB-INF/zk.xml:592:12: org.zkoss.zksandbox.DemoWebAppInit not found
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:795)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseListener(ConfigParser.java:257)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:306)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:272)
+	at org.zkoss.zk.ui.http.WebManager.<init>(WebManager.java:163)
+	at org.zkoss.zk.ui.http.HttpSessionListener23.contextInitialized(HttpSessionListener23.java:140)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4772)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3796)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:984)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.zkoss.zksandbox.DemoWebAppInit
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:259)
+	at org.zkoss.lang.Classes.forNameByThread(Classes.java:273)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:780)
+	... 38 more
+
+25-May-2018 10:20:34.044 INFO [http-nio-8089-exec-87] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+25-May-2018 10:20:34.123 INFO [http-nio-8089-exec-89] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+25-May-2018 10:20:47.036 INFO [http-nio-8089-exec-89] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2018 10:20:47.161 INFO [http-nio-8089-exec-89] org.zkoss.zk.ui.http.WebManager.<init> Starting ZK 7.0.0 CE (build: 2013112611)
+25-May-2018 10:20:47.375 INFO [http-nio-8089-exec-89] org.zkoss.zk.ui.sys.ConfigParser.parseConfigXml Loading system default
+25-May-2018 10:20:47.707 INFO [http-nio-8089-exec-89] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing jar:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/lib/zul.jar!/metainfo/zk/zk.xml
+25-May-2018 10:20:47.746 INFO [http-nio-8089-exec-89] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml
+25-May-2018 10:20:47.812 SEVERE [http-nio-8089-exec-89] org.zkoss.zk.ui.sys.ConfigParser.parseListener Unable to load a listenr, [null:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml:592:12]
+ org.zkoss.zk.ui.UiException: file:/D:/Schoo...i/build/web/WEB-INF/zk.xml:592:12: org.zkoss.zksandbox.DemoWebAppInit not found
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:795)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseListener(ConfigParser.java:257)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:306)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:272)
+	at org.zkoss.zk.ui.http.WebManager.<init>(WebManager.java:163)
+	at org.zkoss.zk.ui.http.HttpSessionListener23.contextInitialized(HttpSessionListener23.java:140)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4772)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3796)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:984)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.zkoss.zksandbox.DemoWebAppInit
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:259)
+	at org.zkoss.lang.Classes.forNameByThread(Classes.java:273)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:780)
+	... 38 more
+
+25-May-2018 10:20:49.655 INFO [http-nio-8089-exec-89] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+25-May-2018 10:20:52.210 INFO [http-nio-8089-exec-92] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+25-May-2018 10:21:06.054 INFO [http-nio-8089-exec-92] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2018 10:21:06.176 INFO [http-nio-8089-exec-92] org.zkoss.zk.ui.http.WebManager.<init> Starting ZK 7.0.0 CE (build: 2013112611)
+25-May-2018 10:21:06.264 INFO [http-nio-8089-exec-92] org.zkoss.zk.ui.sys.ConfigParser.parseConfigXml Loading system default
+25-May-2018 10:21:06.743 INFO [http-nio-8089-exec-92] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing jar:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/lib/zul.jar!/metainfo/zk/zk.xml
+25-May-2018 10:21:06.800 INFO [http-nio-8089-exec-92] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml
+25-May-2018 10:21:06.893 SEVERE [http-nio-8089-exec-92] org.zkoss.zk.ui.sys.ConfigParser.parseListener Unable to load a listenr, [null:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml:592:12]
+ org.zkoss.zk.ui.UiException: file:/D:/Schoo...i/build/web/WEB-INF/zk.xml:592:12: org.zkoss.zksandbox.DemoWebAppInit not found
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:795)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseListener(ConfigParser.java:257)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:306)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:272)
+	at org.zkoss.zk.ui.http.WebManager.<init>(WebManager.java:163)
+	at org.zkoss.zk.ui.http.HttpSessionListener23.contextInitialized(HttpSessionListener23.java:140)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4772)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3796)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:984)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.zkoss.zksandbox.DemoWebAppInit
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:259)
+	at org.zkoss.lang.Classes.forNameByThread(Classes.java:273)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:780)
+	... 38 more
+
+25-May-2018 10:21:09.621 INFO [http-nio-8089-exec-92] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+25-May-2018 10:21:09.685 INFO [http-nio-8089-exec-91] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+25-May-2018 10:21:21.674 INFO [http-nio-8089-exec-91] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2018 10:21:21.766 INFO [http-nio-8089-exec-91] org.zkoss.zk.ui.http.WebManager.<init> Starting ZK 7.0.0 CE (build: 2013112611)
+25-May-2018 10:21:21.827 INFO [http-nio-8089-exec-91] org.zkoss.zk.ui.sys.ConfigParser.parseConfigXml Loading system default
+25-May-2018 10:21:22.076 INFO [http-nio-8089-exec-91] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing jar:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/lib/zul.jar!/metainfo/zk/zk.xml
+25-May-2018 10:21:22.111 INFO [http-nio-8089-exec-91] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml
+25-May-2018 10:21:22.176 SEVERE [http-nio-8089-exec-91] org.zkoss.zk.ui.sys.ConfigParser.parseListener Unable to load a listenr, [null:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml:592:12]
+ org.zkoss.zk.ui.UiException: file:/D:/Schoo...i/build/web/WEB-INF/zk.xml:592:12: org.zkoss.zksandbox.DemoWebAppInit not found
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:795)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseListener(ConfigParser.java:257)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:306)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:272)
+	at org.zkoss.zk.ui.http.WebManager.<init>(WebManager.java:163)
+	at org.zkoss.zk.ui.http.HttpSessionListener23.contextInitialized(HttpSessionListener23.java:140)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4772)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3796)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:984)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.zkoss.zksandbox.DemoWebAppInit
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:259)
+	at org.zkoss.lang.Classes.forNameByThread(Classes.java:273)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:780)
+	... 38 more
+
+25-May-2018 10:21:23.713 INFO [http-nio-8089-exec-91] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+25-May-2018 10:22:11.308 INFO [http-nio-8089-exec-84] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+25-May-2018 10:22:23.885 INFO [http-nio-8089-exec-84] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2018 10:22:24.016 INFO [http-nio-8089-exec-84] org.zkoss.zk.ui.http.WebManager.<init> Starting ZK 7.0.0 CE (build: 2013112611)
+25-May-2018 10:22:24.088 INFO [http-nio-8089-exec-84] org.zkoss.zk.ui.sys.ConfigParser.parseConfigXml Loading system default
+25-May-2018 10:22:24.404 INFO [http-nio-8089-exec-84] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing jar:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/lib/zul.jar!/metainfo/zk/zk.xml
+25-May-2018 10:22:24.445 INFO [http-nio-8089-exec-84] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml
+25-May-2018 10:22:24.501 SEVERE [http-nio-8089-exec-84] org.zkoss.zk.ui.sys.ConfigParser.parseListener Unable to load a listenr, [null:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml:592:12]
+ org.zkoss.zk.ui.UiException: file:/D:/Schoo...i/build/web/WEB-INF/zk.xml:592:12: org.zkoss.zksandbox.DemoWebAppInit not found
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:795)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseListener(ConfigParser.java:257)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:306)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:272)
+	at org.zkoss.zk.ui.http.WebManager.<init>(WebManager.java:163)
+	at org.zkoss.zk.ui.http.HttpSessionListener23.contextInitialized(HttpSessionListener23.java:140)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4772)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3796)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:984)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.zkoss.zksandbox.DemoWebAppInit
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:259)
+	at org.zkoss.lang.Classes.forNameByThread(Classes.java:273)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:780)
+	... 38 more
+
+25-May-2018 10:22:26.239 INFO [http-nio-8089-exec-84] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+25-May-2018 10:22:45.095 INFO [http-nio-8089-exec-98] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+25-May-2018 10:22:58.050 INFO [http-nio-8089-exec-98] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2018 10:22:58.172 INFO [http-nio-8089-exec-98] org.zkoss.zk.ui.http.WebManager.<init> Starting ZK 7.0.0 CE (build: 2013112611)
+25-May-2018 10:22:58.368 INFO [http-nio-8089-exec-98] org.zkoss.zk.ui.sys.ConfigParser.parseConfigXml Loading system default
+25-May-2018 10:22:58.688 INFO [http-nio-8089-exec-98] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing jar:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/lib/zul.jar!/metainfo/zk/zk.xml
+25-May-2018 10:22:58.726 INFO [http-nio-8089-exec-98] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml
+25-May-2018 10:22:58.787 SEVERE [http-nio-8089-exec-98] org.zkoss.zk.ui.sys.ConfigParser.parseListener Unable to load a listenr, [null:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml:592:12]
+ org.zkoss.zk.ui.UiException: file:/D:/Schoo...i/build/web/WEB-INF/zk.xml:592:12: org.zkoss.zksandbox.DemoWebAppInit not found
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:795)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseListener(ConfigParser.java:257)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:306)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:272)
+	at org.zkoss.zk.ui.http.WebManager.<init>(WebManager.java:163)
+	at org.zkoss.zk.ui.http.HttpSessionListener23.contextInitialized(HttpSessionListener23.java:140)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4772)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3796)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:984)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.zkoss.zksandbox.DemoWebAppInit
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:259)
+	at org.zkoss.lang.Classes.forNameByThread(Classes.java:273)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:780)
+	... 38 more
+
+25-May-2018 10:23:00.744 INFO [http-nio-8089-exec-98] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+25-May-2018 10:25:57.743 INFO [http-nio-8089-exec-106] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+25-May-2018 10:26:13.092 INFO [http-nio-8089-exec-106] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-May-2018 10:26:13.275 INFO [http-nio-8089-exec-106] org.zkoss.zk.ui.http.WebManager.<init> Starting ZK 7.0.0 CE (build: 2013112611)
+25-May-2018 10:26:13.490 INFO [http-nio-8089-exec-106] org.zkoss.zk.ui.sys.ConfigParser.parseConfigXml Loading system default
+25-May-2018 10:26:13.826 INFO [http-nio-8089-exec-106] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing jar:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/lib/zul.jar!/metainfo/zk/zk.xml
+25-May-2018 10:26:13.911 INFO [http-nio-8089-exec-106] org.zkoss.zk.ui.sys.ConfigParser.parse Parsing file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml
+25-May-2018 10:26:14.024 SEVERE [http-nio-8089-exec-106] org.zkoss.zk.ui.sys.ConfigParser.parseListener Unable to load a listenr, [null:file:/D:/School/LES/FromOurproject/Hospedagem%20BH/BHi/build/web/WEB-INF/zk.xml:592:12]
+ org.zkoss.zk.ui.UiException: file:/D:/Schoo...i/build/web/WEB-INF/zk.xml:592:12: org.zkoss.zksandbox.DemoWebAppInit not found
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:795)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseListener(ConfigParser.java:257)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:306)
+	at org.zkoss.zk.ui.sys.ConfigParser.parse(ConfigParser.java:272)
+	at org.zkoss.zk.ui.http.WebManager.<init>(WebManager.java:163)
+	at org.zkoss.zk.ui.http.HttpSessionListener23.contextInitialized(HttpSessionListener23.java:140)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4772)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3796)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:984)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.zkoss.zksandbox.DemoWebAppInit
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:259)
+	at org.zkoss.lang.Classes.forNameByThread(Classes.java:273)
+	at org.zkoss.zk.ui.sys.ConfigParser.parseClass(ConfigParser.java:780)
+	... 38 more
+
+25-May-2018 10:26:17.540 INFO [http-nio-8089-exec-106] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+25-May-2018 10:26:39.888 INFO [http-nio-8089-exec-111] org.zkoss.util.resource.impl.LabelLoader.loadLabels Loading labels for pt_PT
+25-May-2018 10:26:39.929 INFO [http-nio-8089-exec-111] org.zkoss.util.resource.impl.LabelLoader.loadLabels Loading labels for pt
+25-May-2018 10:37:05.719 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-May-2018 10:37:05.729 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8089"]
+25-May-2018 10:37:05.740 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8001"]
+25-May-2018 10:37:05.791 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+25-May-2018 10:37:05.978 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-May-2018 10:37:06.096 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8089"]
+25-May-2018 10:37:06.114 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8001"]
+25-May-2018 10:37:06.134 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8089"]
+25-May-2018 10:37:06.137 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8001"]

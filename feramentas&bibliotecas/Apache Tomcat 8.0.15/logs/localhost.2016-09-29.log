@@ -1,0 +1,279 @@
+29-Sep-2016 00:16:27.335 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Error configuring application listener of class controle.EntytManegerContext
+ java.lang.ClassNotFoundException: controle.EntytManegerContext
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:520)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:501)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:120)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4693)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+29-Sep-2016 00:16:27.335 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Skipped installing application listeners due to previous error(s)
+29-Sep-2016 00:16:43.495 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Sep-2016 00:16:43.495 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Sep-2016 01:04:29.193 SEVERE [http-nio-9090-exec-97] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [An exception occurred processing JSP page /login.jsp at line 69
+
+66:         
+67:     }*/
+68:            
+69:            if(username.equals("miguel junior")){
+70:                 response.sendRedirect("principalFuncionario.jsp");
+71:            }
+72:         
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at org.apache.jsp.login_jsp._jspService(login_jsp.java:169)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+29-Sep-2016 01:04:50.808 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+29-Sep-2016 01:04:50.808 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+29-Sep-2016 12:41:54.571 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Error configuring application listener of class controle.EntytManegerContext
+ java.lang.ClassNotFoundException: controle.EntytManegerContext
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:520)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:501)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:120)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4693)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+29-Sep-2016 12:41:54.571 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Skipped installing application listeners due to previous error(s)
+29-Sep-2016 12:42:05.695 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Sep-2016 12:42:05.695 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+29-Sep-2016 22:55:26.831 SEVERE [http-nio-9090-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 71 in the jsp file: /TodosUtilizadores.jsp
+Syntax error, insert "Finally" to complete TryStatement
+68:               
+69: <%
+70:     
+71:     }
+72: 
+73: %>
+74:           
+
+
+An error occurred at line: [210] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [212] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [212] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [213] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [213] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [215] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [216] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [218] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [221] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [221] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [224] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [225] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 71 in the jsp file: /TodosUtilizadores.jsp
+Syntax error, insert "Finally" to complete TryStatement
+68:               
+69: <%
+70:     
+71:     }
+72: 
+73: %>
+74:           
+
+
+An error occurred at line: [210] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [212] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [212] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [213] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [213] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [215] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [216] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [218] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [221] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [221] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [224] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [225] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+29-Sep-2016 23:38:12.344 SEVERE [http-nio-9090-exec-71] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [control_login] in context with path [/SGEM_with_data_base] threw exception
+ java.lang.NullPointerException
+	at Servelets.control_login.doPost(control_login.java:93)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:644)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+29-Sep-2016 23:54:54.229 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Error configuring application listener of class controle.EntytManegerContext
+ java.lang.ClassNotFoundException: controle.EntytManegerContext
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:520)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:501)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:120)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4693)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+29-Sep-2016 23:54:54.229 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Skipped installing application listeners due to previous error(s)
+29-Sep-2016 23:55:06.170 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+29-Sep-2016 23:55:06.170 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()

@@ -1,0 +1,837 @@
+24-Nov-2016 07:21:19.212 INFO [http-nio-8083-exec-12] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+24-Nov-2016 07:21:19.212 INFO [http-nio-8083-exec-12] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+24-Nov-2016 07:21:19.212 INFO [http-nio-8083-exec-12] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:21:19.290 INFO [http-nio-8083-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:22:11.790 INFO [http-nio-8083-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:22:27.501 INFO [http-nio-8083-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:22:38.692 INFO [http-nio-8083-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:22:42.583 INFO [http-nio-8083-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:22:42.583 INFO [http-nio-8083-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:23:02.955 INFO [http-nio-8083-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:23:17.902 INFO [http-nio-8083-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:24:36.657 INFO [http-nio-8083-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:24:47.168 INFO [http-nio-8083-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:25:14.214 INFO [http-nio-8083-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:26:06.877 INFO [http-nio-8083-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:26:22.706 INFO [http-nio-8083-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:27:27.109 INFO [http-nio-8083-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:27:38.835 INFO [http-nio-8083-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:27:42.851 INFO [http-nio-8083-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:27:42.866 INFO [http-nio-8083-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:29:56.541 INFO [http-nio-8083-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:29:58.292 INFO [http-nio-8083-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:29:58.475 INFO [http-nio-8083-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 07:30:29.595 INFO [http-nio-8083-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:30:29.626 INFO [http-nio-8083-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 07:31:04.834 INFO [http-nio-8083-exec-12] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:31:04.850 INFO [http-nio-8083-exec-15] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 07:31:10.863 INFO [http-nio-8083-exec-20] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 07:31:10.863 SEVERE [http-nio-8083-exec-20] org.apache.catalina.core.ApplicationContext.log Manager: ManagerServlet.reload[/SGEM_with_base_de_dados_final]
+ java.lang.IllegalStateException: Context with name [/SGEM_with_base_de_dados_final] has not yet been started
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3778)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:984)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Nov-2016 07:31:14.602 INFO [http-nio-8083-exec-18] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:31:14.617 INFO [http-nio-8083-exec-20] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:31:14.633 INFO [http-nio-8083-exec-23] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/SGEM_with_base_de_dados_final'
+24-Nov-2016 07:31:15.598 SEVERE [http-nio-8083-exec-23] org.apache.catalina.core.ApplicationContext.log Manager: ManagerServlet.undeploy[/SGEM_with_base_de_dados_final]
+ javax.management.RuntimeErrorException: java.lang.OutOfMemoryError: PermGen space
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.rethrow(DefaultMBeanServerInterceptor.java:841)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.rethrowMaybeMBeanException(DefaultMBeanServerInterceptor.java:852)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:821)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.isDeployed(ManagerServlet.java:1419)
+	at org.apache.catalina.manager.ManagerServlet.undeploy(ManagerServlet.java:1358)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:361)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.OutOfMemoryError: PermGen space
+	at java.lang.ClassLoader.findBootstrapClass(Native Method)
+	at java.lang.ClassLoader.findBootstrapClassOrNull(ClassLoader.java:1070)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:414)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:412)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:412)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2625)
+	at java.lang.Class.getMethod0(Class.java:2866)
+	at java.lang.Class.getMethod(Class.java:1676)
+	at org.apache.tomcat.util.modeler.ManagedBean.getInvoke(ManagedBean.java:542)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:292)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.isDeployed(ManagerServlet.java:1419)
+	at org.apache.catalina.manager.ManagerServlet.undeploy(ManagerServlet.java:1358)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:361)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+
+24-Nov-2016 07:31:15.661 INFO [http-nio-8083-exec-13] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/Migueljr/AppData/Local/Temp/context5704452877874575309.xml'
+24-Nov-2016 07:35:51.672 INFO [http-nio-8084-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+24-Nov-2016 07:35:51.672 INFO [http-nio-8084-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+24-Nov-2016 07:35:51.674 INFO [http-nio-8084-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:35:51.682 INFO [http-nio-8084-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:35:51.713 INFO [http-nio-8084-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/SGEM_with_base_de_dados_final'
+24-Nov-2016 07:35:52.588 INFO [http-nio-8084-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/Migueljr/AppData/Local/Temp/context4034013339819617446.xml'
+24-Nov-2016 07:36:02.084 INFO [http-nio-8084-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 07:36:11.291 INFO [http-nio-8084-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:36:11.299 INFO [http-nio-8084-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:36:11.328 INFO [http-nio-8084-exec-15] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/SGEM_with_base_de_dados_final'
+24-Nov-2016 07:36:11.875 INFO [http-nio-8084-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/Migueljr/AppData/Local/Temp/context376934947603138010.xml'
+24-Nov-2016 07:36:20.591 INFO [http-nio-8084-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 07:37:02.850 INFO [http-nio-8084-exec-21] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:37:05.042 INFO [http-nio-8084-exec-24] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:37:05.073 INFO [http-nio-8084-exec-25] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 07:39:41.014 INFO [http-nio-8084-exec-37] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:39:41.030 INFO [http-nio-8084-exec-38] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 07:40:11.510 INFO [http-nio-8084-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:40:11.679 INFO [http-nio-8084-exec-46] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 07:40:21.386 INFO [http-nio-8084-exec-48] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 07:40:21.386 SEVERE [http-nio-8084-exec-48] org.apache.catalina.core.ApplicationContext.log Manager: ManagerServlet.reload[/SGEM_with_base_de_dados_final]
+ java.lang.IllegalStateException: Context with name [/SGEM_with_base_de_dados_final] has not yet been started
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3778)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:984)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Nov-2016 07:41:55.795 INFO [http-nio-8084-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+24-Nov-2016 07:41:55.795 INFO [http-nio-8084-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+24-Nov-2016 07:41:55.795 INFO [http-nio-8084-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:41:55.795 INFO [http-nio-8084-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:41:55.935 INFO [http-nio-8084-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 07:42:25.149 INFO [http-nio-8084-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:42:25.165 INFO [http-nio-8084-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:42:25.196 INFO [http-nio-8084-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/SGEM_with_base_de_dados_final'
+24-Nov-2016 07:42:25.777 INFO [http-nio-8084-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/Migueljr/AppData/Local/Temp/context1295555566146372513.xml'
+24-Nov-2016 07:42:35.963 INFO [http-nio-8084-exec-15] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 07:42:41.573 INFO [http-nio-8084-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:42:41.588 INFO [http-nio-8084-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 07:43:13.884 INFO [http-nio-8084-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:43:13.899 INFO [http-nio-8084-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 07:48:15.651 INFO [http-nio-8084-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:48:21.226 INFO [http-nio-8084-exec-38] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:48:21.257 INFO [http-nio-8084-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:48:21.382 INFO [http-nio-8084-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 07:48:31.336 INFO [http-nio-8084-exec-37] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 07:48:31.336 SEVERE [http-nio-8084-exec-37] org.apache.catalina.core.ApplicationContext.log Manager: ManagerServlet.reload[/SGEM_with_base_de_dados_final]
+ java.lang.IllegalStateException: Context with name [/SGEM_with_base_de_dados_final] has not yet been started
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3778)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:984)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Nov-2016 07:49:48.430 INFO [http-nio-8084-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+24-Nov-2016 07:49:48.430 INFO [http-nio-8084-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+24-Nov-2016 07:49:48.430 INFO [http-nio-8084-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:49:48.446 INFO [http-nio-8084-exec-12] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:49:48.634 INFO [http-nio-8084-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 07:55:28.828 INFO [http-nio-8084-exec-28] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:55:34.975 INFO [http-nio-8084-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:55:34.975 INFO [http-nio-8084-exec-29] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:57:12.087 INFO [http-nio-8084-exec-22] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:57:56.337 INFO [http-nio-8084-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 07:58:56.254 INFO [http-nio-8084-exec-31] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:01:42.690 INFO [http-nio-8084-exec-28] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:02:13.406 INFO [http-nio-8084-exec-26] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:02:13.453 INFO [http-nio-8084-exec-28] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 08:04:01.828 INFO [http-nio-8084-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:04:01.859 INFO [http-nio-8084-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 08:07:50.750 INFO [http-nio-8084-exec-32] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:08:14.813 INFO [http-nio-8084-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:09:26.449 INFO [http-nio-8084-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:12:09.431 INFO [http-nio-8084-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:12:50.729 INFO [http-nio-8084-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:13:42.705 INFO [http-nio-8084-exec-38] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:14:13.802 INFO [http-nio-8084-exec-41] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:14:13.880 INFO [http-nio-8084-exec-47] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 08:14:23.490 INFO [http-nio-8084-exec-41] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 08:14:23.490 SEVERE [http-nio-8084-exec-41] org.apache.catalina.core.ApplicationContext.log Manager: ManagerServlet.reload[/SGEM_with_base_de_dados_final]
+ java.lang.IllegalStateException: Context with name [/SGEM_with_base_de_dados_final] has not yet been started
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3778)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:984)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Nov-2016 08:17:37.752 INFO [http-nio-8084-exec-17] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+24-Nov-2016 08:17:37.752 INFO [http-nio-8084-exec-17] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+24-Nov-2016 08:17:37.754 INFO [http-nio-8084-exec-17] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:17:37.763 INFO [http-nio-8084-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:17:37.867 INFO [http-nio-8084-exec-15] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 08:18:13.346 INFO [http-nio-8084-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:18:13.352 INFO [http-nio-8084-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:20:05.307 INFO [http-nio-8084-exec-33] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:20:05.323 INFO [http-nio-8084-exec-34] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:20:05.354 INFO [http-nio-8084-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/SGEM_with_base_de_dados_final'
+24-Nov-2016 08:20:05.917 INFO [http-nio-8084-exec-23] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/Migueljr/AppData/Local/Temp/context1635390982047683363.xml'
+24-Nov-2016 08:20:15.835 INFO [http-nio-8084-exec-38] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 08:20:48.798 INFO [http-nio-8084-exec-33] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:22:23.079 INFO [http-nio-8084-exec-47] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:23:05.055 INFO [http-nio-8084-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:23:18.980 INFO [http-nio-8084-exec-41] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:26:53.012 INFO [http-nio-8084-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:27:39.058 INFO [http-nio-8084-exec-48] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:28:54.836 INFO [http-nio-8084-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:31:05.885 INFO [http-nio-8084-exec-48] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:32:09.622 INFO [http-nio-8084-exec-44] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:34:20.656 INFO [http-nio-8084-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:35:38.905 INFO [http-nio-8084-exec-48] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:36:57.787 INFO [http-nio-8084-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:37:58.252 INFO [http-nio-8084-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:38:39.935 INFO [http-nio-8084-exec-48] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:39:02.192 INFO [http-nio-8084-exec-47] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:39:20.145 INFO [http-nio-8084-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:40:09.709 INFO [http-nio-8084-exec-47] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:40:38.058 INFO [http-nio-8084-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:41:52.490 INFO [http-nio-8084-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:42:13.597 INFO [http-nio-8084-exec-46] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:42:47.681 INFO [http-nio-8084-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:43:34.582 INFO [http-nio-8084-exec-48] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:43:56.967 INFO [http-nio-8084-exec-44] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:44:22.118 INFO [http-nio-8084-exec-48] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:45:25.802 INFO [http-nio-8084-exec-44] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:47:02.803 INFO [http-nio-8084-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:48:09.870 INFO [http-nio-8084-exec-47] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:57:20.192 INFO [http-nio-8084-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 08:57:20.223 INFO [http-nio-8084-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 09:00:37.414 INFO [http-nio-8084-exec-55] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:00:37.445 INFO [http-nio-8084-exec-42] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 09:00:46.732 INFO [http-nio-8084-exec-52] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 09:00:46.733 SEVERE [http-nio-8084-exec-52] org.apache.catalina.core.ApplicationContext.log Manager: ManagerServlet.reload[/SGEM_with_base_de_dados_final]
+ java.lang.IllegalStateException: Context with name [/SGEM_with_base_de_dados_final] has not yet been started
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3778)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:984)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Nov-2016 09:11:20.900 INFO [http-nio-8081-exec-18] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+24-Nov-2016 09:11:20.900 INFO [http-nio-8081-exec-18] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+24-Nov-2016 09:11:20.902 INFO [http-nio-8081-exec-18] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:11:20.922 INFO [http-nio-8081-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:11:20.960 INFO [http-nio-8081-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/SGEM_with_base_de_dados_final'
+24-Nov-2016 09:11:21.593 INFO [http-nio-8081-exec-12] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/Migueljr/AppData/Local/Temp/context2145222953764852923.xml'
+24-Nov-2016 09:11:31.939 INFO [http-nio-8081-exec-20] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 09:11:31.962 INFO [http-nio-8081-exec-21] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:11:48.309 INFO [http-nio-8081-exec-22] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:13:10.127 INFO [http-nio-8081-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:13:21.385 INFO [http-nio-8081-exec-33] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:13:21.392 INFO [http-nio-8081-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:13:21.414 INFO [http-nio-8081-exec-22] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/SGEM_with_base_de_dados_final'
+24-Nov-2016 09:13:21.953 INFO [http-nio-8081-exec-32] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/Migueljr/AppData/Local/Temp/context8922195723058047741.xml'
+24-Nov-2016 09:13:32.234 INFO [http-nio-8081-exec-33] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 09:14:52.500 INFO [http-nio-8081-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:14:52.500 INFO [http-nio-8081-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:15:48.380 INFO [http-nio-8081-exec-38] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:15:48.403 INFO [http-nio-8081-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:16:30.506 INFO [http-nio-8081-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:17:35.822 INFO [http-nio-8081-exec-38] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:18:30.348 INFO [http-nio-8081-exec-36] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:19:51.225 INFO [http-nio-8081-exec-36] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:20:04.706 INFO [http-nio-8081-exec-36] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:21:26.432 INFO [http-nio-8081-exec-42] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:22:57.245 INFO [http-nio-8081-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:24:31.927 INFO [http-nio-8081-exec-36] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:24:45.315 INFO [http-nio-8081-exec-42] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:25:25.823 INFO [http-nio-8081-exec-41] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:25:57.395 INFO [http-nio-8081-exec-44] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:26:10.189 INFO [http-nio-8081-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:26:24.678 INFO [http-nio-8081-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:27:03.853 INFO [http-nio-8081-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:27:38.079 INFO [http-nio-8081-exec-38] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:28:06.502 INFO [http-nio-8081-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:28:51.669 INFO [http-nio-8081-exec-42] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:30:16.045 INFO [http-nio-8081-exec-44] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:33:20.317 INFO [http-nio-8081-exec-38] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:35:09.928 INFO [http-nio-8081-exec-37] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:36:30.013 INFO [http-nio-8081-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:37:27.459 INFO [http-nio-8081-exec-36] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:37:27.459 INFO [http-nio-8081-exec-42] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:41:29.757 INFO [http-nio-8081-exec-41] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:41:29.792 INFO [http-nio-8081-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 09:42:20.032 INFO [http-nio-8081-exec-41] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:42:20.048 INFO [http-nio-8081-exec-42] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 09:43:00.670 INFO [http-nio-8081-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:43:00.693 INFO [http-nio-8081-exec-44] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 09:43:09.983 INFO [http-nio-8081-exec-36] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 09:43:09.983 SEVERE [http-nio-8081-exec-36] org.apache.catalina.core.ApplicationContext.log Manager: ManagerServlet.reload[/SGEM_with_base_de_dados_final]
+ java.lang.IllegalStateException: Context with name [/SGEM_with_base_de_dados_final] has not yet been started
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3778)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:984)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Nov-2016 09:44:26.174 INFO [http-nio-8081-exec-53] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:44:26.181 INFO [http-nio-8081-exec-51] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:44:26.222 INFO [http-nio-8081-exec-54] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/SGEM_with_base_de_dados_final'
+24-Nov-2016 09:44:27.354 INFO [http-nio-8081-exec-46] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/Migueljr/AppData/Local/Temp/context9182823642041194946.xml'
+24-Nov-2016 09:44:30.224 INFO [http-nio-8081-exec-41] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/Migueljr/AppData/Local/Temp/context9182823642041194946.xml'
+24-Nov-2016 09:46:33.424 INFO [http-nio-8081-exec-15] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+24-Nov-2016 09:46:33.424 INFO [http-nio-8081-exec-15] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+24-Nov-2016 09:46:33.426 INFO [http-nio-8081-exec-15] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:46:33.434 INFO [http-nio-8081-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:46:33.576 INFO [http-nio-8081-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 09:47:09.829 INFO [http-nio-8081-exec-12] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:47:09.829 INFO [http-nio-8081-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 09:47:09.876 INFO [http-nio-8081-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/SGEM_with_base_de_dados_final'
+24-Nov-2016 09:47:10.454 INFO [http-nio-8081-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/Migueljr/AppData/Local/Temp/context4517140950614663423.xml'
+24-Nov-2016 09:47:23.418 INFO [http-nio-8081-exec-18] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 09:51:33.085 INFO [http-nio-8081-exec-21] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 21:28:32.745 INFO [http-nio-8081-exec-32] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 21:28:32.948 INFO [http-nio-8081-exec-31] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 21:28:59.619 INFO [http-nio-8081-exec-34] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 21:28:59.635 INFO [http-nio-8081-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 21:29:20.570 INFO [http-nio-8081-exec-26] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 21:29:20.664 INFO [http-nio-8081-exec-37] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 21:29:20.804 INFO [http-nio-8081-exec-25] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 21:30:19.018 INFO [http-nio-8081-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 21:41:55.328 INFO [http-nio-8081-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 21:41:57.834 INFO [http-nio-8081-exec-44] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 21:41:57.897 INFO [http-nio-8081-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 21:42:19.053 INFO [73] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 21:42:19.100 INFO [http-nio-8081-exec-42] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 21:42:19.193 INFO [http-nio-8081-exec-50] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 21:46:17.355 INFO [http-nio-8081-exec-58] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 21:46:17.386 INFO [http-nio-8081-exec-59] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 21:47:11.653 INFO [http-nio-8081-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 21:47:11.668 INFO [http-nio-8081-exec-64] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 21:47:11.793 INFO [http-nio-8081-exec-52] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 21:47:11.809 SEVERE [http-nio-8081-exec-52] org.apache.catalina.core.ApplicationContext.log Manager: ManagerServlet.reload[/SGEM_with_base_de_dados_final]
+ java.lang.IllegalStateException: Context with name [/SGEM_with_base_de_dados_final] has not yet been started
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3778)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:984)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Nov-2016 21:48:37.661 INFO [http-nio-8081-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+24-Nov-2016 21:48:37.661 INFO [http-nio-8081-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+24-Nov-2016 21:48:37.661 INFO [http-nio-8081-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 21:48:37.676 INFO [http-nio-8081-exec-12] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 21:48:37.832 INFO [http-nio-8081-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 21:49:49.244 INFO [http-nio-8081-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 21:53:58.043 INFO [http-nio-8081-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 21:53:58.090 INFO [http-nio-8081-exec-25] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 21:54:45.998 INFO [http-nio-8081-exec-20] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 21:54:46.013 INFO [http-nio-8081-exec-31] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 21:55:06.423 INFO [http-nio-8081-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 21:55:06.454 INFO [http-nio-8081-exec-33] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 21:57:26.661 INFO [http-nio-8081-exec-26] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 21:57:26.692 INFO [http-nio-8081-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 21:57:42.818 INFO [http-nio-8081-exec-26] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 21:57:42.834 INFO [http-nio-8081-exec-44] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 21:58:01.205 INFO [http-nio-8081-exec-26] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 21:58:01.221 INFO [http-nio-8081-exec-46] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 21:59:55.238 INFO [http-nio-8081-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+24-Nov-2016 21:59:55.238 INFO [http-nio-8081-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+24-Nov-2016 21:59:55.238 INFO [http-nio-8081-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 21:59:55.253 INFO [http-nio-8081-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 21:59:55.441 INFO [http-nio-8081-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 22:00:51.075 INFO [http-nio-8081-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 22:00:51.106 INFO [http-nio-8081-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 22:20:43.407 INFO [http-nio-8081-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 22:22:45.113 INFO [http-nio-8081-exec-42] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 22:22:45.144 INFO [http-nio-8081-exec-34] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 22:56:08.951 INFO [http-nio-8081-exec-44] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 22:56:08.998 INFO [http-nio-8081-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 22:56:18.639 INFO [http-nio-8081-exec-51] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 22:56:18.639 SEVERE [http-nio-8081-exec-51] org.apache.catalina.core.ApplicationContext.log Manager: ManagerServlet.reload[/SGEM_with_base_de_dados_final]
+ java.lang.IllegalStateException: Context with name [/SGEM_with_base_de_dados_final] has not yet been started
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3778)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:984)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Nov-2016 22:58:47.208 INFO [http-nio-8081-exec-14] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+24-Nov-2016 22:58:47.208 INFO [http-nio-8081-exec-14] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+24-Nov-2016 22:58:47.208 INFO [http-nio-8081-exec-14] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 22:58:47.223 INFO [http-nio-8081-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 22:58:47.379 INFO [http-nio-8081-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 23:03:37.466 INFO [36] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:03:37.545 INFO [http-nio-8081-exec-26] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:03:37.576 INFO [http-nio-8081-exec-21] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/SGEM_with_base_de_dados_final'
+24-Nov-2016 23:03:38.321 INFO [http-nio-8081-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/Migueljr/AppData/Local/Temp/context4957961258549373595.xml'
+24-Nov-2016 23:03:49.869 INFO [http-nio-8081-exec-25] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 23:03:53.821 INFO [http-nio-8081-exec-21] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:03:53.852 INFO [http-nio-8081-exec-28] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 23:06:51.873 INFO [http-nio-8081-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:09:03.652 INFO [http-nio-8081-exec-33] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:09:03.683 INFO [http-nio-8081-exec-31] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 23:09:49.427 INFO [http-nio-8081-exec-42] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:09:49.474 INFO [http-nio-8081-exec-36] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 23:09:59.701 INFO [http-nio-8081-exec-37] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 23:09:59.701 SEVERE [http-nio-8081-exec-37] org.apache.catalina.core.ApplicationContext.log Manager: ManagerServlet.reload[/SGEM_with_base_de_dados_final]
+ java.lang.IllegalStateException: Context with name [/SGEM_with_base_de_dados_final] has not yet been started
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3778)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:984)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Nov-2016 23:20:24.621 INFO [http-nio-8088-exec-31] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+24-Nov-2016 23:20:24.621 INFO [http-nio-8088-exec-31] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+24-Nov-2016 23:20:24.621 INFO [http-nio-8088-exec-31] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:20:24.668 INFO [http-nio-8088-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:20:24.715 INFO [http-nio-8088-exec-15] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/SGEM_with_base_de_dados_final'
+24-Nov-2016 23:20:25.451 INFO [http-nio-8088-exec-24] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/Migueljr/AppData/Local/Temp/context5779042975645925705.xml'
+24-Nov-2016 23:20:45.593 INFO [http-nio-8088-exec-13] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 23:23:27.373 INFO [http-nio-8088-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:23:27.388 INFO [http-nio-8088-exec-41] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:23:27.404 INFO [http-nio-8088-exec-36] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/SGEM_with_base_de_dados_final'
+24-Nov-2016 23:23:27.732 INFO [http-nio-8088-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/Migueljr/AppData/Local/Temp/context2365976641602926640.xml'
+24-Nov-2016 23:23:53.938 INFO [http-nio-8088-exec-37] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:23:53.954 INFO [http-nio-8088-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:23:54.001 INFO [http-nio-8088-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/SGEM_with_base_de_dados_final'
+24-Nov-2016 23:23:54.048 INFO [http-nio-8088-exec-44] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/Migueljr/AppData/Local/Temp/context3767780959202769602.xml'
+24-Nov-2016 23:24:10.945 INFO [http-nio-8088-exec-48] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:24:10.945 INFO [http-nio-8088-exec-42] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:24:11.117 INFO [http-nio-8088-exec-38] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 23:24:11.117 SEVERE [http-nio-8088-exec-38] org.apache.catalina.core.ApplicationContext.log Manager: ManagerServlet.reload[/SGEM_with_base_de_dados_final]
+ java.lang.IllegalStateException: Context with name [/SGEM_with_base_de_dados_final] has not yet been started
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3778)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:984)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Nov-2016 23:28:48.699 INFO [http-nio-8088-exec-54] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:28:48.699 INFO [http-nio-8088-exec-55] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:28:48.887 INFO [http-nio-8088-exec-46] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 23:28:48.887 SEVERE [http-nio-8088-exec-46] org.apache.catalina.core.ApplicationContext.log Manager: ManagerServlet.reload[/SGEM_with_base_de_dados_final]
+ java.lang.IllegalStateException: Context with name [/SGEM_with_base_de_dados_final] has not yet been started
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3778)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:984)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Nov-2016 23:32:01.185 INFO [http-nio-8088-exec-55] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:32:01.310 INFO [http-nio-8088-exec-46] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:32:01.482 INFO [http-nio-8088-exec-47] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/SGEM_with_base_de_dados_final'
+24-Nov-2016 23:32:02.247 INFO [http-nio-8088-exec-49] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/Migueljr/AppData/Local/Temp/context3332794709494316978.xml'
+24-Nov-2016 23:32:21.545 INFO [http-nio-8088-exec-48] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 23:32:30.128 INFO [http-nio-8088-exec-50] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:32:30.128 INFO [http-nio-8088-exec-52] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:32:30.363 INFO [http-nio-8088-exec-51] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 23:33:01.502 INFO [http-nio-8088-exec-57] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:33:01.792 INFO [http-nio-8088-exec-55] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 23:33:51.973 INFO [http-nio-8088-exec-56] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:33:51.989 INFO [http-nio-8088-exec-48] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 23:34:53.840 INFO [http-nio-8088-exec-65] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:34:53.855 INFO [http-nio-8088-exec-66] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:34:54.121 INFO [http-nio-8088-exec-58] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 23:34:54.121 SEVERE [http-nio-8088-exec-58] org.apache.catalina.core.ApplicationContext.log Manager: ManagerServlet.reload[/SGEM_with_base_de_dados_final]
+ java.lang.IllegalStateException: Context with name [/SGEM_with_base_de_dados_final] has not yet been started
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3778)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:984)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Nov-2016 23:36:57.565 INFO [http-nio-8088-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+24-Nov-2016 23:36:57.565 INFO [http-nio-8088-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+24-Nov-2016 23:36:57.567 INFO [http-nio-8088-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:36:57.602 INFO [http-nio-8088-exec-31] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:36:57.754 INFO [http-nio-8088-exec-24] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 23:45:38.433 INFO [http-nio-8088-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:45:38.609 INFO [http-nio-8088-exec-37] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 23:46:25.775 INFO [http-nio-8088-exec-36] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:46:25.791 INFO [http-nio-8088-exec-46] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 23:47:44.302 INFO [http-nio-8088-exec-36] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:47:44.318 INFO [http-nio-8088-exec-44] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 23:49:01.234 INFO [http-nio-8088-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:49:01.249 INFO [http-nio-8088-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:49:01.749 INFO [http-nio-8088-exec-52] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 23:50:38.144 INFO [http-nio-8088-exec-61] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:50:38.253 INFO [http-nio-8088-exec-62] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 23:51:03.910 INFO [http-nio-8088-exec-57] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:51:03.941 INFO [http-nio-8088-exec-64] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:51:04.144 INFO [http-nio-8088-exec-66] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 23:52:14.837 INFO [http-nio-8088-exec-65] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:52:14.868 INFO [http-nio-8088-exec-56] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 23:52:40.433 INFO [91] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/SGEM_with_base_de_dados_final'
+24-Nov-2016 23:52:40.433 SEVERE [91] org.apache.catalina.core.ApplicationContext.log Manager: ManagerServlet.reload[/SGEM_with_base_de_dados_final]
+ java.lang.IllegalStateException: Context with name [/SGEM_with_base_de_dados_final] has not yet been started
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3778)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:984)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Nov-2016 23:57:14.977 INFO [http-nio-8082-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+24-Nov-2016 23:57:14.977 INFO [http-nio-8082-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+24-Nov-2016 23:57:14.977 INFO [http-nio-8082-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:57:14.992 INFO [http-nio-8082-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+24-Nov-2016 23:57:15.023 INFO [http-nio-8082-exec-28] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/SGEM_with_base_de_dados_final'
+24-Nov-2016 23:57:15.727 INFO [http-nio-8082-exec-17] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/Migueljr/AppData/Local/Temp/context1625780380421038893.xml'
+24-Nov-2016 23:57:35.361 INFO [http-nio-8082-exec-20] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/SGEM_with_base_de_dados_final'

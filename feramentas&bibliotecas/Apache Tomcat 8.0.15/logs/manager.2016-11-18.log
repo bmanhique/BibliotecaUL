@@ -1,0 +1,8 @@
+18-Nov-2016 02:55:04.616 INFO [http-nio-1040-exec-28] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Nov-2016 02:55:10.525 INFO [http-nio-1040-exec-22] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Nov-2016 02:55:10.530 INFO [http-nio-1040-exec-24] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Nov-2016 02:55:42.859 INFO [http-nio-1040-exec-22] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Nov-2016 02:56:12.984 INFO [http-nio-1040-exec-25] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Nov-2016 02:57:02.719 INFO [http-nio-1040-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Nov-2016 02:57:23.827 INFO [http-nio-1040-exec-22] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+18-Nov-2016 02:58:17.196 INFO [http-nio-1040-exec-24] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'

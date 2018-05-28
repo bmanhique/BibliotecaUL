@@ -1,0 +1,1885 @@
+16-Nov-2016 00:00:28.950 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Error configuring application listener of class controle.EntytManegerContext
+ java.lang.ClassNotFoundException: controle.EntytManegerContext
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:520)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:501)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:120)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4693)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+16-Nov-2016 00:00:28.950 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Skipped installing application listeners due to previous error(s)
+16-Nov-2016 00:00:45.666 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+16-Nov-2016 00:01:01.109 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Nov-2016 00:01:01.109 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Nov-2016 00:15:25.968 SEVERE [http-nio-1026-exec-16] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+16-Nov-2016 00:16:15.797 SEVERE [http-nio-1026-exec-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+16-Nov-2016 00:23:41.201 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Error configuring application listener of class controle.EntytManegerContext
+ java.lang.ClassNotFoundException: controle.EntytManegerContext
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:520)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:501)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:120)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4693)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+16-Nov-2016 00:23:41.201 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Skipped installing application listeners due to previous error(s)
+16-Nov-2016 00:24:38.903 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+16-Nov-2016 00:25:12.362 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Nov-2016 00:25:12.363 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Nov-2016 00:28:09.247 SEVERE [http-nio-1027-exec-41] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+16-Nov-2016 00:28:52.110 SEVERE [http-nio-1027-exec-58] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+16-Nov-2016 00:30:57.907 SEVERE [http-nio-1027-exec-62] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+16-Nov-2016 00:32:08.084 SEVERE [http-nio-1027-exec-75] org.apache.catalina.core.StandardContext.listenerStart Exception sending context initialized event to listener instance of class EntityManagerContext
+ Local Exception Stack: 
+Exception [EclipseLink-30005] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.PersistenceUnitLoadingException
+Exception Description: An exception was thrown while searching for persistence archives with ClassLoader: WebappClassLoader
+  context: SGEM_with_base_de_dados_final
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@3a51ce0d
+
+Internal Exception: java.lang.NullPointerException
+	at org.eclipse.persistence.exceptions.PersistenceUnitLoadingException.exceptionSearchingForPersistenceResources(PersistenceUnitLoadingException.java:127)
+	at org.eclipse.persistence.jpa.PersistenceProvider.createEntityManagerFactoryImpl(PersistenceProvider.java:107)
+	at org.eclipse.persistence.jpa.PersistenceProvider.createEntityManagerFactory(PersistenceProvider.java:177)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:79)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:54)
+	at EntityManagerContext.contextInitialized(EntityManagerContext.java:22)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4772)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3796)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:984)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:345)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:613)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.predeploy(EntityManagerSetupImpl.java:1946)
+	at org.eclipse.persistence.internal.jpa.deployment.JPAInitializer.callPredeploy(JPAInitializer.java:98)
+	at org.eclipse.persistence.jpa.PersistenceProvider.createEntityManagerFactoryImpl(PersistenceProvider.java:96)
+	... 37 more
+
+16-Nov-2016 00:44:44.945 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Error configuring application listener of class controle.EntytManegerContext
+ java.lang.ClassNotFoundException: controle.EntytManegerContext
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:520)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:501)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:120)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4693)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+16-Nov-2016 00:44:44.945 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Skipped installing application listeners due to previous error(s)
+16-Nov-2016 00:45:23.724 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+16-Nov-2016 00:45:58.434 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Nov-2016 00:45:58.435 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Nov-2016 00:46:39.565 SEVERE [http-nio-1028-exec-18] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+16-Nov-2016 00:50:53.587 SEVERE [http-nio-1028-exec-53] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+16-Nov-2016 00:51:58.075 SEVERE [http-nio-1028-exec-61] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+16-Nov-2016 00:52:34.803 SEVERE [http-nio-1028-exec-62] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [ajaxservel] in context with path [/SGEM_with_base_de_dados_final] threw exception
+ java.lang.IllegalArgumentException: An exception occurred while creating a query in EntityManager: 
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1605)
+	at classes_controladoras.ClienteJpaController.BuscarCliente(ClienteJpaController.java:286)
+	at Servelets.ajaxservel.doGet(ajaxservel.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: Exception [EclipseLink-0] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.JPQLException
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildException(HermesParser.java:155)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.validate(HermesParser.java:334)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.populateQueryImp(HermesParser.java:278)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildQuery(HermesParser.java:163)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:142)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:116)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:102)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:86)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1603)
+	... 26 more
+
+16-Nov-2016 00:52:39.467 SEVERE [http-nio-1028-exec-68] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [ajaxservel] in context with path [/SGEM_with_base_de_dados_final] threw exception
+ java.lang.IllegalArgumentException: An exception occurred while creating a query in EntityManager: 
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1605)
+	at classes_controladoras.ClienteJpaController.BuscarCliente(ClienteJpaController.java:286)
+	at Servelets.ajaxservel.doGet(ajaxservel.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: Exception [EclipseLink-0] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.JPQLException
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildException(HermesParser.java:155)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.validate(HermesParser.java:334)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.populateQueryImp(HermesParser.java:278)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildQuery(HermesParser.java:163)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:142)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:116)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:102)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:86)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1603)
+	... 26 more
+
+16-Nov-2016 00:52:41.261 SEVERE [http-nio-1028-exec-69] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [ajaxservel] in context with path [/SGEM_with_base_de_dados_final] threw exception
+ java.lang.IllegalArgumentException: An exception occurred while creating a query in EntityManager: 
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1605)
+	at classes_controladoras.ClienteJpaController.BuscarCliente(ClienteJpaController.java:286)
+	at Servelets.ajaxservel.doGet(ajaxservel.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: Exception [EclipseLink-0] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.JPQLException
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildException(HermesParser.java:155)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.validate(HermesParser.java:334)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.populateQueryImp(HermesParser.java:278)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildQuery(HermesParser.java:163)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:142)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:116)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:102)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:86)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1603)
+	... 26 more
+
+16-Nov-2016 00:52:43.132 SEVERE [http-nio-1028-exec-70] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [ajaxservel] in context with path [/SGEM_with_base_de_dados_final] threw exception
+ java.lang.IllegalArgumentException: An exception occurred while creating a query in EntityManager: 
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1605)
+	at classes_controladoras.ClienteJpaController.BuscarCliente(ClienteJpaController.java:286)
+	at Servelets.ajaxservel.doGet(ajaxservel.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: Exception [EclipseLink-0] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.JPQLException
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildException(HermesParser.java:155)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.validate(HermesParser.java:334)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.populateQueryImp(HermesParser.java:278)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildQuery(HermesParser.java:163)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:142)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:116)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:102)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:86)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1603)
+	... 26 more
+
+16-Nov-2016 00:52:43.251 SEVERE [94] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [ajaxservel] in context with path [/SGEM_with_base_de_dados_final] threw exception
+ java.lang.IllegalArgumentException: An exception occurred while creating a query in EntityManager: 
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1605)
+	at classes_controladoras.ClienteJpaController.BuscarCliente(ClienteJpaController.java:286)
+	at Servelets.ajaxservel.doGet(ajaxservel.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: Exception [EclipseLink-0] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.JPQLException
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildException(HermesParser.java:155)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.validate(HermesParser.java:334)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.populateQueryImp(HermesParser.java:278)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildQuery(HermesParser.java:163)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:142)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:116)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:102)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:86)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1603)
+	... 26 more
+
+16-Nov-2016 00:52:43.431 SEVERE [http-nio-1028-exec-63] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [ajaxservel] in context with path [/SGEM_with_base_de_dados_final] threw exception
+ java.lang.IllegalArgumentException: An exception occurred while creating a query in EntityManager: 
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1605)
+	at classes_controladoras.ClienteJpaController.BuscarCliente(ClienteJpaController.java:286)
+	at Servelets.ajaxservel.doGet(ajaxservel.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: Exception [EclipseLink-0] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.JPQLException
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildException(HermesParser.java:155)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.validate(HermesParser.java:334)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.populateQueryImp(HermesParser.java:278)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildQuery(HermesParser.java:163)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:142)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:116)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:102)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:86)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1603)
+	... 26 more
+
+16-Nov-2016 00:52:43.585 SEVERE [http-nio-1028-exec-64] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [ajaxservel] in context with path [/SGEM_with_base_de_dados_final] threw exception
+ java.lang.IllegalArgumentException: An exception occurred while creating a query in EntityManager: 
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1605)
+	at classes_controladoras.ClienteJpaController.BuscarCliente(ClienteJpaController.java:286)
+	at Servelets.ajaxservel.doGet(ajaxservel.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: Exception [EclipseLink-0] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.JPQLException
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildException(HermesParser.java:155)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.validate(HermesParser.java:334)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.populateQueryImp(HermesParser.java:278)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildQuery(HermesParser.java:163)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:142)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:116)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:102)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:86)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1603)
+	... 26 more
+
+16-Nov-2016 00:52:43.782 SEVERE [http-nio-1028-exec-60] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [ajaxservel] in context with path [/SGEM_with_base_de_dados_final] threw exception
+ java.lang.IllegalArgumentException: An exception occurred while creating a query in EntityManager: 
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1605)
+	at classes_controladoras.ClienteJpaController.BuscarCliente(ClienteJpaController.java:286)
+	at Servelets.ajaxservel.doGet(ajaxservel.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: Exception [EclipseLink-0] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.JPQLException
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildException(HermesParser.java:155)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.validate(HermesParser.java:334)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.populateQueryImp(HermesParser.java:278)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildQuery(HermesParser.java:163)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:142)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:116)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:102)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:86)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1603)
+	... 26 more
+
+16-Nov-2016 00:52:43.962 SEVERE [http-nio-1028-exec-71] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [ajaxservel] in context with path [/SGEM_with_base_de_dados_final] threw exception
+ java.lang.IllegalArgumentException: An exception occurred while creating a query in EntityManager: 
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1605)
+	at classes_controladoras.ClienteJpaController.BuscarCliente(ClienteJpaController.java:286)
+	at Servelets.ajaxservel.doGet(ajaxservel.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: Exception [EclipseLink-0] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.JPQLException
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildException(HermesParser.java:155)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.validate(HermesParser.java:334)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.populateQueryImp(HermesParser.java:278)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildQuery(HermesParser.java:163)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:142)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:116)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:102)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:86)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1603)
+	... 26 more
+
+16-Nov-2016 00:52:44.195 SEVERE [http-nio-1028-exec-58] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [ajaxservel] in context with path [/SGEM_with_base_de_dados_final] threw exception
+ java.lang.IllegalArgumentException: An exception occurred while creating a query in EntityManager: 
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1605)
+	at classes_controladoras.ClienteJpaController.BuscarCliente(ClienteJpaController.java:286)
+	at Servelets.ajaxservel.doGet(ajaxservel.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: Exception [EclipseLink-0] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.JPQLException
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildException(HermesParser.java:155)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.validate(HermesParser.java:334)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.populateQueryImp(HermesParser.java:278)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildQuery(HermesParser.java:163)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:142)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:116)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:102)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:86)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1603)
+	... 26 more
+
+16-Nov-2016 00:52:44.355 SEVERE [92] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [ajaxservel] in context with path [/SGEM_with_base_de_dados_final] threw exception
+ java.lang.IllegalArgumentException: An exception occurred while creating a query in EntityManager: 
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1605)
+	at classes_controladoras.ClienteJpaController.BuscarCliente(ClienteJpaController.java:286)
+	at Servelets.ajaxservel.doGet(ajaxservel.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: Exception [EclipseLink-0] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.JPQLException
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildException(HermesParser.java:155)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.validate(HermesParser.java:334)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.populateQueryImp(HermesParser.java:278)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildQuery(HermesParser.java:163)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:142)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:116)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:102)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:86)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1603)
+	... 26 more
+
+16-Nov-2016 00:52:44.541 SEVERE [http-nio-1028-exec-68] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [ajaxservel] in context with path [/SGEM_with_base_de_dados_final] threw exception
+ java.lang.IllegalArgumentException: An exception occurred while creating a query in EntityManager: 
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1605)
+	at classes_controladoras.ClienteJpaController.BuscarCliente(ClienteJpaController.java:286)
+	at Servelets.ajaxservel.doGet(ajaxservel.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: Exception [EclipseLink-0] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.JPQLException
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildException(HermesParser.java:155)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.validate(HermesParser.java:334)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.populateQueryImp(HermesParser.java:278)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildQuery(HermesParser.java:163)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:142)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:116)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:102)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:86)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1603)
+	... 26 more
+
+16-Nov-2016 00:52:44.618 SEVERE [http-nio-1028-exec-69] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [ajaxservel] in context with path [/SGEM_with_base_de_dados_final] threw exception
+ java.lang.IllegalArgumentException: An exception occurred while creating a query in EntityManager: 
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1605)
+	at classes_controladoras.ClienteJpaController.BuscarCliente(ClienteJpaController.java:286)
+	at Servelets.ajaxservel.doGet(ajaxservel.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: Exception [EclipseLink-0] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.JPQLException
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildException(HermesParser.java:155)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.validate(HermesParser.java:334)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.populateQueryImp(HermesParser.java:278)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildQuery(HermesParser.java:163)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:142)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:116)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:102)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:86)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1603)
+	... 26 more
+
+16-Nov-2016 00:52:44.798 SEVERE [http-nio-1028-exec-70] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [ajaxservel] in context with path [/SGEM_with_base_de_dados_final] threw exception
+ java.lang.IllegalArgumentException: An exception occurred while creating a query in EntityManager: 
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1605)
+	at classes_controladoras.ClienteJpaController.BuscarCliente(ClienteJpaController.java:286)
+	at Servelets.ajaxservel.doGet(ajaxservel.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: Exception [EclipseLink-0] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.JPQLException
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildException(HermesParser.java:155)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.validate(HermesParser.java:334)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.populateQueryImp(HermesParser.java:278)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildQuery(HermesParser.java:163)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:142)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:116)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:102)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:86)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1603)
+	... 26 more
+
+16-Nov-2016 00:52:44.985 SEVERE [http-nio-1028-exec-72] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [ajaxservel] in context with path [/SGEM_with_base_de_dados_final] threw exception
+ java.lang.IllegalArgumentException: An exception occurred while creating a query in EntityManager: 
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1605)
+	at classes_controladoras.ClienteJpaController.BuscarCliente(ClienteJpaController.java:286)
+	at Servelets.ajaxservel.doGet(ajaxservel.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: Exception [EclipseLink-0] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.JPQLException
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildException(HermesParser.java:155)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.validate(HermesParser.java:334)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.populateQueryImp(HermesParser.java:278)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildQuery(HermesParser.java:163)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:142)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:116)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:102)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:86)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1603)
+	... 26 more
+
+16-Nov-2016 00:52:45.173 SEVERE [http-nio-1028-exec-63] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [ajaxservel] in context with path [/SGEM_with_base_de_dados_final] threw exception
+ java.lang.IllegalArgumentException: An exception occurred while creating a query in EntityManager: 
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1605)
+	at classes_controladoras.ClienteJpaController.BuscarCliente(ClienteJpaController.java:286)
+	at Servelets.ajaxservel.doGet(ajaxservel.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: Exception [EclipseLink-0] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.JPQLException
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildException(HermesParser.java:155)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.validate(HermesParser.java:334)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.populateQueryImp(HermesParser.java:278)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildQuery(HermesParser.java:163)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:142)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:116)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:102)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:86)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1603)
+	... 26 more
+
+16-Nov-2016 00:52:45.323 SEVERE [http-nio-1028-exec-64] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [ajaxservel] in context with path [/SGEM_with_base_de_dados_final] threw exception
+ java.lang.IllegalArgumentException: An exception occurred while creating a query in EntityManager: 
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1605)
+	at classes_controladoras.ClienteJpaController.BuscarCliente(ClienteJpaController.java:286)
+	at Servelets.ajaxservel.doGet(ajaxservel.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: Exception [EclipseLink-0] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.JPQLException
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildException(HermesParser.java:155)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.validate(HermesParser.java:334)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.populateQueryImp(HermesParser.java:278)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildQuery(HermesParser.java:163)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:142)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:116)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:102)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:86)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1603)
+	... 26 more
+
+16-Nov-2016 00:52:45.507 SEVERE [87] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [ajaxservel] in context with path [/SGEM_with_base_de_dados_final] threw exception
+ java.lang.IllegalArgumentException: An exception occurred while creating a query in EntityManager: 
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1605)
+	at classes_controladoras.ClienteJpaController.BuscarCliente(ClienteJpaController.java:286)
+	at Servelets.ajaxservel.doGet(ajaxservel.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: Exception [EclipseLink-0] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.JPQLException
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildException(HermesParser.java:155)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.validate(HermesParser.java:334)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.populateQueryImp(HermesParser.java:278)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildQuery(HermesParser.java:163)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:142)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:116)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:102)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:86)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1603)
+	... 26 more
+
+16-Nov-2016 00:52:45.904 SEVERE [http-nio-1028-exec-71] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [ajaxservel] in context with path [/SGEM_with_base_de_dados_final] threw exception
+ java.lang.IllegalArgumentException: An exception occurred while creating a query in EntityManager: 
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1605)
+	at classes_controladoras.ClienteJpaController.BuscarCliente(ClienteJpaController.java:286)
+	at Servelets.ajaxservel.doGet(ajaxservel.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: Exception [EclipseLink-0] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.JPQLException
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildException(HermesParser.java:155)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.validate(HermesParser.java:334)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.populateQueryImp(HermesParser.java:278)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildQuery(HermesParser.java:163)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:142)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:116)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:102)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:86)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1603)
+	... 26 more
+
+16-Nov-2016 00:52:45.920 SEVERE [http-nio-1028-exec-58] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [ajaxservel] in context with path [/SGEM_with_base_de_dados_final] threw exception
+ java.lang.IllegalArgumentException: An exception occurred while creating a query in EntityManager: 
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1605)
+	at classes_controladoras.ClienteJpaController.BuscarCliente(ClienteJpaController.java:286)
+	at Servelets.ajaxservel.doGet(ajaxservel.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: Exception [EclipseLink-0] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.JPQLException
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildException(HermesParser.java:155)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.validate(HermesParser.java:334)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.populateQueryImp(HermesParser.java:278)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildQuery(HermesParser.java:163)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:142)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:116)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:102)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:86)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1603)
+	... 26 more
+
+16-Nov-2016 00:52:46.096 SEVERE [http-nio-1028-exec-73] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [ajaxservel] in context with path [/SGEM_with_base_de_dados_final] threw exception
+ java.lang.IllegalArgumentException: An exception occurred while creating a query in EntityManager: 
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1605)
+	at classes_controladoras.ClienteJpaController.BuscarCliente(ClienteJpaController.java:286)
+	at Servelets.ajaxservel.doGet(ajaxservel.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: Exception [EclipseLink-0] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.JPQLException
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildException(HermesParser.java:155)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.validate(HermesParser.java:334)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.populateQueryImp(HermesParser.java:278)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildQuery(HermesParser.java:163)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:142)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:116)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:102)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:86)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1603)
+	... 26 more
+
+16-Nov-2016 05:50:25.173 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Error configuring application listener of class controle.EntytManegerContext
+ java.lang.ClassNotFoundException: controle.EntytManegerContext
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:520)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:501)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:120)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4693)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+16-Nov-2016 05:50:25.173 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Skipped installing application listeners due to previous error(s)
+16-Nov-2016 05:50:34.445 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+16-Nov-2016 05:50:43.649 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Nov-2016 05:50:43.649 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Nov-2016 05:51:14.325 SEVERE [http-nio-1028-exec-9] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+16-Nov-2016 05:51:24.552 SEVERE [http-nio-1028-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_base_de_dados_final] threw exception [An exception occurred processing JSP page /TodosUtilizadores.jsp at line 63
+
+60:     <%
+61:         EntityManagerFactory emf = (EntityManagerFactory) getServletContext().getAttribute("emf");
+62:         ClienteJpaController ec = new ClienteJpaController(emf);
+63:         clientes = ec.BuscarCliente();
+64:     %>
+65:     <div class="resultado">
+66:         <h4>Lista de Clientes</h4>
+
+
+Stacktrace:] with root cause
+ Local Exception Stack: 
+Exception [EclipseLink-0] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.JPQLException
+Exception Description: Syntax error parsing [select from Cliente c]. 
+[7, 7] The select expression is missing from the SELECT clause.
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildException(HermesParser.java:155)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.validate(HermesParser.java:334)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.populateQueryImp(HermesParser.java:278)
+	at org.eclipse.persistence.internal.jpa.jpql.HermesParser.buildQuery(HermesParser.java:163)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:142)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.buildEJBQLDatabaseQuery(EJBQueryImpl.java:116)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:102)
+	at org.eclipse.persistence.internal.jpa.EJBQueryImpl.<init>(EJBQueryImpl.java:86)
+	at org.eclipse.persistence.internal.jpa.EntityManagerImpl.createQuery(EntityManagerImpl.java:1603)
+	at classes_controladoras.ClienteJpaController.BuscarCliente(ClienteJpaController.java:286)
+	at org.apache.jsp.TodosUtilizadores_jsp._jspService(TodosUtilizadores_jsp.java:239)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+16-Nov-2016 07:03:05.456 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+16-Nov-2016 07:03:05.456 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+16-Nov-2016 07:03:25.224 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Error configuring application listener of class controle.EntytManegerContext
+ java.lang.ClassNotFoundException: controle.EntytManegerContext
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:520)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:501)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:120)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4693)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+16-Nov-2016 07:03:25.224 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Skipped installing application listeners due to previous error(s)
+16-Nov-2016 07:03:39.249 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Nov-2016 07:03:39.249 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Nov-2016 07:03:55.340 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+16-Nov-2016 07:05:08.091 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Error configuring application listener of class controle.EntytManegerContext
+ java.lang.ClassNotFoundException: controle.EntytManegerContext
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:520)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:501)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:120)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4693)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+16-Nov-2016 07:05:08.091 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Skipped installing application listeners due to previous error(s)
+16-Nov-2016 07:05:19.836 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+16-Nov-2016 07:05:28.502 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Nov-2016 07:05:28.502 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Nov-2016 07:05:47.315 SEVERE [http-nio-1030-exec-13] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+16-Nov-2016 07:05:52.365 SEVERE [localhost-startStop-2] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+16-Nov-2016 07:06:13.545 INFO [http-nio-1030-exec-1] org.apache.catalina.core.ApplicationContext.log Marking servlet ajaxservel as unavailable
+16-Nov-2016 07:06:13.546 SEVERE [http-nio-1030-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Allocate exception for servlet ajaxservel
+ java.lang.ClassNotFoundException: ajaxdemo.ActionServlet
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:520)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:501)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:120)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1105)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:827)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:135)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+16-Nov-2016 07:07:34.115 SEVERE [http-nio-1030-exec-18] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+16-Nov-2016 07:07:37.653 SEVERE [localhost-startStop-3] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+16-Nov-2016 07:12:26.269 INFO [http-nio-1030-exec-32] org.apache.catalina.core.ApplicationContext.log Marking servlet ajaxservel as unavailable
+16-Nov-2016 07:12:26.269 SEVERE [http-nio-1030-exec-32] org.apache.catalina.core.StandardWrapperValve.invoke Allocate exception for servlet ajaxservel
+ java.lang.ClassNotFoundException: ajaxdemo.ActionServlet
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:520)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:501)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:120)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1105)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:827)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:135)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+16-Nov-2016 11:20:43.785 SEVERE [http-nio-1030-exec-32] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+16-Nov-2016 11:20:49.697 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+16-Nov-2016 11:22:05.637 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Error configuring application listener of class controle.EntytManegerContext
+ java.lang.ClassNotFoundException: controle.EntytManegerContext
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:520)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:501)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:120)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4693)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+16-Nov-2016 11:22:05.637 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Skipped installing application listeners due to previous error(s)
+16-Nov-2016 11:22:15.005 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+16-Nov-2016 11:22:24.211 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Nov-2016 11:22:24.211 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Nov-2016 11:27:06.279 SEVERE [http-nio-1030-exec-12] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+16-Nov-2016 12:12:47.608 SEVERE [http-nio-1030-exec-19] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_base_de_dados_final] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [47] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+An error occurred at line: [388] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [388] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error, insert "else Statement" to complete IfStatement
+
+An error occurred at line: [388] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [406] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error on token "}", delete this token
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [47] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+An error occurred at line: [388] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [388] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error, insert "else Statement" to complete IfStatement
+
+An error occurred at line: [388] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [406] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error on token "}", delete this token
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+16-Nov-2016 12:14:04.000 SEVERE [http-nio-1030-exec-16] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_base_de_dados_final] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [394] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error, insert "else Statement" to complete IfStatement
+
+An error occurred at line: [394] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [411] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [412] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [394] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error, insert "else Statement" to complete IfStatement
+
+An error occurred at line: [394] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [411] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [412] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+16-Nov-2016 12:55:04.265 SEVERE [http-nio-1030-exec-15] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_base_de_dados_final] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [419] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error, insert "while ( Expression ) ;" to complete DoStatement
+
+An error occurred at line: [419] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [436] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [437] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [419] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error, insert "while ( Expression ) ;" to complete DoStatement
+
+An error occurred at line: [419] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [436] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [437] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+16-Nov-2016 13:02:09.549 SEVERE [http-nio-1030-exec-24] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_base_de_dados_final] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 168 in the jsp file: /ajaxJquery.jsp
+Syntax error, insert "Finally" to complete TryStatement
+165:                 <% } %>
+166:                 
+167:                 
+168:                 <%                          }
+169: 
+170: 
+171:                 %>
+
+
+An error occurred at line: [419] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [421] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [421] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [422] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [422] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [424] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [425] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [427] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [430] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [430] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+The method handlePageException(Throwable) is undefined for the type _jspx_page_context
+
+An error occurred at line: [433] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [434] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 168 in the jsp file: /ajaxJquery.jsp
+Syntax error, insert "Finally" to complete TryStatement
+165:                 <% } %>
+166:                 
+167:                 
+168:                 <%                          }
+169: 
+170: 
+171:                 %>
+
+
+An error occurred at line: [419] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [421] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [421] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [422] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [422] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [424] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [425] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [427] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [430] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [430] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+The method handlePageException(Throwable) is undefined for the type _jspx_page_context
+
+An error occurred at line: [433] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [434] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+16-Nov-2016 13:09:08.289 SEVERE [http-nio-1030-exec-22] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_base_de_dados_final] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [414] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [431] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [432] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [414] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [431] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [432] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_base_de_dados_final\org\apache\jsp\ajaxJquery_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+16-Nov-2016 13:15:50.799 SEVERE [http-nio-1030-exec-16] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_base_de_dados_final] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 140 in the jsp file: /ajaxJquery.jsp
+Syntax error on tokens, delete these tokens
+137:                 <%
+138:                     
+139:                 
+140:                 <% if(pagina==maximo){
+141:                     
+142:                 %>
+143:                 <a href=?pagina=1>ultima</a>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 140 in the jsp file: /ajaxJquery.jsp
+Syntax error on tokens, delete these tokens
+137:                 <%
+138:                     
+139:                 
+140:                 <% if(pagina==maximo){
+141:                     
+142:                 %>
+143:                 <a href=?pagina=1>ultima</a>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+16-Nov-2016 13:31:02.957 SEVERE [http-nio-1030-exec-23] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+16-Nov-2016 13:33:30.128 SEVERE [http-nio-1030-exec-16] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+16-Nov-2016 13:34:33.560 SEVERE [localhost-startStop-4] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+16-Nov-2016 13:36:16.548 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Error configuring application listener of class controle.EntytManegerContext
+ java.lang.ClassNotFoundException: controle.EntytManegerContext
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:520)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:501)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:120)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4693)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+16-Nov-2016 13:36:16.563 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Skipped installing application listeners due to previous error(s)
+16-Nov-2016 13:36:25.700 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+16-Nov-2016 13:36:34.813 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Nov-2016 13:36:34.813 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Nov-2016 13:37:01.050 SEVERE [http-nio-1030-exec-3] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+16-Nov-2016 13:38:22.761 SEVERE [http-nio-1030-exec-17] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [] only the HTTP methods [POST GET] are covered. All other methods are uncovered.
+16-Nov-2016 13:38:54.616 SEVERE [localhost-startStop-5] org.apache.catalina.core.StandardContext.listenerStart Exception sending context initialized event to listener instance of class EntityManagerContext
+ Local Exception Stack: 
+Exception [EclipseLink-30005] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.PersistenceUnitLoadingException
+Exception Description: An exception was thrown while searching for persistence archives with ClassLoader: WebappClassLoader
+  context: SGEM_with_base_de_dados_final
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@50aed564
+
+Internal Exception: javax.persistence.PersistenceException: Exception [EclipseLink-28018] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.EntityManagerSetupException
+Exception Description: Predeployment of PersistenceUnit [SGEM_with_base_de_dados_finalPU] failed.
+Internal Exception: java.lang.OutOfMemoryError: PermGen space
+	at org.eclipse.persistence.exceptions.PersistenceUnitLoadingException.exceptionSearchingForPersistenceResources(PersistenceUnitLoadingException.java:127)
+	at org.eclipse.persistence.jpa.PersistenceProvider.createEntityManagerFactoryImpl(PersistenceProvider.java:107)
+	at org.eclipse.persistence.jpa.PersistenceProvider.createEntityManagerFactory(PersistenceProvider.java:177)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:79)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:54)
+	at EntityManagerContext.contextInitialized(EntityManagerContext.java:22)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4772)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.persistence.PersistenceException: Exception [EclipseLink-28018] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.EntityManagerSetupException
+Exception Description: Predeployment of PersistenceUnit [SGEM_with_base_de_dados_finalPU] failed.
+Internal Exception: java.lang.OutOfMemoryError: PermGen space
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.createPredeployFailedPersistenceException(EntityManagerSetupImpl.java:1954)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.predeploy(EntityManagerSetupImpl.java:1945)
+	at org.eclipse.persistence.internal.jpa.deployment.JPAInitializer.callPredeploy(JPAInitializer.java:98)
+	at org.eclipse.persistence.jpa.PersistenceProvider.createEntityManagerFactoryImpl(PersistenceProvider.java:96)
+	... 17 more
+Caused by: Exception [EclipseLink-28018] (Eclipse Persistence Services - 2.5.2.v20140319-9ad6abd): org.eclipse.persistence.exceptions.EntityManagerSetupException
+Exception Description: Predeployment of PersistenceUnit [SGEM_with_base_de_dados_finalPU] failed.
+Internal Exception: java.lang.OutOfMemoryError: PermGen space
+	at org.eclipse.persistence.exceptions.EntityManagerSetupException.predeployFailed(EntityManagerSetupException.java:230)
+	... 21 more
+Caused by: java.lang.OutOfMemoryError: PermGen space
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2452)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:854)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1264)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at org.eclipse.persistence.internal.jpa.metadata.accessors.classes.ClassAccessor.<init>(ClassAccessor.java:259)
+	at org.eclipse.persistence.internal.jpa.metadata.accessors.classes.MappedSuperclassAccessor.<init>(MappedSuperclassAccessor.java:246)
+	at org.eclipse.persistence.internal.jpa.metadata.accessors.classes.EntityAccessor.<init>(EntityAccessor.java:216)
+	at org.eclipse.persistence.internal.jpa.metadata.MetadataProcessor.initPersistenceUnitClasses(MetadataProcessor.java:358)
+	at org.eclipse.persistence.internal.jpa.metadata.MetadataProcessor.processEntityMappings(MetadataProcessor.java:559)
+	at org.eclipse.persistence.internal.jpa.deployment.PersistenceUnitProcessor.processORMetadata(PersistenceUnitProcessor.java:581)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.predeploy(EntityManagerSetupImpl.java:1869)
+	at org.eclipse.persistence.internal.jpa.deployment.JPAInitializer.callPredeploy(JPAInitializer.java:98)
+	at org.eclipse.persistence.jpa.PersistenceProvider.createEntityManagerFactoryImpl(PersistenceProvider.java:96)
+	at org.eclipse.persistence.jpa.PersistenceProvider.createEntityManagerFactory(PersistenceProvider.java:177)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:79)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:54)
+	at EntityManagerContext.contextInitialized(EntityManagerContext.java:22)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4772)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+
+16-Nov-2016 13:38:54.616 SEVERE [localhost-startStop-5] org.apache.catalina.core.StandardContext.listenerStop Exception sending context destroyed event to listener instance of class EntityManagerContext
+ java.lang.NullPointerException
+	at EntityManagerContext.contextDestroyed(EntityManagerContext.java:29)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4813)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5413)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:160)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+16-Nov-2016 13:57:07.557 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+16-Nov-2016 13:57:07.557 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

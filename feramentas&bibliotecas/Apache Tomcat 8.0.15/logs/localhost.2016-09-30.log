@@ -1,0 +1,4092 @@
+30-Sep-2016 00:06:50.543 SEVERE [http-nio-9090-exec-34] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+Only a type can be imported. classe_controladora.UtilizadorJpaController resolves to a package
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+Only a type can be imported. classe_controladora.UtilizadorJpaController resolves to a package
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+30-Sep-2016 12:36:31.159 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Error configuring application listener of class controle.EntytManegerContext
+ java.lang.ClassNotFoundException: controle.EntytManegerContext
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:520)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:501)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:120)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4693)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+30-Sep-2016 12:36:31.159 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Skipped installing application listeners due to previous error(s)
+30-Sep-2016 12:36:45.484 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+30-Sep-2016 12:36:45.484 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+30-Sep-2016 12:51:06.343 SEVERE [http-nio-9090-exec-18] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [286] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [303] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [304] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [286] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [303] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [304] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+30-Sep-2016 12:58:00.181 SEVERE [http-nio-9090-exec-21] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 65 in the jsp file: /resultadoFunionario.jsp
+Unreachable code
+62:                          
+63:                     break;       
+64:                     
+65:          %>
+66:                  
+67:                       <p><img  src="imagem/user.png" width="20px" height="20px"><u> <%=utilizadores.get(i).getNomeUtlizador() %> </u></p>
+68: 
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 65 in the jsp file: /resultadoFunionario.jsp
+Unreachable code
+62:                          
+63:                     break;       
+64:                     
+65:          %>
+66:                  
+67:                       <p><img  src="imagem/user.png" width="20px" height="20px"><u> <%=utilizadores.get(i).getNomeUtlizador() %> </u></p>
+68: 
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+30-Sep-2016 13:00:48.139 SEVERE [http-nio-9090-exec-21] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 88 in the jsp file: /resultadoFunionario.jsp
+Syntax error, insert "Finally" to complete TryStatement
+85:            <%
+86: }
+87: }
+88: }
+89: %>
+90: 
+91:           
+
+
+An error occurred at line: [300] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [302] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [302] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [303] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [303] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [305] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [306] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [308] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [311] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [311] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [314] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [315] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 88 in the jsp file: /resultadoFunionario.jsp
+Syntax error, insert "Finally" to complete TryStatement
+85:            <%
+86: }
+87: }
+88: }
+89: %>
+90: 
+91:           
+
+
+An error occurred at line: [300] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [302] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [302] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [303] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [303] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [305] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [306] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [308] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [311] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [311] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [314] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [315] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+30-Sep-2016 13:01:28.668 SEVERE [http-nio-9090-exec-18] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""\n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""\n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""          \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""\n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""             </div>\n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""        \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""         \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""        \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""          \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""        \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""        <table id=\"separador\">\n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""            <tr>\n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""                \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""            </tr>\n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""            \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""            \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""        </table>\n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""        \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""        \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""        \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""        \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""           <table id=\"links\">\n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""            <tr>\n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""                \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""            </tr>\n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""            \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""            \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""        </table>\n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""                \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""          \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""                    \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""            \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""         "", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""\n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""\n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""\n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""<!DOCTYPE html>\n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""<html>\n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""    <head>\n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""        <title>rodape</title>\n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""        <link type=\"text/css\" rel=\"stylesheet\" href=\"css/estilo.css\"/>\n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""    </head>\n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""    <body>\n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""         \n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""        <footer>\n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""            \n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""           \n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""            \n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""        </footer>\n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: [304] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved to a variable
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""\n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""\n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""          \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""\n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""             </div>\n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""        \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""         \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""        \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""          \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""        \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""        <table id=\"separador\">\n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""            <tr>\n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""                \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""            </tr>\n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""            \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""            \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""        </table>\n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""        \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""        \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""        \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""        \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""           <table id=\"links\">\n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""            <tr>\n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""                \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""            </tr>\n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""            \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""            \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""        </table>\n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""                \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""          \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""                    \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""            \n"", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token(s), misplaced construct(s)
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 90 in the jsp file: /resultadoFunionario.jsp
+Syntax error on token ""         "", delete this token
+87: }
+88: }
+89: 
+90: %>
+91: 
+92:           
+93: 
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""\n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""\n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""\n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""<!DOCTYPE html>\n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""<html>\n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""    <head>\n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""        <title>rodape</title>\n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""        <link type=\"text/css\" rel=\"stylesheet\" href=\"css/estilo.css\"/>\n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""    </head>\n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""    <body>\n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""         \n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""        <footer>\n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""            \n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""           \n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token(s), misplaced construct(s)
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""            \n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: 5 in the jsp file: /rodape.jsp
+Syntax error on token ""        </footer>\n"", delete this token
+2:     Document   : rodape
+3:     Created on : Sep 5, 2016, 1:09:44 AM
+4:     Author     : Migueljr
+5: --%>
+6: 
+7: <%@page contentType="text/html" pageEncoding="UTF-8"%>
+8: <!DOCTYPE html>
+
+
+An error occurred at line: [304] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved to a variable
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+30-Sep-2016 13:43:49.927 SEVERE [http-nio-9090-exec-25] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [An exception occurred processing JSP page /topo_funcionario.jsp at line 38
+
+35: 
+36:              for(int i = 0; i<utilizadores.size(); i++){
+37: 
+38:                    if(username.equals(utilizadores.get(i).getNomeUtlizador())){
+39: 
+40: 
+41: 
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at org.apache.jsp.principalFuncionario_jsp._jspService(principalFuncionario_jsp.java:135)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+30-Sep-2016 13:45:41.362 SEVERE [http-nio-9090-exec-25] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [An exception occurred processing JSP page /topo_funcionario.jsp at line 37
+
+34: 
+35:              for(int i = 0; i<utilizadores.size(); i++){
+36: 
+37:                    if(request.getParameter("user").equals(utilizadores.get(i).getNomeUtlizador())){
+38: 
+39: 
+40: 
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at org.apache.jsp.principalFuncionario_jsp._jspService(principalFuncionario_jsp.java:132)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+30-Sep-2016 13:46:08.171 SEVERE [http-nio-9090-exec-26] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [An exception occurred processing JSP page /topo_funcionario.jsp at line 37
+
+34: 
+35:              for(int i = 0; i<utilizadores.size(); i++){
+36: 
+37:                    if(request.getParameter("user").equals(utilizadores.get(i).getNomeUtlizador()))
+38: 
+39: 
+40: 
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at org.apache.jsp.principalFuncionario_jsp._jspService(principalFuncionario_jsp.java:132)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+30-Sep-2016 13:46:08.957 SEVERE [http-nio-9090-exec-20] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [An exception occurred processing JSP page /topo_funcionario.jsp at line 37
+
+34: 
+35:              for(int i = 0; i<utilizadores.size(); i++){
+36: 
+37:                    if(request.getParameter("user").equals(utilizadores.get(i).getNomeUtlizador()))
+38: 
+39: 
+40: 
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at org.apache.jsp.principalFuncionario_jsp._jspService(principalFuncionario_jsp.java:132)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+30-Sep-2016 13:47:05.390 SEVERE [http-nio-9090-exec-21] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [An exception occurred processing JSP page /topo_funcionario.jsp at line 37
+
+34: 
+35:              for(int i = 0; i<utilizadores.size(); i++){
+36: 
+37:                    if(request.getParameter("user").equals(utilizadores.get(i).getNomeUtlizador()))
+38: 
+39: 
+40: 
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at org.apache.jsp.topo_005ffuncionario_jsp._jspService(topo_005ffuncionario_jsp.java:109)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+30-Sep-2016 13:47:59.889 SEVERE [http-nio-9090-exec-21] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [An exception occurred processing JSP page /topo_funcionario.jsp at line 36
+
+33:           
+34:              for(int i = 0; i<utilizadores.size(); i++){
+35: 
+36:                    if(request.getParameter("user").equals(utilizadores.get(i).getNomeUtlizador())){
+37: 
+38: 
+39: 
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at org.apache.jsp.topo_005ffuncionario_jsp._jspService(topo_005ffuncionario_jsp.java:108)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+30-Sep-2016 19:38:25.151 SEVERE [http-nio-9090-exec-45] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [An exception occurred processing JSP page /topo_funcionario.jsp at line 36
+
+33:                    
+34:              for(int i = 0; i<utilizadores.size(); i++){
+35:                           
+36:                         if( request.getParameter("user").equals(utilizadores.get(i).getNomeUtlizador())){
+37:                          
+38:                            
+39:                     
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at org.apache.jsp.RegistarPagamento_jsp._jspService(RegistarPagamento_jsp.java:130)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+30-Sep-2016 19:39:18.306 SEVERE [http-nio-9090-exec-46] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [An exception occurred processing JSP page /topo_funcionario.jsp at line 36
+
+33:                    
+34:              for(int i = 0; i<utilizadores.size(); i++){
+35:                           
+36:                         if( request.getParameter("user").equals(utilizadores.get(i).getNomeUtlizador())){
+37:                          
+38:                            
+39:                     
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at org.apache.jsp.criarUtilizador_jsp._jspService(criarUtilizador_jsp.java:130)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+30-Sep-2016 19:40:48.422 SEVERE [http-nio-9090-exec-46] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [An exception occurred processing JSP page /topo_funcionario.jsp at line 37
+
+34:                    
+35:              for(int i = 0; i<utilizadores.size(); i++){
+36:                           
+37:                         if( a.equals(utilizadores.get(i).getNomeUtlizador())){
+38:                          
+39:                            
+40:                     
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at org.apache.jsp.criarUtilizador_jsp._jspService(criarUtilizador_jsp.java:133)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+30-Sep-2016 19:40:49.529 SEVERE [http-nio-9090-exec-47] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [An exception occurred processing JSP page /topo_funcionario.jsp at line 37
+
+34:                    
+35:              for(int i = 0; i<utilizadores.size(); i++){
+36:                           
+37:                         if( a.equals(utilizadores.get(i).getNomeUtlizador())){
+38:                          
+39:                            
+40:                     
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at org.apache.jsp.criarUtilizador_jsp._jspService(criarUtilizador_jsp.java:133)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+30-Sep-2016 19:40:50.221 SEVERE [http-nio-9090-exec-48] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [An exception occurred processing JSP page /topo_funcionario.jsp at line 37
+
+34:                    
+35:              for(int i = 0; i<utilizadores.size(); i++){
+36:                           
+37:                         if( a.equals(utilizadores.get(i).getNomeUtlizador())){
+38:                          
+39:                            
+40:                     
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at org.apache.jsp.criarUtilizador_jsp._jspService(criarUtilizador_jsp.java:133)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+30-Sep-2016 19:41:02.579 SEVERE [http-nio-9090-exec-45] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [An exception occurred processing JSP page /topo_funcionario.jsp at line 37
+
+34:                    
+35:              for(int i = 0; i<utilizadores.size(); i++){
+36:                           
+37:                         if( a.equals(utilizadores.get(i).getNomeUtlizador())){
+38:                          
+39:                            
+40:                     
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at org.apache.jsp.editarContaFuncionario_jsp._jspService(editarContaFuncionario_jsp.java:133)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+30-Sep-2016 19:43:54.504 SEVERE [http-nio-9090-exec-47] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 18 in the jsp file: /editarContaFuncionario.jsp
+List cannot be resolved to a type
+15:     <body >
+16:     
+17:          <% String a = request.getParameter("user"); %>
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+
+
+An error occurred at line: 18 in the jsp file: /editarContaFuncionario.jsp
+Utilizador cannot be resolved to a type
+15:     <body >
+16:     
+17:          <% String a = request.getParameter("user"); %>
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+
+
+An error occurred at line: 20 in the jsp file: /editarContaFuncionario.jsp
+EntityManagerFactory cannot be resolved to a type
+17:          <% String a = request.getParameter("user"); %>
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+22:            utilizadores = ec.findUtilizadorEntities();
+23:         %>
+
+
+An error occurred at line: 20 in the jsp file: /editarContaFuncionario.jsp
+EntityManagerFactory cannot be resolved to a type
+17:          <% String a = request.getParameter("user"); %>
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+22:            utilizadores = ec.findUtilizadorEntities();
+23:         %>
+
+
+An error occurred at line: 21 in the jsp file: /editarContaFuncionario.jsp
+UtilizadorJpaController cannot be resolved to a type
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+22:            utilizadores = ec.findUtilizadorEntities();
+23:         %>
+24:         
+
+
+An error occurred at line: 21 in the jsp file: /editarContaFuncionario.jsp
+UtilizadorJpaController cannot be resolved to a type
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+22:            utilizadores = ec.findUtilizadorEntities();
+23:         %>
+24:         
+
+
+An error occurred at line: 22 in the jsp file: /editarContaFuncionario.jsp
+utilizadores cannot be resolved to a variable
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+22:            utilizadores = ec.findUtilizadorEntities();
+23:         %>
+24:         
+25:         
+
+
+An error occurred at line: 30 in the jsp file: /editarContaFuncionario.jsp
+utilizadores cannot be resolved
+27:         
+28:          <%
+29:                    
+30:              for(int i = 0; i<utilizadores.size(); i++){
+31:                           
+32:                         if( a.equals(utilizadores.get(i).getNomeUtlizador())){
+33:                          
+
+
+An error occurred at line: 32 in the jsp file: /editarContaFuncionario.jsp
+utilizadores cannot be resolved
+29:                    
+30:              for(int i = 0; i<utilizadores.size(); i++){
+31:                           
+32:                         if( a.equals(utilizadores.get(i).getNomeUtlizador())){
+33:                          
+34:                            
+35:                     
+
+
+An error occurred at line: 39 in the jsp file: /editarContaFuncionario.jsp
+utilizadores cannot be resolved
+36:          %>
+37:         
+38:          <form action="editarContaFuncionario.jsp">
+39:              <button id="topo" > <img src="imagem/user.png" width="15px" height="15px">  <%=utilizadores.get(i).getNomeUtlizador()%> </button>
+40:          </form>
+41:    
+42:         <% }
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 18 in the jsp file: /editarContaFuncionario.jsp
+List cannot be resolved to a type
+15:     <body >
+16:     
+17:          <% String a = request.getParameter("user"); %>
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+
+
+An error occurred at line: 18 in the jsp file: /editarContaFuncionario.jsp
+Utilizador cannot be resolved to a type
+15:     <body >
+16:     
+17:          <% String a = request.getParameter("user"); %>
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+
+
+An error occurred at line: 20 in the jsp file: /editarContaFuncionario.jsp
+EntityManagerFactory cannot be resolved to a type
+17:          <% String a = request.getParameter("user"); %>
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+22:            utilizadores = ec.findUtilizadorEntities();
+23:         %>
+
+
+An error occurred at line: 20 in the jsp file: /editarContaFuncionario.jsp
+EntityManagerFactory cannot be resolved to a type
+17:          <% String a = request.getParameter("user"); %>
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+22:            utilizadores = ec.findUtilizadorEntities();
+23:         %>
+
+
+An error occurred at line: 21 in the jsp file: /editarContaFuncionario.jsp
+UtilizadorJpaController cannot be resolved to a type
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+22:            utilizadores = ec.findUtilizadorEntities();
+23:         %>
+24:         
+
+
+An error occurred at line: 21 in the jsp file: /editarContaFuncionario.jsp
+UtilizadorJpaController cannot be resolved to a type
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+22:            utilizadores = ec.findUtilizadorEntities();
+23:         %>
+24:         
+
+
+An error occurred at line: 22 in the jsp file: /editarContaFuncionario.jsp
+utilizadores cannot be resolved to a variable
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+22:            utilizadores = ec.findUtilizadorEntities();
+23:         %>
+24:         
+25:         
+
+
+An error occurred at line: 30 in the jsp file: /editarContaFuncionario.jsp
+utilizadores cannot be resolved
+27:         
+28:          <%
+29:                    
+30:              for(int i = 0; i<utilizadores.size(); i++){
+31:                           
+32:                         if( a.equals(utilizadores.get(i).getNomeUtlizador())){
+33:                          
+
+
+An error occurred at line: 32 in the jsp file: /editarContaFuncionario.jsp
+utilizadores cannot be resolved
+29:                    
+30:              for(int i = 0; i<utilizadores.size(); i++){
+31:                           
+32:                         if( a.equals(utilizadores.get(i).getNomeUtlizador())){
+33:                          
+34:                            
+35:                     
+
+
+An error occurred at line: 39 in the jsp file: /editarContaFuncionario.jsp
+utilizadores cannot be resolved
+36:          %>
+37:         
+38:          <form action="editarContaFuncionario.jsp">
+39:              <button id="topo" > <img src="imagem/user.png" width="15px" height="15px">  <%=utilizadores.get(i).getNomeUtlizador()%> </button>
+40:          </form>
+41:    
+42:         <% }
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+30-Sep-2016 19:44:28.281 SEVERE [http-nio-9090-exec-51] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 18 in the jsp file: /editarContaFuncionario.jsp
+List cannot be resolved to a type
+15:     <body >
+16:     
+17:          <% String a = request.getParameter("user"); %>
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+
+
+An error occurred at line: 18 in the jsp file: /editarContaFuncionario.jsp
+Utilizador cannot be resolved to a type
+15:     <body >
+16:     
+17:          <% String a = request.getParameter("user"); %>
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+
+
+An error occurred at line: 20 in the jsp file: /editarContaFuncionario.jsp
+EntityManagerFactory cannot be resolved to a type
+17:          <% String a = request.getParameter("user"); %>
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+22:            utilizadores = ec.findUtilizadorEntities();
+23:         %>
+
+
+An error occurred at line: 20 in the jsp file: /editarContaFuncionario.jsp
+EntityManagerFactory cannot be resolved to a type
+17:          <% String a = request.getParameter("user"); %>
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+22:            utilizadores = ec.findUtilizadorEntities();
+23:         %>
+
+
+An error occurred at line: 21 in the jsp file: /editarContaFuncionario.jsp
+UtilizadorJpaController cannot be resolved to a type
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+22:            utilizadores = ec.findUtilizadorEntities();
+23:         %>
+24:         
+
+
+An error occurred at line: 21 in the jsp file: /editarContaFuncionario.jsp
+UtilizadorJpaController cannot be resolved to a type
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+22:            utilizadores = ec.findUtilizadorEntities();
+23:         %>
+24:         
+
+
+An error occurred at line: 22 in the jsp file: /editarContaFuncionario.jsp
+utilizadores cannot be resolved to a variable
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+22:            utilizadores = ec.findUtilizadorEntities();
+23:         %>
+24:         
+25:         
+
+
+An error occurred at line: 30 in the jsp file: /editarContaFuncionario.jsp
+utilizadores cannot be resolved
+27:         
+28:          <%
+29:                    
+30:              for(int i = 0; i<utilizadores.size(); i++){
+31:                           
+32:                         if( a.equals(utilizadores.get(i).getNomeUtlizador())){
+33:                          
+
+
+An error occurred at line: 32 in the jsp file: /editarContaFuncionario.jsp
+utilizadores cannot be resolved
+29:                    
+30:              for(int i = 0; i<utilizadores.size(); i++){
+31:                           
+32:                         if( a.equals(utilizadores.get(i).getNomeUtlizador())){
+33:                          
+34:                            
+35:                     
+
+
+An error occurred at line: 39 in the jsp file: /editarContaFuncionario.jsp
+utilizadores cannot be resolved
+36:          %>
+37:         
+38:          <form action="editarContaFuncionario.jsp">
+39:              <button id="topo" > <img src="imagem/user.png" width="15px" height="15px">  <%=utilizadores.get(i).getNomeUtlizador()%> </button>
+40:          </form>
+41:    
+42:         <% }
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 18 in the jsp file: /editarContaFuncionario.jsp
+List cannot be resolved to a type
+15:     <body >
+16:     
+17:          <% String a = request.getParameter("user"); %>
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+
+
+An error occurred at line: 18 in the jsp file: /editarContaFuncionario.jsp
+Utilizador cannot be resolved to a type
+15:     <body >
+16:     
+17:          <% String a = request.getParameter("user"); %>
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+
+
+An error occurred at line: 20 in the jsp file: /editarContaFuncionario.jsp
+EntityManagerFactory cannot be resolved to a type
+17:          <% String a = request.getParameter("user"); %>
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+22:            utilizadores = ec.findUtilizadorEntities();
+23:         %>
+
+
+An error occurred at line: 20 in the jsp file: /editarContaFuncionario.jsp
+EntityManagerFactory cannot be resolved to a type
+17:          <% String a = request.getParameter("user"); %>
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+22:            utilizadores = ec.findUtilizadorEntities();
+23:         %>
+
+
+An error occurred at line: 21 in the jsp file: /editarContaFuncionario.jsp
+UtilizadorJpaController cannot be resolved to a type
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+22:            utilizadores = ec.findUtilizadorEntities();
+23:         %>
+24:         
+
+
+An error occurred at line: 21 in the jsp file: /editarContaFuncionario.jsp
+UtilizadorJpaController cannot be resolved to a type
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+22:            utilizadores = ec.findUtilizadorEntities();
+23:         %>
+24:         
+
+
+An error occurred at line: 22 in the jsp file: /editarContaFuncionario.jsp
+utilizadores cannot be resolved to a variable
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+22:            utilizadores = ec.findUtilizadorEntities();
+23:         %>
+24:         
+25:         
+
+
+An error occurred at line: 30 in the jsp file: /editarContaFuncionario.jsp
+utilizadores cannot be resolved
+27:         
+28:          <%
+29:                    
+30:              for(int i = 0; i<utilizadores.size(); i++){
+31:                           
+32:                         if( a.equals(utilizadores.get(i).getNomeUtlizador())){
+33:                          
+
+
+An error occurred at line: 32 in the jsp file: /editarContaFuncionario.jsp
+utilizadores cannot be resolved
+29:                    
+30:              for(int i = 0; i<utilizadores.size(); i++){
+31:                           
+32:                         if( a.equals(utilizadores.get(i).getNomeUtlizador())){
+33:                          
+34:                            
+35:                     
+
+
+An error occurred at line: 39 in the jsp file: /editarContaFuncionario.jsp
+utilizadores cannot be resolved
+36:          %>
+37:         
+38:          <form action="editarContaFuncionario.jsp">
+39:              <button id="topo" > <img src="imagem/user.png" width="15px" height="15px">  <%=utilizadores.get(i).getNomeUtlizador()%> </button>
+40:          </form>
+41:    
+42:         <% }
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+30-Sep-2016 19:44:38.398 SEVERE [http-nio-9090-exec-44] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 18 in the jsp file: /editarContaFuncionario.jsp
+List cannot be resolved to a type
+15:     <body >
+16:     
+17:          <% String a = request.getParameter("user"); %>
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+
+
+An error occurred at line: 18 in the jsp file: /editarContaFuncionario.jsp
+Utilizador cannot be resolved to a type
+15:     <body >
+16:     
+17:          <% String a = request.getParameter("user"); %>
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+
+
+An error occurred at line: 20 in the jsp file: /editarContaFuncionario.jsp
+EntityManagerFactory cannot be resolved to a type
+17:          <% String a = request.getParameter("user"); %>
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+22:            utilizadores = ec.findUtilizadorEntities();
+23:         %>
+
+
+An error occurred at line: 20 in the jsp file: /editarContaFuncionario.jsp
+EntityManagerFactory cannot be resolved to a type
+17:          <% String a = request.getParameter("user"); %>
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+22:            utilizadores = ec.findUtilizadorEntities();
+23:         %>
+
+
+An error occurred at line: 21 in the jsp file: /editarContaFuncionario.jsp
+UtilizadorJpaController cannot be resolved to a type
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+22:            utilizadores = ec.findUtilizadorEntities();
+23:         %>
+24:         
+
+
+An error occurred at line: 21 in the jsp file: /editarContaFuncionario.jsp
+UtilizadorJpaController cannot be resolved to a type
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+22:            utilizadores = ec.findUtilizadorEntities();
+23:         %>
+24:         
+
+
+An error occurred at line: 22 in the jsp file: /editarContaFuncionario.jsp
+utilizadores cannot be resolved to a variable
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+22:            utilizadores = ec.findUtilizadorEntities();
+23:         %>
+24:         
+25:         
+
+
+An error occurred at line: 30 in the jsp file: /editarContaFuncionario.jsp
+utilizadores cannot be resolved
+27:         
+28:          <%
+29:                    
+30:              for(int i = 0; i<utilizadores.size(); i++){
+31:                           
+32:                         if( a.equals(utilizadores.get(i).getNomeUtlizador())){
+33:                          
+
+
+An error occurred at line: 32 in the jsp file: /editarContaFuncionario.jsp
+utilizadores cannot be resolved
+29:                    
+30:              for(int i = 0; i<utilizadores.size(); i++){
+31:                           
+32:                         if( a.equals(utilizadores.get(i).getNomeUtlizador())){
+33:                          
+34:                            
+35:                     
+
+
+An error occurred at line: 39 in the jsp file: /editarContaFuncionario.jsp
+utilizadores cannot be resolved
+36:          %>
+37:         
+38:          <form action="editarContaFuncionario.jsp">
+39:              <button id="topo" > <img src="imagem/user.png" width="15px" height="15px">  <%=utilizadores.get(i).getNomeUtlizador()%> </button>
+40:          </form>
+41:    
+42:         <% }
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 18 in the jsp file: /editarContaFuncionario.jsp
+List cannot be resolved to a type
+15:     <body >
+16:     
+17:          <% String a = request.getParameter("user"); %>
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+
+
+An error occurred at line: 18 in the jsp file: /editarContaFuncionario.jsp
+Utilizador cannot be resolved to a type
+15:     <body >
+16:     
+17:          <% String a = request.getParameter("user"); %>
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+
+
+An error occurred at line: 20 in the jsp file: /editarContaFuncionario.jsp
+EntityManagerFactory cannot be resolved to a type
+17:          <% String a = request.getParameter("user"); %>
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+22:            utilizadores = ec.findUtilizadorEntities();
+23:         %>
+
+
+An error occurred at line: 20 in the jsp file: /editarContaFuncionario.jsp
+EntityManagerFactory cannot be resolved to a type
+17:          <% String a = request.getParameter("user"); %>
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+22:            utilizadores = ec.findUtilizadorEntities();
+23:         %>
+
+
+An error occurred at line: 21 in the jsp file: /editarContaFuncionario.jsp
+UtilizadorJpaController cannot be resolved to a type
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+22:            utilizadores = ec.findUtilizadorEntities();
+23:         %>
+24:         
+
+
+An error occurred at line: 21 in the jsp file: /editarContaFuncionario.jsp
+UtilizadorJpaController cannot be resolved to a type
+18:          <%!List<Utilizador> utilizadores;%>
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+22:            utilizadores = ec.findUtilizadorEntities();
+23:         %>
+24:         
+
+
+An error occurred at line: 22 in the jsp file: /editarContaFuncionario.jsp
+utilizadores cannot be resolved to a variable
+19:         <%
+20:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+21:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+22:            utilizadores = ec.findUtilizadorEntities();
+23:         %>
+24:         
+25:         
+
+
+An error occurred at line: 30 in the jsp file: /editarContaFuncionario.jsp
+utilizadores cannot be resolved
+27:         
+28:          <%
+29:                    
+30:              for(int i = 0; i<utilizadores.size(); i++){
+31:                           
+32:                         if( a.equals(utilizadores.get(i).getNomeUtlizador())){
+33:                          
+
+
+An error occurred at line: 32 in the jsp file: /editarContaFuncionario.jsp
+utilizadores cannot be resolved
+29:                    
+30:              for(int i = 0; i<utilizadores.size(); i++){
+31:                           
+32:                         if( a.equals(utilizadores.get(i).getNomeUtlizador())){
+33:                          
+34:                            
+35:                     
+
+
+An error occurred at line: 39 in the jsp file: /editarContaFuncionario.jsp
+utilizadores cannot be resolved
+36:          %>
+37:         
+38:          <form action="editarContaFuncionario.jsp">
+39:              <button id="topo" > <img src="imagem/user.png" width="15px" height="15px">  <%=utilizadores.get(i).getNomeUtlizador()%> </button>
+40:          </form>
+41:    
+42:         <% }
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+30-Sep-2016 19:47:14.132 SEVERE [http-nio-9090-exec-49] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet jsp threw exception
+ java.lang.NullPointerException
+	at org.apache.jsp.topo_005ffuncionario_jsp._jspService(topo_005ffuncionario_jsp.java:111)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:721)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:584)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:523)
+	at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:934)
+	at org.apache.jsp.editarContaFuncionario_jsp._jspService(editarContaFuncionario_jsp.java:89)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+30-Sep-2016 19:47:14.133 SEVERE [http-nio-9090-exec-49] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [An exception occurred processing JSP page /editarContaFuncionario.jsp at line 17
+
+14:     </head>
+15:     <body >
+16:     
+17:        <jsp:include page="topo_funcionario.jsp" />
+18:            <%@include file="cabecalho.jsp" %>
+19:            
+20:            
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at org.apache.jsp.topo_005ffuncionario_jsp._jspService(topo_005ffuncionario_jsp.java:111)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:721)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:584)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:523)
+	at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:934)
+	at org.apache.jsp.editarContaFuncionario_jsp._jspService(editarContaFuncionario_jsp.java:89)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+30-Sep-2016 19:47:50.222 SEVERE [http-nio-9090-exec-43] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet jsp threw exception
+ java.lang.NullPointerException
+	at org.apache.jsp.topo_005ffuncionario_jsp._jspService(topo_005ffuncionario_jsp.java:111)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:721)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:584)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:523)
+	at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:934)
+	at org.apache.jsp.editarContaFuncionario_jsp._jspService(editarContaFuncionario_jsp.java:89)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+30-Sep-2016 19:47:50.224 SEVERE [http-nio-9090-exec-43] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [An exception occurred processing JSP page /editarContaFuncionario.jsp at line 17
+
+14:     </head>
+15:     <body >
+16:     
+17:        <jsp:include page="topo_funcionario.jsp" />
+18:            <%@include file="cabecalho.jsp" %>
+19:            
+20:            
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at org.apache.jsp.topo_005ffuncionario_jsp._jspService(topo_005ffuncionario_jsp.java:111)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:721)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:584)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:523)
+	at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:934)
+	at org.apache.jsp.editarContaFuncionario_jsp._jspService(editarContaFuncionario_jsp.java:89)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+30-Sep-2016 19:52:30.367 SEVERE [http-nio-9090-exec-62] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [/editarContaFuncionario.jsp (line: 17, column: 8) File [topo_funcionario.jsp?acao] not found] with root cause
+ org.apache.jasper.JasperException: /editarContaFuncionario.jsp (line: 17, column: 8) File [topo_funcionario.jsp?acao] not found
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:276)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:92)
+	at org.apache.jasper.compiler.Parser.processIncludeDirective(Parser.java:323)
+	at org.apache.jasper.compiler.Parser.parseIncludeDirective(Parser.java:358)
+	at org.apache.jasper.compiler.Parser.parseDirective(Parser.java:461)
+	at org.apache.jasper.compiler.Parser.parseFileDirectives(Parser.java:1782)
+	at org.apache.jasper.compiler.Parser.parse(Parser.java:136)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:227)
+	at org.apache.jasper.compiler.ParserController.parseDirectives(ParserController.java:117)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:194)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+30-Sep-2016 23:43:12.675 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+30-Sep-2016 23:43:12.675 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

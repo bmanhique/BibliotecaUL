@@ -1,0 +1,1765 @@
+28-Sep-2016 01:13:29.787 SEVERE [http-nio-8085-exec-110] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 57 in the jsp file: /resultadoFunionario.jsp
+utilizadores cannot be resolved to a variable
+54:         <%
+55:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+56:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+57:            utilizadores = ec.findUtilizadorEntities();
+58:         %>
+59:          <%
+60:                     for(int i = 0; i<utilizadores.size(); i++){
+
+
+An error occurred at line: 60 in the jsp file: /resultadoFunionario.jsp
+utilizadores cannot be resolved
+57:            utilizadores = ec.findUtilizadorEntities();
+58:         %>
+59:          <%
+60:                     for(int i = 0; i<utilizadores.size(); i++){
+61:                        
+62:                 %>
+63:                 <%=utilizadores.get(i).getNomeUtlizador() %>
+
+
+An error occurred at line: 63 in the jsp file: /resultadoFunionario.jsp
+utilizadores cannot be resolved
+60:                     for(int i = 0; i<utilizadores.size(); i++){
+61:                        
+62:                 %>
+63:                 <%=utilizadores.get(i).getNomeUtlizador() %>
+64:              
+65:              <a href="criarUtilizador.jsp">  <p ><img  src="imagem/edit-user-xxl.png" width="20px" height="20px"> Editar </a>&boxv; 
+66:              <a href="principalFuncionario.jsp"> <img src="imagem/Users-Remove-User-icon.png" width="20px" height="20px">Remover</a> 
+
+
+An error occurred at line: 70 in the jsp file: /resultadoFunionario.jsp
+Syntax error, insert "Finally" to complete TryStatement
+67:              &boxv; <a href="RegistarPagamento.jsp">Registar Pagamento </a> &boxv; <a href="RegistarPagamento.jsp">Registar Emprestimo</a></p>
+68:               <%
+69:                     }
+70: }
+71:                     %>
+72:              </div>
+73:         
+
+
+An error occurred at line: [228] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [230] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [230] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [231] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [231] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [233] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [234] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [236] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [239] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [239] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [242] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [243] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 57 in the jsp file: /resultadoFunionario.jsp
+utilizadores cannot be resolved to a variable
+54:         <%
+55:            EntityManagerFactory emf =(EntityManagerFactory) getServletContext().getAttribute("emf"); 
+56:            UtilizadorJpaController ec = new UtilizadorJpaController(emf);
+57:            utilizadores = ec.findUtilizadorEntities();
+58:         %>
+59:          <%
+60:                     for(int i = 0; i<utilizadores.size(); i++){
+
+
+An error occurred at line: 60 in the jsp file: /resultadoFunionario.jsp
+utilizadores cannot be resolved
+57:            utilizadores = ec.findUtilizadorEntities();
+58:         %>
+59:          <%
+60:                     for(int i = 0; i<utilizadores.size(); i++){
+61:                        
+62:                 %>
+63:                 <%=utilizadores.get(i).getNomeUtlizador() %>
+
+
+An error occurred at line: 63 in the jsp file: /resultadoFunionario.jsp
+utilizadores cannot be resolved
+60:                     for(int i = 0; i<utilizadores.size(); i++){
+61:                        
+62:                 %>
+63:                 <%=utilizadores.get(i).getNomeUtlizador() %>
+64:              
+65:              <a href="criarUtilizador.jsp">  <p ><img  src="imagem/edit-user-xxl.png" width="20px" height="20px"> Editar </a>&boxv; 
+66:              <a href="principalFuncionario.jsp"> <img src="imagem/Users-Remove-User-icon.png" width="20px" height="20px">Remover</a> 
+
+
+An error occurred at line: 70 in the jsp file: /resultadoFunionario.jsp
+Syntax error, insert "Finally" to complete TryStatement
+67:              &boxv; <a href="RegistarPagamento.jsp">Registar Pagamento </a> &boxv; <a href="RegistarPagamento.jsp">Registar Emprestimo</a></p>
+68:               <%
+69:                     }
+70: }
+71:                     %>
+72:              </div>
+73:         
+
+
+An error occurred at line: [228] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [230] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [230] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [231] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [231] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [233] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [234] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [236] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [239] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [239] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [242] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [243] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Sep-2016 01:24:49.256 SEVERE [http-nio-8085-exec-116] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 70 in the jsp file: /resultadoFunionario.jsp
+Syntax error, insert "Finally" to complete TryStatement
+67:              &boxv; <a href="RegistarPagamento.jsp">Registar Pagamento </a> &boxv; <a href="RegistarPagamento.jsp">Registar Emprestimo</a></p>
+68:               <%
+69:                     }
+70: }
+71:                     %>
+72:              </div>
+73:         
+
+
+An error occurred at line: [230] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [232] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [232] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [233] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [233] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [235] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [236] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [238] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [241] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [241] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [244] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [245] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 70 in the jsp file: /resultadoFunionario.jsp
+Syntax error, insert "Finally" to complete TryStatement
+67:              &boxv; <a href="RegistarPagamento.jsp">Registar Pagamento </a> &boxv; <a href="RegistarPagamento.jsp">Registar Emprestimo</a></p>
+68:               <%
+69:                     }
+70: }
+71:                     %>
+72:              </div>
+73:         
+
+
+An error occurred at line: [230] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [232] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [232] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [233] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [233] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [235] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [236] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [238] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [241] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [241] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [244] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [245] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Sep-2016 01:25:00.222 SEVERE [http-nio-8085-exec-118] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 70 in the jsp file: /resultadoFunionario.jsp
+Syntax error, insert "Finally" to complete TryStatement
+67:              &boxv; <a href="RegistarPagamento.jsp">Registar Pagamento </a> &boxv; <a href="RegistarPagamento.jsp">Registar Emprestimo</a></p>
+68:               <%
+69:                     }
+70: }
+71:                     %>
+72:              </div>
+73:         
+
+
+An error occurred at line: [230] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [232] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [232] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [233] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [233] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [235] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [236] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [238] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [241] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [241] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [244] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [245] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 70 in the jsp file: /resultadoFunionario.jsp
+Syntax error, insert "Finally" to complete TryStatement
+67:              &boxv; <a href="RegistarPagamento.jsp">Registar Pagamento </a> &boxv; <a href="RegistarPagamento.jsp">Registar Emprestimo</a></p>
+68:               <%
+69:                     }
+70: }
+71:                     %>
+72:              </div>
+73:         
+
+
+An error occurred at line: [230] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [232] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [232] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [233] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [233] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [235] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [236] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [238] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [241] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [241] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [244] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [245] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Sep-2016 01:35:34.986 SEVERE [http-nio-8085-exec-125] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [resultadoPesquisa] in context with path [/SGEM_with_data_base] threw exception
+ java.lang.IllegalStateException: Cannot forward after response has been committed
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:328)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:318)
+	at Servelets.resultadoPesquisa.processRequest(resultadoPesquisa.java:51)
+	at Servelets.resultadoPesquisa.doGet(resultadoPesquisa.java:90)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Sep-2016 01:37:58.773 SEVERE [http-nio-8085-exec-126] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [resultadoPesquisa] in context with path [/SGEM_with_data_base] threw exception
+ java.lang.IllegalStateException: Cannot forward after response has been committed
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:328)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:318)
+	at Servelets.resultadoPesquisa.processRequest(resultadoPesquisa.java:51)
+	at Servelets.resultadoPesquisa.doGet(resultadoPesquisa.java:90)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Sep-2016 02:00:51.097 SEVERE [http-nio-8085-exec-147] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [An exception occurred processing JSP page /resultadoFunionario.jsp at line 60
+
+57:         %>
+58:          <%
+59:                     for(int i = 0; i<utilizadores.size(); i++){
+60:                         if(!request.getParameter("nomePesquisa").equals(utilizadores.get(i).getNomeUtlizador())){
+61:                 %>
+62:                          <p><img  src="imagem/user.png" width="20px" height="20px"><u> ${param.nomePesquisa}</u></p>
+63: 
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at org.apache.jsp.resultadoFunionario_jsp._jspService(resultadoFunionario_jsp.java:159)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Sep-2016 02:01:24.003 SEVERE [http-nio-8085-exec-148] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [An exception occurred processing JSP page /resultadoFunionario.jsp at line 60
+
+57:         %>
+58:          <%
+59:                     for(int i = 0; i<utilizadores.size(); i++){
+60:                         if(!request.getParameter("nomePesquisa").equals(utilizadores.get(i).getNomeUtlizador())){
+61:                 %>
+62:                          <p><img  src="imagem/user.png" width="20px" height="20px"><u> ${param.nomePesquisa}</u></p>
+63: 
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at org.apache.jsp.resultadoFunionario_jsp._jspService(resultadoFunionario_jsp.java:159)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Sep-2016 02:01:26.482 SEVERE [http-nio-8085-exec-140] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [resultadoPesquisa] in context with path [/SGEM_with_data_base] threw exception
+ java.lang.IllegalStateException: Cannot forward after response has been committed
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:328)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:318)
+	at Servelets.resultadoPesquisa.processRequest(resultadoPesquisa.java:54)
+	at Servelets.resultadoPesquisa.doGet(resultadoPesquisa.java:93)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Sep-2016 02:03:24.646 SEVERE [http-nio-8085-exec-144] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [232] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [249] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [250] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [232] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [249] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [250] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\resultadoFunionario_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Sep-2016 02:04:58.636 SEVERE [http-nio-8085-exec-148] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [An exception occurred processing JSP page /resultadoFunionario.jsp at line 60
+
+57:         %>
+58:          <%
+59:                     for(int i = 0; i<utilizadores.size(); i++)
+60:                         if(!request.getParameter("nomePesquisa").equals(utilizadores.get(i).getNomeUtlizador())){
+61:                 %>
+62:                          <p><img  src="imagem/user.png" width="20px" height="20px"><u> ${param.nomePesquisa}</u></p>
+63: 
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at org.apache.jsp.resultadoFunionario_jsp._jspService(resultadoFunionario_jsp.java:159)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Sep-2016 02:05:05.403 SEVERE [http-nio-8085-exec-139] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [An exception occurred processing JSP page /resultadoFunionario.jsp at line 60
+
+57:         %>
+58:          <%
+59:                     for(int i = 0; i<utilizadores.size(); i++)
+60:                         if(!request.getParameter("nomePesquisa").equals(utilizadores.get(i).getNomeUtlizador())){
+61:                 %>
+62:                          <p><img  src="imagem/user.png" width="20px" height="20px"><u> ${param.nomePesquisa}</u></p>
+63: 
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at org.apache.jsp.resultadoFunionario_jsp._jspService(resultadoFunionario_jsp.java:159)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Sep-2016 02:05:20.172 SEVERE [http-nio-8085-exec-140] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [An exception occurred processing JSP page /resultadoFunionario.jsp at line 60
+
+57:         %>
+58:          <%
+59:                     for(int i = 0; i<utilizadores.size(); i++)
+60:                         if(!request.getParameter("nomePesquisa").equals(utilizadores.get(i).getNomeUtlizador())){
+61:                 %>
+62:                          <p><img  src="imagem/user.png" width="20px" height="20px"><u> ${param.nomePesquisa}</u></p>
+63: 
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at org.apache.jsp.resultadoFunionario_jsp._jspService(resultadoFunionario_jsp.java:159)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Sep-2016 02:34:34.891 SEVERE [http-nio-8085-exec-151] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [resultadoPesquisa] in context with path [/SGEM_with_data_base] threw exception
+ java.lang.NullPointerException
+	at Servelets.resultadoPesquisa.processRequest(resultadoPesquisa.java:57)
+	at Servelets.resultadoPesquisa.doGet(resultadoPesquisa.java:97)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Sep-2016 02:34:48.261 SEVERE [http-nio-8085-exec-154] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [resultadoPesquisa] in context with path [/SGEM_with_data_base] threw exception
+ java.lang.NullPointerException
+	at Servelets.resultadoPesquisa.processRequest(resultadoPesquisa.java:57)
+	at Servelets.resultadoPesquisa.doGet(resultadoPesquisa.java:97)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Sep-2016 03:27:41.612 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+28-Sep-2016 03:27:41.612 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+28-Sep-2016 03:40:31.392 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Error configuring application listener of class controle.EntytManegerContext
+ java.lang.ClassNotFoundException: controle.EntytManegerContext
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:520)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:501)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:120)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4693)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Sep-2016 03:40:31.392 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Skipped installing application listeners due to previous error(s)
+28-Sep-2016 03:40:43.347 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+28-Sep-2016 03:40:43.347 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+28-Sep-2016 03:48:33.273 SEVERE [http-nio-8085-exec-20] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [resultadoPesquisa] in context with path [/SGEM_with_data_base] threw exception
+ java.lang.IllegalStateException: Cannot forward after response has been committed
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:328)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:318)
+	at Servelets.resultadoPesquisa.processRequest(resultadoPesquisa.java:56)
+	at Servelets.resultadoPesquisa.doGet(resultadoPesquisa.java:95)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Sep-2016 03:51:46.203 SEVERE [http-nio-8085-exec-14] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [/resultadoFunionario.jsp (line: 31, column: 9) File [Menu.jsp] not found] with root cause
+ org.apache.jasper.JasperException: /resultadoFunionario.jsp (line: 31, column: 9) File [Menu.jsp] not found
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:276)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:92)
+	at org.apache.jasper.compiler.Parser.processIncludeDirective(Parser.java:323)
+	at org.apache.jasper.compiler.Parser.parseIncludeDirective(Parser.java:358)
+	at org.apache.jasper.compiler.Parser.parseDirective(Parser.java:461)
+	at org.apache.jasper.compiler.Parser.parseFileDirectives(Parser.java:1782)
+	at org.apache.jasper.compiler.Parser.parse(Parser.java:136)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:227)
+	at org.apache.jasper.compiler.ParserController.parseDirectives(ParserController.java:117)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:194)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Sep-2016 03:52:04.030 SEVERE [http-nio-8085-exec-14] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [resultadoPesquisa] in context with path [/SGEM_with_data_base] threw exception
+ java.lang.IllegalStateException: Cannot forward after response has been committed
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:328)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:318)
+	at Servelets.resultadoPesquisa.processRequest(resultadoPesquisa.java:56)
+	at Servelets.resultadoPesquisa.doGet(resultadoPesquisa.java:95)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Sep-2016 03:52:12.517 SEVERE [http-nio-8085-exec-13] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [resultadoPesquisa] in context with path [/SGEM_with_data_base] threw exception
+ java.lang.IllegalStateException: Cannot forward after response has been committed
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:328)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:318)
+	at Servelets.resultadoPesquisa.processRequest(resultadoPesquisa.java:56)
+	at Servelets.resultadoPesquisa.doGet(resultadoPesquisa.java:95)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Sep-2016 03:52:20.539 SEVERE [http-nio-8085-exec-17] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [resultadoPesquisa] in context with path [/SGEM_with_data_base] threw exception
+ java.lang.IllegalStateException: Cannot forward after response has been committed
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:328)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:318)
+	at Servelets.resultadoPesquisa.processRequest(resultadoPesquisa.java:56)
+	at Servelets.resultadoPesquisa.doGet(resultadoPesquisa.java:95)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Sep-2016 03:52:28.750 SEVERE [http-nio-8085-exec-15] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [resultadoPesquisa] in context with path [/SGEM_with_data_base] threw exception
+ java.lang.IllegalStateException: Cannot forward after response has been committed
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:328)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:318)
+	at Servelets.resultadoPesquisa.processRequest(resultadoPesquisa.java:56)
+	at Servelets.resultadoPesquisa.doGet(resultadoPesquisa.java:95)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Sep-2016 03:57:39.113 SEVERE [http-nio-8085-exec-30] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [resultadoPesquisa] in context with path [/SGEM_with_data_base] threw exception
+ java.lang.IllegalStateException: Cannot forward after response has been committed
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:328)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:318)
+	at Servelets.resultadoPesquisa.processRequest(resultadoPesquisa.java:56)
+	at Servelets.resultadoPesquisa.doGet(resultadoPesquisa.java:95)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Sep-2016 03:57:39.113 SEVERE [http-nio-8085-exec-23] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [resultadoPesquisa] in context with path [/SGEM_with_data_base] threw exception
+ java.lang.IllegalStateException: Cannot forward after response has been committed
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:328)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:318)
+	at Servelets.resultadoPesquisa.processRequest(resultadoPesquisa.java:56)
+	at Servelets.resultadoPesquisa.doGet(resultadoPesquisa.java:95)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Sep-2016 03:57:45.322 SEVERE [http-nio-8085-exec-31] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [resultadoPesquisa] in context with path [/SGEM_with_data_base] threw exception
+ java.lang.IllegalStateException: Cannot forward after response has been committed
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:328)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:318)
+	at Servelets.resultadoPesquisa.processRequest(resultadoPesquisa.java:56)
+	at Servelets.resultadoPesquisa.doGet(resultadoPesquisa.java:95)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:618)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Sep-2016 12:26:15.270 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Error configuring application listener of class controle.EntytManegerContext
+ java.lang.ClassNotFoundException: controle.EntytManegerContext
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1295)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1147)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:520)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:501)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:120)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4693)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5196)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:714)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:581)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1683)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Sep-2016 12:26:15.270 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Skipped installing application listeners due to previous error(s)
+28-Sep-2016 12:26:31.680 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+28-Sep-2016 12:26:31.680 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+28-Sep-2016 12:46:11.105 SEVERE [http-nio-9090-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [An exception occurred processing JSP page /TodosUtilizadores.jsp at line 47
+
+44:         
+45:          <%
+46:                     for(int i = 0; i<utilizadores.size(); i++){
+47:                             for(int j = 0; j<permissoes.size(); j++)
+48:                        if(utilizadores.get(i).getIdutilizador().equals(permissoes.get(j).getIdutilizador())){
+49:                              
+50:                            
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at org.apache.jsp.TodosUtilizadores_jsp._jspService(TodosUtilizadores_jsp.java:200)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Sep-2016 12:48:34.223 SEVERE [25] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [An exception occurred processing JSP page /TodosUtilizadores.jsp at line 48
+
+45:         
+46:          <%
+47:                     for(int i = 0; i<utilizadores.size(); i++){
+48:                             for(int j = 0; j<permissoes.size(); j++){
+49:                        if(utilizadores.get(i).getIdutilizador().equals(permissoes.get(j).getIdutilizador())){
+50:                          
+51:                            
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at org.apache.jsp.TodosUtilizadores_jsp._jspService(TodosUtilizadores_jsp.java:201)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Sep-2016 12:49:02.514 SEVERE [http-nio-9090-exec-17] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 71 in the jsp file: /TodosUtilizadores.jsp
+Syntax error, insert "Finally" to complete TryStatement
+68:               
+69: <%
+70:     }
+71: }
+72: 
+73: %>
+74:           
+
+
+An error occurred at line: [278] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [280] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [280] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [281] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [281] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [283] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [284] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [286] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [289] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [289] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [292] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [293] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 71 in the jsp file: /TodosUtilizadores.jsp
+Syntax error, insert "Finally" to complete TryStatement
+68:               
+69: <%
+70:     }
+71: }
+72: 
+73: %>
+74:           
+
+
+An error occurred at line: [278] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [280] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [280] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [281] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [281] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [283] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [284] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [286] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [289] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [289] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [292] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [293] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Sep-2016 12:50:07.665 SEVERE [http-nio-9090-exec-11] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 71 in the jsp file: /TodosUtilizadores.jsp
+Syntax error, insert "Finally" to complete TryStatement
+68:               
+69: <%
+70:     }
+71: }
+72: 
+73: %>
+74:           
+
+
+An error occurred at line: [278] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [280] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [280] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [281] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [281] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [283] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [284] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [286] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [289] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [289] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [292] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [293] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 71 in the jsp file: /TodosUtilizadores.jsp
+Syntax error, insert "Finally" to complete TryStatement
+68:               
+69: <%
+70:     }
+71: }
+72: 
+73: %>
+74:           
+
+
+An error occurred at line: [278] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [280] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [280] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [281] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [281] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [283] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [284] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [286] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [289] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [289] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [292] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [293] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Sep-2016 12:50:09.793 SEVERE [http-nio-9090-exec-13] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [An exception occurred processing JSP page /TodosUtilizadores.jsp at line 48
+
+45:         
+46:          <%
+47:                     for(int i = 0; i<utilizadores.size(); i++){
+48:                             //for(int j = 0; j<permissoes.size(); j++){
+49:                       // if(utilizadores.get(i).getIdutilizador().equals(permissoes.get(j).getIdutilizador())){
+50:                          
+51:                            
+
+
+Stacktrace:] with root cause
+ java.lang.NullPointerException
+	at org.apache.jsp.TodosUtilizadores_jsp._jspService(TodosUtilizadores_jsp.java:201)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+28-Sep-2016 12:50:28.416 SEVERE [http-nio-9090-exec-14] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/SGEM_with_data_base] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 70 in the jsp file: /TodosUtilizadores.jsp
+Syntax error, insert "Finally" to complete TryStatement
+67:               
+68: <%
+69:     }
+70: }
+71: 
+72: %>
+73:           
+
+
+An error occurred at line: [277] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [279] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [279] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [280] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [280] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [282] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [283] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [285] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [288] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [288] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [291] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [292] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 70 in the jsp file: /TodosUtilizadores.jsp
+Syntax error, insert "Finally" to complete TryStatement
+67:               
+68: <%
+69:     }
+70: }
+71: 
+72: %>
+73:           
+
+
+An error occurred at line: [277] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [279] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [279] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [280] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [280] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [282] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [283] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [285] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [288] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [288] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [291] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [292] in the generated java file: [C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\work\Catalina\localhost\SGEM_with_data_base\org\apache\jsp\TodosUtilizadores_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:199)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:450)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:357)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:396)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:340)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:725)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:610)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:537)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1085)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:658)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:222)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1556)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1513)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+

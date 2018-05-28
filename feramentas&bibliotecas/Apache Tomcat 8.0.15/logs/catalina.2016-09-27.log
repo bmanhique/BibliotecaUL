@@ -1,0 +1,236 @@
+27-Sep-2016 07:15:34.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.15
+27-Sep-2016 07:15:34.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2014 19:25:20 UTC
+27-Sep-2016 07:15:34.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.15.0
+27-Sep-2016 07:15:34.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8.1
+27-Sep-2016 07:15:34.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+27-Sep-2016 07:15:34.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Sep-2016 07:15:34.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JAVA_HOME:             C:\Program Files\Java\jdk1.7.0_80\jre
+27-Sep-2016 07:15:34.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_80-b15
+27-Sep-2016 07:15:34.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Sep-2016 07:15:34.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15
+27-Sep-2016 07:15:34.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15
+27-Sep-2016 07:15:34.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.proxyHost=127.0.0.1
+27-Sep-2016 07:15:34.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.proxyPort=8080
+27-Sep-2016 07:15:34.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=<-loopback>
+27-Sep-2016 07:15:34.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttps.proxyHost=127.0.0.1
+27-Sep-2016 07:15:34.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttps.proxyPort=8080
+27-Sep-2016 07:15:34.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\logging.properties
+27-Sep-2016 07:15:34.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Sep-2016 07:15:34.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\endorsed
+27-Sep-2016 07:15:34.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15
+27-Sep-2016 07:15:34.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15
+27-Sep-2016 07:15:34.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\temp
+27-Sep-2016 07:15:34.297 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_80\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;.
+27-Sep-2016 07:15:35.516 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8085"]
+27-Sep-2016 07:15:35.875 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Sep-2016 07:15:35.875 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+27-Sep-2016 07:15:35.891 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Sep-2016 07:15:35.891 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3706 ms
+27-Sep-2016 07:15:36.078 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+27-Sep-2016 07:15:36.078 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+27-Sep-2016 07:15:36.110 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\docs
+27-Sep-2016 07:15:37.797 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\docs has finished in 1,687 ms
+27-Sep-2016 07:15:37.797 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\examples
+27-Sep-2016 07:15:42.282 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\examples has finished in 4,485 ms
+27-Sep-2016 07:15:42.282 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\host-manager
+27-Sep-2016 07:15:42.423 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\host-manager has finished in 141 ms
+27-Sep-2016 07:15:42.423 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\manager
+27-Sep-2016 07:15:42.579 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\manager has finished in 156 ms
+27-Sep-2016 07:15:42.579 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\ROOT
+27-Sep-2016 07:15:42.673 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\ROOT has finished in 94 ms
+27-Sep-2016 07:15:42.688 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8085"]
+27-Sep-2016 07:15:42.704 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+27-Sep-2016 07:15:42.704 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 6811 ms
+27-Sep-2016 07:16:17.914 INFO [http-nio-8085-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM.xml
+27-Sep-2016 07:16:18.091 SEVERE [http-nio-8085-exec-2] org.apache.catalina.core.StandardContext.startInternal Error listenerStart
+27-Sep-2016 07:16:18.107 SEVERE [http-nio-8085-exec-2] org.apache.catalina.core.StandardContext.startInternal Context [/SGEM] startup failed due to previous errors
+27-Sep-2016 07:16:18.138 INFO [http-nio-8085-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM.xml has finished in 224 ms
+27-Sep-2016 07:17:05.434 INFO [http-nio-8085-exec-2] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SGEM]] after stop() had already been called. The second call will be ignored.
+27-Sep-2016 07:17:05.934 INFO [http-nio-8085-exec-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SGEM]
+27-Sep-2016 07:17:05.965 INFO [http-nio-8085-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM.xml
+27-Sep-2016 07:17:06.028 SEVERE [http-nio-8085-exec-4] org.apache.catalina.core.StandardContext.startInternal Error listenerStart
+27-Sep-2016 07:17:06.028 SEVERE [http-nio-8085-exec-4] org.apache.catalina.core.StandardContext.startInternal Context [/SGEM] startup failed due to previous errors
+27-Sep-2016 07:17:06.044 INFO [http-nio-8085-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM.xml has finished in 79 ms
+27-Sep-2016 07:17:34.465 INFO [http-nio-8085-exec-4] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SGEM]] after stop() had already been called. The second call will be ignored.
+27-Sep-2016 07:17:34.965 INFO [http-nio-8085-exec-4] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SGEM]
+27-Sep-2016 07:17:35.011 INFO [http-nio-8085-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM.xml
+27-Sep-2016 07:17:35.105 SEVERE [http-nio-8085-exec-7] org.apache.catalina.core.StandardContext.startInternal Error listenerStart
+27-Sep-2016 07:17:35.105 SEVERE [http-nio-8085-exec-7] org.apache.catalina.core.StandardContext.startInternal Context [/SGEM] startup failed due to previous errors
+27-Sep-2016 07:17:35.105 INFO [http-nio-8085-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM.xml has finished in 94 ms
+27-Sep-2016 07:18:56.186 INFO [http-nio-8085-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\WebApplication3.xml
+27-Sep-2016 07:18:56.264 INFO [http-nio-8085-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\WebApplication3.xml has finished in 78 ms
+27-Sep-2016 07:18:56.264 INFO [http-nio-8085-exec-5] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication3]] after start() had already been called. The second call will be ignored.
+27-Sep-2016 07:19:11.824 INFO [http-nio-8085-exec-10] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SGEM]] after stop() had already been called. The second call will be ignored.
+27-Sep-2016 07:19:12.324 INFO [http-nio-8085-exec-10] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SGEM]
+27-Sep-2016 07:19:12.355 INFO [http-nio-8085-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM.xml
+27-Sep-2016 07:19:12.433 SEVERE [http-nio-8085-exec-3] org.apache.catalina.core.StandardContext.startInternal Error listenerStart
+27-Sep-2016 07:19:12.433 SEVERE [http-nio-8085-exec-3] org.apache.catalina.core.StandardContext.startInternal Context [/SGEM] startup failed due to previous errors
+27-Sep-2016 07:19:12.449 INFO [http-nio-8085-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM.xml has finished in 78 ms
+27-Sep-2016 07:20:57.443 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Sep-2016 07:20:57.443 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8085"]
+27-Sep-2016 07:20:57.505 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+27-Sep-2016 07:20:57.568 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+27-Sep-2016 07:20:57.659 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8085"]
+27-Sep-2016 07:20:57.675 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+27-Sep-2016 07:20:57.675 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8085"]
+27-Sep-2016 07:20:57.675 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+27-Sep-2016 10:00:31.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.15
+27-Sep-2016 10:00:31.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2014 19:25:20 UTC
+27-Sep-2016 10:00:31.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.15.0
+27-Sep-2016 10:00:31.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8.1
+27-Sep-2016 10:00:31.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+27-Sep-2016 10:00:31.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Sep-2016 10:00:31.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JAVA_HOME:             C:\Program Files\Java\jdk1.7.0_80\jre
+27-Sep-2016 10:00:31.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_80-b15
+27-Sep-2016 10:00:31.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Sep-2016 10:00:31.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15
+27-Sep-2016 10:00:31.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15
+27-Sep-2016 10:00:31.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.proxyHost=127.0.0.1
+27-Sep-2016 10:00:31.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.proxyPort=8080
+27-Sep-2016 10:00:31.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=<-loopback>
+27-Sep-2016 10:00:31.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttps.proxyHost=127.0.0.1
+27-Sep-2016 10:00:31.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttps.proxyPort=8080
+27-Sep-2016 10:00:31.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\logging.properties
+27-Sep-2016 10:00:31.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Sep-2016 10:00:31.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\endorsed
+27-Sep-2016 10:00:31.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15
+27-Sep-2016 10:00:31.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15
+27-Sep-2016 10:00:31.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\temp
+27-Sep-2016 10:00:31.594 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_80\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;.
+27-Sep-2016 10:00:31.813 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8085"]
+27-Sep-2016 10:00:31.860 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Sep-2016 10:00:31.860 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+27-Sep-2016 10:00:31.875 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Sep-2016 10:00:31.875 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1081 ms
+27-Sep-2016 10:00:31.954 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+27-Sep-2016 10:00:31.954 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.15
+27-Sep-2016 10:00:31.969 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM.xml
+27-Sep-2016 10:00:32.735 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Error listenerStart
+27-Sep-2016 10:00:32.860 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [125] milliseconds.
+27-Sep-2016 10:00:32.860 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/SGEM] startup failed due to previous errors
+27-Sep-2016 10:00:32.875 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM.xml has finished in 906 ms
+27-Sep-2016 10:00:32.875 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\WebApplication3.xml
+27-Sep-2016 10:00:32.969 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\WebApplication3.xml has finished in 94 ms
+27-Sep-2016 10:00:32.985 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\docs
+27-Sep-2016 10:00:33.047 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\docs has finished in 62 ms
+27-Sep-2016 10:00:33.047 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\examples
+27-Sep-2016 10:00:35.029 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\examples has finished in 1,982 ms
+27-Sep-2016 10:00:35.031 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\host-manager
+27-Sep-2016 10:00:35.126 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\host-manager has finished in 95 ms
+27-Sep-2016 10:00:35.127 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\manager
+27-Sep-2016 10:00:35.250 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\manager has finished in 123 ms
+27-Sep-2016 10:00:35.251 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\ROOT
+27-Sep-2016 10:00:35.371 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\webapps\ROOT has finished in 120 ms
+27-Sep-2016 10:00:35.380 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8085"]
+27-Sep-2016 10:00:35.400 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+27-Sep-2016 10:00:35.403 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3526 ms
+27-Sep-2016 10:00:37.153 INFO [http-nio-8085-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml
+27-Sep-2016 10:00:37.211 INFO [http-nio-8085-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml has finished in 59 ms
+27-Sep-2016 10:00:37.219 INFO [http-nio-8085-exec-4] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SGEM_with_data_base]] after start() had already been called. The second call will be ignored.
+27-Sep-2016 13:33:57.824 INFO [http-nio-8085-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+27-Sep-2016 13:34:06.524 INFO [http-nio-8085-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+27-Sep-2016 13:34:06.680 INFO [http-nio-8085-exec-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+27-Sep-2016 13:34:12.189 INFO [http-nio-8085-exec-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+27-Sep-2016 13:34:16.516 INFO [http-nio-8085-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+27-Sep-2016 13:34:20.644 INFO [36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+27-Sep-2016 13:34:20.738 INFO [http-nio-8085-exec-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+27-Sep-2016 13:34:24.210 INFO [http-nio-8085-exec-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+27-Sep-2016 13:34:24.288 INFO [http-nio-8085-exec-4] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+27-Sep-2016 13:34:27.398 INFO [http-nio-8085-exec-4] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+27-Sep-2016 13:34:49.665 INFO [http-nio-8085-exec-16] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+27-Sep-2016 13:34:55.079 INFO [http-nio-8085-exec-16] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+27-Sep-2016 13:34:55.189 INFO [http-nio-8085-exec-10] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+27-Sep-2016 13:35:00.223 INFO [http-nio-8085-exec-10] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+27-Sep-2016 13:35:00.348 INFO [http-nio-8085-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+27-Sep-2016 13:35:04.321 INFO [http-nio-8085-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+27-Sep-2016 13:35:04.401 INFO [http-nio-8085-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+27-Sep-2016 13:35:07.463 INFO [http-nio-8085-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+27-Sep-2016 13:35:07.510 INFO [http-nio-8085-exec-20] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+27-Sep-2016 13:35:09.995 INFO [http-nio-8085-exec-20] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+27-Sep-2016 13:36:50.074 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/SGEM_with_data_base]
+27-Sep-2016 13:36:51.824 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SGEM_with_data_base]] after start() had already been called. The second call will be ignored.
+27-Sep-2016 13:43:57.550 INFO [http-nio-8085-exec-34] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+27-Sep-2016 13:44:00.443 SEVERE [http-nio-8085-exec-34] org.apache.catalina.core.StandardContext.startInternal Error listenerStart
+27-Sep-2016 13:44:00.443 SEVERE [http-nio-8085-exec-34] org.apache.catalina.core.StandardContext.startInternal Context [/SGEM_with_data_base] startup failed due to previous errors
+27-Sep-2016 13:44:00.443 INFO [http-nio-8085-exec-34] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+27-Sep-2016 13:44:42.220 INFO [http-nio-8085-exec-33] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SGEM_with_data_base]] after stop() had already been called. The second call will be ignored.
+27-Sep-2016 13:44:42.720 INFO [http-nio-8085-exec-33] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SGEM_with_data_base]
+27-Sep-2016 13:44:42.845 INFO [http-nio-8085-exec-39] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml
+27-Sep-2016 13:44:45.372 SEVERE [http-nio-8085-exec-39] org.apache.catalina.core.StandardContext.startInternal Error listenerStart
+27-Sep-2016 13:44:45.372 SEVERE [http-nio-8085-exec-39] org.apache.catalina.core.StandardContext.startInternal Context [/SGEM_with_data_base] startup failed due to previous errors
+27-Sep-2016 13:44:45.372 INFO [http-nio-8085-exec-39] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml has finished in 2,527 ms
+27-Sep-2016 13:52:15.540 INFO [http-nio-8085-exec-38] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SGEM_with_data_base]] after stop() had already been called. The second call will be ignored.
+27-Sep-2016 13:52:16.056 INFO [http-nio-8085-exec-38] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SGEM_with_data_base]
+27-Sep-2016 13:52:16.087 INFO [http-nio-8085-exec-37] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml
+27-Sep-2016 13:52:18.774 SEVERE [http-nio-8085-exec-37] org.apache.catalina.core.StandardContext.startInternal Error listenerStart
+27-Sep-2016 13:52:18.774 SEVERE [http-nio-8085-exec-37] org.apache.catalina.core.StandardContext.startInternal Context [/SGEM_with_data_base] startup failed due to previous errors
+27-Sep-2016 13:52:18.774 INFO [http-nio-8085-exec-37] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml has finished in 2,687 ms
+27-Sep-2016 13:52:18.837 INFO [http-nio-8085-exec-39] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SGEM_with_data_base]] after stop() had already been called. The second call will be ignored.
+27-Sep-2016 13:52:19.337 INFO [http-nio-8085-exec-39] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SGEM_with_data_base]
+27-Sep-2016 13:52:19.352 INFO [http-nio-8085-exec-40] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml
+27-Sep-2016 13:52:21.790 SEVERE [http-nio-8085-exec-40] org.apache.catalina.core.StandardContext.startInternal Error listenerStart
+27-Sep-2016 13:52:21.806 SEVERE [http-nio-8085-exec-40] org.apache.catalina.core.StandardContext.startInternal Context [/SGEM_with_data_base] startup failed due to previous errors
+27-Sep-2016 13:52:21.806 INFO [http-nio-8085-exec-40] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml has finished in 2,454 ms
+27-Sep-2016 13:52:52.805 INFO [http-nio-8085-exec-41] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SGEM_with_data_base]] after stop() had already been called. The second call will be ignored.
+27-Sep-2016 13:52:53.305 INFO [http-nio-8085-exec-41] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SGEM_with_data_base]
+27-Sep-2016 13:52:53.321 INFO [http-nio-8085-exec-42] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml
+27-Sep-2016 13:52:56.806 SEVERE [http-nio-8085-exec-42] org.apache.catalina.core.StandardContext.startInternal Error listenerStart
+27-Sep-2016 13:52:56.806 SEVERE [http-nio-8085-exec-42] org.apache.catalina.core.StandardContext.startInternal Context [/SGEM_with_data_base] startup failed due to previous errors
+27-Sep-2016 13:52:56.806 INFO [http-nio-8085-exec-42] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml has finished in 3,485 ms
+27-Sep-2016 13:52:56.891 INFO [http-nio-8085-exec-44] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SGEM_with_data_base]] after stop() had already been called. The second call will be ignored.
+27-Sep-2016 13:52:57.394 INFO [http-nio-8085-exec-44] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SGEM_with_data_base]
+27-Sep-2016 13:52:57.410 INFO [http-nio-8085-exec-45] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml
+27-Sep-2016 13:53:01.112 SEVERE [http-nio-8085-exec-45] org.apache.catalina.core.StandardContext.startInternal Error listenerStart
+27-Sep-2016 13:53:01.112 SEVERE [http-nio-8085-exec-45] org.apache.catalina.core.StandardContext.startInternal Context [/SGEM_with_data_base] startup failed due to previous errors
+27-Sep-2016 13:53:01.112 INFO [http-nio-8085-exec-45] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml has finished in 3,702 ms
+27-Sep-2016 13:53:02.027 INFO [http-nio-8085-exec-43] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SGEM_with_data_base]] after stop() had already been called. The second call will be ignored.
+27-Sep-2016 13:53:02.527 INFO [http-nio-8085-exec-43] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SGEM_with_data_base]
+27-Sep-2016 13:53:02.559 INFO [http-nio-8085-exec-38] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml
+27-Sep-2016 13:53:05.747 SEVERE [http-nio-8085-exec-38] org.apache.catalina.core.StandardContext.startInternal Error listenerStart
+27-Sep-2016 13:53:05.747 SEVERE [http-nio-8085-exec-38] org.apache.catalina.core.StandardContext.startInternal Context [/SGEM_with_data_base] startup failed due to previous errors
+27-Sep-2016 13:53:05.762 INFO [http-nio-8085-exec-38] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml has finished in 3,203 ms
+27-Sep-2016 13:53:05.809 INFO [http-nio-8085-exec-46] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SGEM_with_data_base]] after stop() had already been called. The second call will be ignored.
+27-Sep-2016 13:53:06.309 INFO [http-nio-8085-exec-46] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SGEM_with_data_base]
+27-Sep-2016 13:53:06.341 INFO [http-nio-8085-exec-37] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml
+27-Sep-2016 13:53:08.716 SEVERE [http-nio-8085-exec-37] org.apache.catalina.core.StandardContext.startInternal Error listenerStart
+27-Sep-2016 13:53:08.716 SEVERE [http-nio-8085-exec-37] org.apache.catalina.core.StandardContext.startInternal Context [/SGEM_with_data_base] startup failed due to previous errors
+27-Sep-2016 13:53:08.731 INFO [http-nio-8085-exec-37] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml has finished in 2,375 ms
+27-Sep-2016 13:53:22.838 INFO [http-nio-8085-exec-40] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SGEM_with_data_base]] after stop() had already been called. The second call will be ignored.
+27-Sep-2016 13:53:23.351 INFO [http-nio-8085-exec-40] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SGEM_with_data_base]
+27-Sep-2016 13:53:23.367 INFO [http-nio-8085-exec-41] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml
+27-Sep-2016 13:53:26.575 SEVERE [http-nio-8085-exec-41] org.apache.catalina.core.StandardContext.startInternal Error listenerStart
+27-Sep-2016 13:53:26.575 SEVERE [http-nio-8085-exec-41] org.apache.catalina.core.StandardContext.startInternal Context [/SGEM_with_data_base] startup failed due to previous errors
+27-Sep-2016 13:53:26.591 INFO [http-nio-8085-exec-41] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml has finished in 3,208 ms
+27-Sep-2016 13:53:26.622 INFO [http-nio-8085-exec-42] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SGEM_with_data_base]] after stop() had already been called. The second call will be ignored.
+27-Sep-2016 13:53:27.122 INFO [http-nio-8085-exec-42] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SGEM_with_data_base]
+27-Sep-2016 13:53:27.154 INFO [http-nio-8085-exec-39] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml
+27-Sep-2016 13:53:30.809 SEVERE [http-nio-8085-exec-39] org.apache.catalina.core.StandardContext.startInternal Error listenerStart
+27-Sep-2016 13:53:30.809 SEVERE [http-nio-8085-exec-39] org.apache.catalina.core.StandardContext.startInternal Context [/SGEM_with_data_base] startup failed due to previous errors
+27-Sep-2016 13:53:30.809 INFO [http-nio-8085-exec-39] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml has finished in 3,655 ms
+27-Sep-2016 13:53:30.856 INFO [http-nio-8085-exec-44] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SGEM_with_data_base]] after stop() had already been called. The second call will be ignored.
+27-Sep-2016 13:53:31.372 INFO [http-nio-8085-exec-44] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SGEM_with_data_base]
+27-Sep-2016 13:53:31.419 INFO [http-nio-8085-exec-45] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml
+27-Sep-2016 13:53:34.842 SEVERE [http-nio-8085-exec-45] org.apache.catalina.core.StandardContext.startInternal Error listenerStart
+27-Sep-2016 13:53:34.842 SEVERE [http-nio-8085-exec-45] org.apache.catalina.core.StandardContext.startInternal Context [/SGEM_with_data_base] startup failed due to previous errors
+27-Sep-2016 13:53:34.842 INFO [http-nio-8085-exec-45] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml has finished in 3,423 ms
+27-Sep-2016 13:53:34.889 INFO [http-nio-8085-exec-43] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SGEM_with_data_base]] after stop() had already been called. The second call will be ignored.
+27-Sep-2016 13:53:35.389 INFO [http-nio-8085-exec-43] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SGEM_with_data_base]
+27-Sep-2016 13:53:35.404 INFO [http-nio-8085-exec-46] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml
+27-Sep-2016 13:53:37.811 SEVERE [http-nio-8085-exec-46] org.apache.catalina.core.StandardContext.startInternal Error listenerStart
+27-Sep-2016 13:53:37.811 SEVERE [http-nio-8085-exec-46] org.apache.catalina.core.StandardContext.startInternal Context [/SGEM_with_data_base] startup failed due to previous errors
+27-Sep-2016 13:53:37.811 INFO [http-nio-8085-exec-46] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml has finished in 2,407 ms
+27-Sep-2016 13:54:14.512 INFO [http-nio-8085-exec-38] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SGEM_with_data_base]] after stop() had already been called. The second call will be ignored.
+27-Sep-2016 13:54:15.028 INFO [http-nio-8085-exec-38] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SGEM_with_data_base]
+27-Sep-2016 13:54:15.043 INFO [http-nio-8085-exec-40] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml
+27-Sep-2016 13:54:17.859 SEVERE [http-nio-8085-exec-40] org.apache.catalina.core.StandardContext.startInternal Error listenerStart
+27-Sep-2016 13:54:17.875 SEVERE [http-nio-8085-exec-40] org.apache.catalina.core.StandardContext.startInternal Context [/SGEM_with_data_base] startup failed due to previous errors
+27-Sep-2016 13:54:17.875 INFO [http-nio-8085-exec-40] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml has finished in 2,832 ms
+27-Sep-2016 22:47:09.725 INFO [http-nio-8085-exec-41] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SGEM_with_data_base]] after stop() had already been called. The second call will be ignored.
+27-Sep-2016 23:12:21.635 INFO [http-nio-8085-exec-42] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SGEM_with_data_base]
+27-Sep-2016 23:12:21.697 INFO [http-nio-8085-exec-45] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml
+27-Sep-2016 23:12:27.815 INFO [http-nio-8085-exec-45] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor C:\Users\Migueljr\Documents\NetBeansProjects\Apache Tomcat 8.0.15\conf\Catalina\localhost\SGEM_with_data_base.xml has finished in 6,118 ms
+27-Sep-2016 23:12:27.823 INFO [http-nio-8085-exec-43] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SGEM_with_data_base]] after start() had already been called. The second call will be ignored.
+27-Sep-2016 23:31:37.756 INFO [http-nio-8085-exec-48] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+27-Sep-2016 23:31:43.975 INFO [http-nio-8085-exec-48] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
+27-Sep-2016 23:31:44.021 INFO [http-nio-8085-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] has started
+27-Sep-2016 23:31:48.569 INFO [http-nio-8085-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SGEM_with_data_base] is completed
