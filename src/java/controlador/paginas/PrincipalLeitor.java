@@ -111,51 +111,60 @@ public class PrincipalLeitor extends SelectorComposer<Component> {
 
     public void multasPorpagar() {
         int i = 0;
-      List<SgEmprestimo> emp = currentUser.getSgEmprestimoList();
-// List<SgEmprestimo> emp =new SgEmprestimoJpaController(new JPA().getEmf()).findSgEmprestimoEntities();
-        for (Iterator<SgEmprestimo> iterator = emp.iterator(); iterator.hasNext();) {
-            SgEmprestimo value = iterator.next();
-            if (value.getMultaEstado() != null) {
-                if ("Nao paga".equals(value.getMultaEstado())) {
-                    i++;
-                } else {
-                    iterator.remove();
+        try{
+            List<SgEmprestimo> emp = currentUser.getSgEmprestimoList();
+            // List<SgEmprestimo> emp =new SgEmprestimoJpaController(new JPA().getEmf()).findSgEmprestimoEntities();
+            for (Iterator<SgEmprestimo> iterator = emp.iterator(); iterator.hasNext();) {
+                SgEmprestimo value = iterator.next();
+                if (value.getMultaEstado() != null) {
+                    if ("Nao paga".equals(value.getMultaEstado())) {
+                        i++;
+                    } else {
+                        iterator.remove();
+                    }
                 }
-            }
 
-        }
-        if(i==0){
+            }
+        
+            if(i==0){
+
+            }else{
+            poss.setSclass("panel panel-danger");
+            poss.setTitle("Dívidas (" + i + ")");
+            multas = new ListModelList<SgEmprestimo>(emp);
+            multaListbox.setModel(multas);
+            }
+        }catch(java.lang.NullPointerException ex){
             
-        }else{
-        poss.setSclass("panel panel-danger");
-        poss.setTitle("Dívidas (" + i + ")");
-        multas = new ListModelList<SgEmprestimo>(emp);
-        multaListbox.setModel(multas);
         }
     }
 
     public void emprestimosPendentes() {
         Date hoje = new Date();
         int i = 0;
-        List<SgEmprestimo> emp = currentUser.getSgEmprestimoList();
-        for (Iterator<SgEmprestimo> iterator = emp.iterator(); iterator.hasNext();) {
-            SgEmprestimo value = iterator.next();
-            if (value.getEstado() != null) {
-                if ("Activo".equals(value.getEstado())) {
-                    i++;
-                } else {
-                    iterator.remove();
+        try{
+            List<SgEmprestimo> emp = currentUser.getSgEmprestimoList();
+            for (Iterator<SgEmprestimo> iterator = emp.iterator(); iterator.hasNext();) {
+                SgEmprestimo value = iterator.next();
+                if (value.getEstado() != null) {
+                    if ("Activo".equals(value.getEstado())) {
+                        i++;
+                    } else {
+                        iterator.remove();
+                    }
                 }
-            }
 
-        }
-        if (i==0) {
- 
-        } else {
-            poss.setSclass("panel panel-warning");
-            poss.setTitle("Por Devolver(" + i + ")");
-            emprestimos = new ListModelList<SgEmprestimo>(emp);
-            emprestimoListbox.setModel(emprestimos);
+            }
+            if (i==0) {
+
+            } else {
+                poss.setSclass("panel panel-warning");
+                poss.setTitle("Por Devolver(" + i + ")");
+                emprestimos = new ListModelList<SgEmprestimo>(emp);
+                emprestimoListbox.setModel(emprestimos);
+            }
+        }catch(java.lang.NullPointerException ex){
+            
         }
 
     }
